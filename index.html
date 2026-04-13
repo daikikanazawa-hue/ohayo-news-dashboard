@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ohayo news - AI Curated News</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap');
+  body { font-family: 'Inter', 'Noto Sans JP', sans-serif; }
+  .glass { background: rgba(255,255,255,0.03); backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.06); }
+  .card { transition: transform 0.2s, box-shadow 0.2s; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,0.3); }
+  .fade-in { animation: fadeIn 0.5s ease-out; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+  .score-ring { width: 44px; height: 44px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 14px; }
+  .tier-1 { background: linear-gradient(135deg, rgba(251,191,36,0.15), rgba(245,158,11,0.05)); border-color: rgba(251,191,36,0.3); }
+  .tier-2 { background: linear-gradient(135deg, rgba(59,130,246,0.1), rgba(37,99,235,0.03)); border-color: rgba(59,130,246,0.2); }
+  .tier-3 { background: linear-gradient(135deg, rgba(107,114,128,0.1), rgba(75,85,99,0.03)); border-color: rgba(107,114,128,0.15); }
+  .filter-btn { transition: all 0.2s; }
+  .filter-btn.active { background: rgba(255,255,255,0.1); color: #fff; }
+  .case-card { border-left: 3px solid #8b5cf6; }
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 3px; }
+</style>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        dark: { 50: '#f8fafc', 100: '#1e293b', 200: '#0f172a', 300: '#020617' }
+      }
+    }
+  }
+}
+</script>
+</head>
+<body class="bg-dark-300 text-gray-200 min-h-screen">
+
+<div id="app" class="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
+  <!-- Loading -->
+  <div id="loading" class="flex items-center justify-center min-h-screen">
+    <div class="text-center">
+      <div class="text-4xl mb-4">&#128240;</div>
+      <p class="text-gray-400">ニュースを読み込み中...</p>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div id="content" class="hidden">
+
+    <!-- Header -->
+    <header class="mb-6 fade-in">
+      <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-2">
+        <div>
+          <div class="flex items-center gap-3">
+            <h1 class="text-3xl sm:text-4xl font-bold text-white">ohayo news</h1>
+            <span class="text-xs bg-amber-500/20 text-amber-400 px-2 py-1 rounded-full font-medium">AI Curated</span>
+          </div>
+          <p id="header-date" class="text-gray-400 mt-1"></p>
+        </div>
+        <div class="flex items-center gap-2">
+          <a 
+          <div id="stats-badge" class="glass rounded-lg px-3 py-2 text-xs text-gray-400"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Filters -->
+    <div class="mb-6 fade-in">
+      <div class="glass rounded-2xl p-4">
+        <div class="flex flex-wrap gap-2 items-center">
+          <span class="text-xs text-gray-500 mr-2">Tier:</span>
+          <button class="filter-btn active text-xs px-3 py-1.5 rounded-full text-gray-400 hover:text-white" data-filter="tier" data-value="all">All</button>
+          <button class="filter-btn text-xs px-3 py-1.5 rounded-full text-amber-400/70 hover:text-amber-400 border border-amber-500/20" data-filter="tier" data-value="1">&#9733; Tier 1</button>
+          <button class="filter-btn text-xs px-3 py-1.5 rounded-full text-blue-400/70 hover:text-blue-400 border border-blue-500/20" data-filter="tier" data-value="2">Tier 2</button>
+          <button class="filter-btn text-xs px-3 py-1.5 rounded-full text-gray-400/70 hover:text-gray-400 border border-gray-500/20" data-filter="tier" data-value="3">Tier 3</button>
+          <span class="text-gray-700 mx-2">|</span>
+          <span class="text-xs text-gray-500 mr-2">カテゴリ:</span>
+          <select id="category-filter" class="bg-transparent text-xs text-gray-400 border border-white/10 rounded-lg px-2 py-1.5 focus:outline-none focus:border-white/20">
+            <option value="all">すべて</option>
+          </select>
+          <span class="text-gray-700 mx-2">|</span>
+          <span class="text-xs text-gray-500 mr-2">並び:</span>
+          <select id="sort-select" class="bg-transparent text-xs text-gray-400 border border-white/10 rounded-lg px-2 py-1.5 focus:outline-none focus:border-white/20">
+            <option value="score">スコア順</option>
+            <option value="date">日付順</option>
+            <option value="category">カテゴリ順</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- Articles Grid -->
+    <div id="articles-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8"></div>
+
+    <!-- Case Studies -->
+    <section id="case-studies-section" class="mb-8 fade-in hidden">
+      <h2 class="text-lg font-bold text-purple-400 mb-4 flex items-center gap-2">
+        <span>&#128218;</span> 事例ウォッチ
+      </h2>
+      <div id="case-studies-grid" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+    </section>
+
+    <!-- Archive Navigation -->
+    <section id="archive-section" class="mb-8 fade-in">
+      <div class="glass rounded-2xl p-5">
+        <h2 class="text-sm font-bold text-gray-400 mb-3 flex items-center gap-2">
+          <span>&#128197;</span> 過去のニュース
+        </h2>
+        <div id="archive-list" class="flex flex-wrap gap-2"></div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-gray-600 text-xs pb-6">
+      <span id="generated-at"></span>
+      <br>
+      <span class="text-gray-700">Powered by Claude AI | ohayo news</span>
+    </footer>
+  </div>
+</div>
+
+<script>
+const CATEGORIES = {
+  ai_llm: { label: 'AI/LLM', color: 'emerald', icon: '&#129302;' },
+  it_consul: { label: 'ITコンサル・SI', color: 'blue', icon: '&#127970;' },
+  policy: { label: '政策・規制', color: 'red', icon: '&#127987;&#65039;' },
+  global_dx: { label: '世界のDX', color: 'violet', icon: '&#127758;' },
+  ai_product: { label: 'AIプロダクト', color: 'teal', icon: '&#128640;' },
+  dx_private: { label: 'DX事例(民間)', color: 'orange', icon: '&#127981;' },
+  dx_gov: { label: 'DX事例(官公庁)', color: 'pink', icon: '&#127971;' },
+  security: { label: 'セキュリティ', color: 'yellow', icon: '&#128274;' },
+  funding: { label: '資金調達', color: 'lime', icon: '&#128176;' },
+  papers: { label: '論文', color: 'indigo', icon: '&#128220;' },
+  education: { label: '教育', color: 'cyan', icon: '&#127891;' },
+  hardware: { label: 'HW・インフラ', color: 'amber', icon: '&#128421;&#65039;' },
+  legal: { label: '法務', color: 'rose', icon: '&#9878;&#65039;' },
+  global_tech: { label: 'テックトレンド', color: 'sky', icon: '&#127760;' },
+};
+
+let allArticles = [];
+let currentFilter = { tier: 'all', category: 'all' };
+
+function getScoreColor(score) {
+  if (score >= 80) return 'text-amber-400 border-amber-500/40 bg-amber-500/10';
+  if (score >= 60) return 'text-blue-400 border-blue-500/40 bg-blue-500/10';
+  return 'text-gray-400 border-gray-500/30 bg-gray-500/10';
+}
+
+function getTierClass(tier) {
+  if (tier === 1) return 'tier-1';
+  if (tier === 2) return 'tier-2';
+  return 'tier-3';
+}
+
+function getTierLabel(tier) {
+  if (tier === 1) return '<span class="text-[10px] bg-amber-500/20 text-amber-400 px-1.5 py-0.5 rounded font-semibold">TIER 1</span>';
+  if (tier === 2) return '<span class="text-[10px] bg-blue-500/20 text-blue-400 px-1.5 py-0.5 rounded font-semibold">TIER 2</span>';
+  return '<span class="text-[10px] bg-gray-500/20 text-gray-400 px-1.5 py-0.5 rounded font-semibold">TIER 3</span>';
+}
+
+function renderArticle(article) {
+  const cat = CATEGORIES[article.category] || { label: article.category, color: 'gray', icon: '&#128196;' };
+  const scoreColor = getScoreColor(article.score.total);
+  const tierClass = getTierClass(article.tier);
+
+  return `
+    <article class="glass rounded-2xl p-5 card fade-in border ${tierClass}">
+      <div class="flex items-start justify-between gap-3 mb-3">
+        <div class="flex items-center gap-2 flex-wrap">
+          ${getTierLabel(article.tier)}
+          <span class="text-[10px] bg-white/5 text-gray-400 px-1.5 py-0.5 rounded">${cat.icon} ${cat.label}</span>
+        </div>
+        <div class="score-ring border-2 ${scoreColor} flex-shrink-0">
+          ${article.score.total}
+        </div>
+      </div>
+
+      <h3 class="text-sm font-semibold text-white mb-2 leading-snug">
+        ${article.url
+          ? `<a href="${article.url}" target="_blank" rel="noopener" class="hover:text-blue-400 transition-colors">${article.title} <span class="text-gray-600 text-xs">&#8599;</span></a>`
+          : article.title}
+      </h3>
+
+      <p class="text-xs text-gray-400 mb-3 leading-relaxed">${article.summary}</p>
+
+      <div class="space-y-1.5">
+        <div class="text-xs">
+          <span class="text-amber-400/80 font-medium">&#9889; なぜ重要:</span>
+          <span class="text-gray-300">${article.why_important}</span>
+        </div>
+        ${article.adxi_insight ? `
+        <div class="text-xs">
+          <span class="text-purple-400/80 font-medium">&#128161; ADiXi示唆:</span>
+          <span class="text-gray-300">${article.adxi_insight}</span>
+        </div>` : ''}
+      </div>
+
+      ${article.url ? `
+      <div class="mt-3 pt-2 border-t border-white/5">
+        <a href="${article.url}" target="_blank" rel="noopener" class="text-[11px] text-blue-400/70 hover:text-blue-400 transition-colors break-all leading-relaxed">${article.url}</a>
+      </div>` : ''}
+
+      <div class="flex items-center justify-between mt-2 pt-2 border-t border-white/5">
+        <span class="text-[10px] text-gray-500">${article.source}${article.published_date ? ` / ${article.published_date}` : ''}</span>
+        <div class="flex gap-1.5">
+          <span class="text-[10px] text-gray-600" title="関連度${article.score.relevance}/35">R:${article.score.relevance}</span>
+          <span class="text-[10px] text-gray-600" title="速報性${article.score.timeliness}/25">T:${article.score.timeliness}</span>
+          <span class="text-[10px] text-gray-600" title="影響${article.score.impact}/20">I:${article.score.impact}</span>
+          <span class="text-[10px] text-gray-600" title="行動可能性${article.score.actionability}/20">A:${article.score.actionability}</span>
+        </div>
+      </div>
+    </article>
+  `;
+}
+
+function renderCaseStudy(cs) {
+  const classColor = cs.classification === '官公庁' ? 'text-red-400' : cs.classification === '民間' ? 'text-blue-400' : 'text-green-400';
+  return `
+    <div class="glass rounded-2xl p-5 case-card card fade-in">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-[10px] bg-purple-500/20 text-purple-400 px-1.5 py-0.5 rounded font-semibold">${cs.classification}</span>
+        <span class="text-xs text-gray-400">&#127758; ${cs.country}</span>
+      </div>
+      <h3 class="text-sm font-semibold text-white mb-2">${cs.organization}</h3>
+      <p class="text-xs text-gray-400 mb-3">${cs.summary}</p>
+      <div class="space-y-1.5 text-xs">
+        <div><span class="text-gray-500">規模・技術:</span> <span class="text-gray-300">${cs.scale_tech_results}</span></div>
+        <div><span class="text-purple-400/80">&#128161; ADiXi示唆:</span> <span class="text-gray-300">${cs.adxi_insight}</span></div>
+        ${cs.similar_japan ? `<div><span class="text-gray-500">&#127471;&#127477; 類似事例:</span> <span class="text-gray-300">${cs.similar_japan}</span></div>` : ''}
+      </div>
+      ${cs.url ? `<a href="${cs.url}" target="_blank" rel="noopener" class="text-[10px] text-blue-400 hover:text-blue-300 mt-2 inline-block">詳細を見る &#8599;</a>` : ''}
+    </div>
+  `;
+}
+
+function applyFilters() {
+  let filtered = [...allArticles];
+
+  if (currentFilter.tier !== 'all') {
+    filtered = filtered.filter(a => a.tier === parseInt(currentFilter.tier));
+  }
+  if (currentFilter.category !== 'all') {
+    filtered = filtered.filter(a => a.category === currentFilter.category);
+  }
+
+  const sort = document.getElementById('sort-select').value;
+  if (sort === 'score') {
+    filtered.sort((a, b) => b.score.total - a.score.total);
+  } else if (sort === 'date') {
+    filtered.sort((a, b) => (b.published_date || '').localeCompare(a.published_date || ''));
+  } else if (sort === 'category') {
+    filtered.sort((a, b) => a.category.localeCompare(b.category) || b.score.total - a.score.total);
+  }
+
+  const grid = document.getElementById('articles-grid');
+  if (filtered.length === 0) {
+    grid.innerHTML = '<div class="col-span-full text-center py-12 text-gray-500">該当する記事がありません</div>';
+  } else {
+    grid.innerHTML = filtered.map(renderArticle).join('');
+  }
+}
+
+function setupFilters() {
+  // Tier filters
+  document.querySelectorAll('[data-filter="tier"]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('[data-filter="tier"]').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentFilter.tier = btn.dataset.value;
+      applyFilters();
+    });
+  });
+
+  // Category filter
+  const catSelect = document.getElementById('category-filter');
+  const usedCats = [...new Set(allArticles.map(a => a.category))];
+  usedCats.sort();
+  usedCats.forEach(cat => {
+    const opt = document.createElement('option');
+    opt.value = cat;
+    opt.textContent = (CATEGORIES[cat]?.label || cat);
+    catSelect.appendChild(opt);
+  });
+  catSelect.addEventListener('change', () => {
+    currentFilter.category = catSelect.value;
+    applyFilters();
+  });
+
+  // Sort
+  document.getElementById('sort-select').addEventListener('change', applyFilters);
+}
+
+async function loadArchiveIndex() {
+  try {
+    const res = await fetch('archives/index.json?t=' + Date.now());
+    if (!res.ok) return;
+    const index = await res.json();
+    const container = document.getElementById('archive-list');
+    container.innerHTML = index.slice(0, 14).map(entry => `
+      <a href="?date=${entry.date}" class="text-xs glass rounded-lg px-3 py-2 hover:bg-white/5 transition-colors ${entry.date === new URLSearchParams(window.location.search).get('date') ? 'text-white border border-white/20' : 'text-gray-400'}">
+        ${entry.date} <span class="text-gray-600">(${entry.total_articles}件)</span>
+      </a>
+    `).join('');
+  } catch (e) {
+    document.getElementById('archive-section').classList.add('hidden');
+  }
+}
+
+async function load() {
+  try {
+    const params = new URLSearchParams(window.location.search);
+    const dateParam = params.get('date');
+    let url = 'news.json?t=' + Date.now();
+    if (dateParam) {
+      url = `archives/${dateParam}.json?t=` + Date.now();
+    }
+
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`${dateParam || '今日'}のニュースが見つかりません`);
+    const data = await res.json();
+
+    // Header
+    document.getElementById('header-date').textContent =
+      `${data.date}（${data.day_of_week}）- Tier ${data.tiers_included.join(', ')} 配信`;
+
+    // Stats
+    document.getElementById('stats-badge').innerHTML =
+      `&#128202; ${data.stats.total_articles}件 | T1: ${data.stats.by_tier['1'] || 0} T2: ${data.stats.by_tier['2'] || 0} T3: ${data.stats.by_tier['3'] || 0}`;
+
+    // Articles
+    allArticles = data.articles || [];
+    setupFilters();
+    applyFilters();
+
+    // Case Studies
+    if (data.case_studies && data.case_studies.length > 0) {
+      document.getElementById('case-studies-section').classList.remove('hidden');
+      document.getElementById('case-studies-grid').innerHTML = data.case_studies.map(renderCaseStudy).join('');
+    }
+
+    // Archive nav
+    if (dateParam) {
+      const nav = document.createElement('div');
+      nav.className = 'glass rounded-2xl p-3 mb-4 flex items-center justify-between text-sm fade-in';
+      nav.innerHTML = `
+        <a href="/" class="text-blue-400 hover:text-blue-300 transition-colors">&larr; 最新のニュース</a>
+        <span class="text-gray-400">${dateParam} のアーカイブ</span>
+      `;
+      document.getElementById('content').prepend(nav);
+    }
+
+    // Generated at
+    const gen = new Date(data.generated_at);
+    document.getElementById('generated-at').textContent =
+      `Generated at ${gen.toLocaleString('ja-JP')} by ohayo news`;
+
+    document.getElementById('loading').classList.add('hidden');
+    document.getElementById('content').classList.remove('hidden');
+
+    
+  } catch (e) {
+    document.getElementById('loading').innerHTML = `
+      <div class="text-center">
+        <div class="text-4xl mb-4">&#128240;</div>
+        <p class="text-red-400">news.json の読み込みに失敗しました</p>
+        <p class="text-gray-500 text-sm mt-2">${e.message}</p>
+        <p class="text-gray-600 text-xs mt-4">まず /ohayo-news を実行してデータを生成してください</p>
+      </div>
+    `;
+  }
+}
+
+load();
+</script>
+</body>
+</html>
