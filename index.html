@@ -162,15 +162,28 @@ function getTierLabel(tier) {
   return '<span class="text-[10px] bg-gray-500/20 text-gray-400 px-1.5 py-0.5 rounded font-semibold">TIER 3</span>';
 }
 
+function getFreshnessBadge(publishedDate) {
+  if (!publishedDate) return '';
+  const now = new Date();
+  const pub = new Date(publishedDate + 'T00:00:00');
+  const diffHours = (now - pub) / (1000 * 60 * 60);
+  if (diffHours < 24) return '<span class="text-[10px] bg-red-500/20 text-red-400 px-1.5 py-0.5 rounded font-semibold animate-pulse">NEW</span>';
+  if (diffHours < 48) return '<span class="text-[10px] bg-orange-500/20 text-orange-400 px-1.5 py-0.5 rounded font-semibold">24h</span>';
+  if (diffHours < 72) return '<span class="text-[10px] bg-yellow-500/20 text-yellow-400 px-1.5 py-0.5 rounded">2d</span>';
+  return '';
+}
+
 function renderArticle(article) {
   const cat = CATEGORIES[article.category] || { label: article.category, color: 'gray', icon: '&#128196;' };
   const scoreColor = getScoreColor(article.score.total);
   const tierClass = getTierClass(article.tier);
+  const freshness = getFreshnessBadge(article.published_date);
 
   return `
     <article class="glass rounded-2xl p-5 card fade-in border ${tierClass}">
       <div class="flex items-start justify-between gap-3 mb-3">
         <div class="flex items-center gap-2 flex-wrap">
+          ${freshness}
           ${getTierLabel(article.tier)}
           <span class="text-[10px] bg-white/5 text-gray-400 px-1.5 py-0.5 rounded">${cat.icon} ${cat.label}</span>
         </div>
