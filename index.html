@@ -70,7 +70,19 @@ tailwind.config = {
 
     <!-- Filters -->
     <div class="mb-6 fade-in">
-      <div class="glass rounded-2xl p-4">
+      <div class="glass rounded-2xl p-4 space-y-3">
+        <!-- Period filter -->
+        <div class="flex flex-wrap gap-2 items-center">
+          <span class="text-xs text-gray-500 mr-2">期間:</span>
+          <button class="filter-btn active text-xs px-3 py-1.5 rounded-full text-white bg-white/10 border border-white/20 font-medium" data-filter="period" data-value="today">今日</button>
+          <button class="filter-btn text-xs px-3 py-1.5 rounded-full text-gray-400 hover:text-white border border-white/10" data-filter="period" data-value="week">1週間</button>
+          <button class="filter-btn text-xs px-3 py-1.5 rounded-full text-gray-400 hover:text-white border border-white/10" data-filter="period" data-value="month">1ヶ月</button>
+          <button class="filter-btn text-xs px-3 py-1.5 rounded-full text-gray-400 hover:text-white border border-white/10" data-filter="period" data-value="half">半年</button>
+          <button class="filter-btn text-xs px-3 py-1.5 rounded-full text-gray-400 hover:text-white border border-white/10" data-filter="period" data-value="year">1年</button>
+          <button class="filter-btn text-xs px-3 py-1.5 rounded-full text-gray-400 hover:text-white border border-white/10" data-filter="period" data-value="all">全期間</button>
+          <span id="period-count" class="text-[10px] text-gray-600 ml-2"></span>
+        </div>
+        <!-- Tier / Category / Sort -->
         <div class="flex flex-wrap gap-2 items-center">
           <span class="text-xs text-gray-500 mr-2">Tier:</span>
           <button class="filter-btn active text-xs px-3 py-1.5 rounded-full text-gray-400 hover:text-white" data-filter="tier" data-value="all">All</button>
@@ -142,7 +154,20 @@ const CATEGORIES = {
 };
 
 let allArticles = [];
-let currentFilter = { tier: 'all', category: 'all' };
+let currentFilter = { tier: 'all', category: 'all', period: 'today' };
+
+function getPeriodCutoff(period) {
+  const now = new Date();
+  now.setHours(23, 59, 59, 999);
+  switch (period) {
+    case 'today': { const d = new Date(now); d.setHours(0,0,0,0); return d; }
+    case 'week': { const d = new Date(now); d.setDate(d.getDate() - 7); return d; }
+    case 'month': { const d = new Date(now); d.setMonth(d.getMonth() - 1); return d; }
+    case 'half': { const d = new Date(now); d.setMonth(d.getMonth() - 6); return d; }
+    case 'year': { const d = new Date(now); d.setFullYear(d.getFullYear() - 1); return d; }
+    default: return new Date(0);
+  }
+}
 
 function getScoreColor(score) {
   if (score >= 80) return 'text-amber-400 border-amber-500/40 bg-amber-500/10';
@@ -220,10 +245,9 @@ function renderArticle(article) {
       <div class="flex items-center justify-between mt-2 pt-2 border-t border-white/5">
         <span class="text-[10px] text-gray-500">${article.source}${article.published_date ? ` / ${article.published_date}` : ''}</span>
         <div class="flex gap-1.5">
-          <span class="text-[10px] text-gray-600" title="関連度${article.score.relevance}/35">R:${article.score.relevance}</span>
-          <span class="text-[10px] text-gray-600" title="速報性${article.score.timeliness}/25">T:${article.score.timeliness}</span>
-          <span class="text-[10px] text-gray-600" title="影響${article.score.impact}/20">I:${article.score.impact}</span>
-          <span class="text-[10px] text-gray-600" title="行動可能性${article.score.actionability}/20">A:${article.score.actionability}</span>
+          <span class="text-[10px] text-gray-600" title="関連度${article.score.relevance}/40">R:${article.score.relevance}</span>
+          <span class="text-[10px] text-gray-600" title="影響${article.score.impact}/30">I:${article.score.impact}</span>
+          <span class="text-[10px] text-gray-600" title="行動可能性${article.score.actionability}/30">A:${article.score.actionability}</span>
         </div>
       </div>
     </article>
@@ -253,12 +277,24 @@ function renderCaseStudy(cs) {
 function applyFilters() {
   let filtered = [...allArticles];
 
+  // Period filter
+  if (currentFilter.period !== 'all') {
+    const cutoff = getPeriodCutoff(currentFilter.period);
+    filtered = filtered.filter(a => {
+      if (!a.published_date) return currentFilter.period === 'all';
+      return new Date(a.published_date + 'T23:59:59') >= cutoff;
+    });
+  }
+
   if (currentFilter.tier !== 'all') {
     filtered = filtered.filter(a => a.tier === parseInt(currentFilter.tier));
   }
   if (currentFilter.category !== 'all') {
     filtered = filtered.filter(a => a.category === currentFilter.category);
   }
+
+  // Show count
+  document.getElementById('period-count').textContent = filtered.length + '件';
 
   const sort = document.getElementById('sort-select').value;
   if (sort === 'score') {
@@ -278,6 +314,16 @@ function applyFilters() {
 }
 
 function setupFilters() {
+  // Period filters
+  document.querySelectorAll('[data-filter="period"]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('[data-filter="period"]').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentFilter.period = btn.dataset.value;
+      applyFilters();
+    });
+  });
+
   // Tier filters
   document.querySelectorAll('[data-filter="tier"]').forEach(btn => {
     btn.addEventListener('click', () => {
