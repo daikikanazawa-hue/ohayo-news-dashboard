@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ohayo news - Calendar</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap');
+  body { font-family: 'Inter', 'Noto Sans JP', sans-serif; }
+  .glass { background: rgba(255,255,255,0.03); backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.06); }
+  .day-cell { transition: all 0.15s; }
+  .day-cell:hover { background: rgba(255,255,255,0.06); }
+  .day-cell.has-data { cursor: pointer; }
+  .day-cell.has-data:hover { background: rgba(251,191,36,0.15); border-color: rgba(251,191,36,0.3); }
+  .day-cell.selected { background: rgba(251,191,36,0.2); border-color: rgba(251,191,36,0.5); }
+  .day-cell.today { border-color: rgba(250,204,21,0.4); }
+  .tier-1 { border-left: 3px solid #f59e0b; }
+  .tier-2 { border-left: 3px solid #3b82f6; }
+  .tier-3 { border-left: 3px solid #6b7280; }
+  .fade-in { animation: fadeIn 0.3s ease-out; }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 3px; }
+</style>
+<script>
+tailwind.config = { theme: { extend: { colors: { dark: { 300: '#020617' } } } } }
+</script>
+</head>
+<body class="bg-dark-300 text-gray-200 min-h-screen">
+
+<div class="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
+
+  <header class="mb-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+    <div>
+      <h1 class="text-2xl sm:text-3xl font-bold text-white">ohayo news Calendar</h1>
+      <p class="text-gray-400 text-sm mt-1">過去のニュースを日付で閲覧</p>
+    </div>
+    <a href="/" class="text-sm text-blue-400 hover:text-blue-300 transition-colors">&larr; 最新のニュース</a>
+  </header>
+
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+    <!-- Calendar -->
+    <div class="lg:col-span-1">
+      <div class="glass rounded-2xl p-5">
+        <div class="flex items-center justify-between mb-4">
+          <button id="prev-month" class="text-gray-400 hover:text-white transition-colors p-1 text-lg">&larr;</button>
+          <h2 id="month-title" class="text-lg font-semibold text-white"></h2>
+          <button id="next-month" class="text-gray-400 hover:text-white transition-colors p-1 text-lg">&rarr;</button>
+        </div>
+        <div class="grid grid-cols-7 gap-1 mb-2">
+          <div class="text-center text-xs text-gray-500 py-1">日</div>
+          <div class="text-center text-xs text-gray-500 py-1">月</div>
+          <div class="text-center text-xs text-gray-500 py-1">火</div>
+          <div class="text-center text-xs text-gray-500 py-1">水</div>
+          <div class="text-center text-xs text-gray-500 py-1">木</div>
+          <div class="text-center text-xs text-gray-500 py-1">金</div>
+          <div class="text-center text-xs text-gray-500 py-1">土</div>
+        </div>
+        <div id="calendar-grid" class="grid grid-cols-7 gap-1"></div>
+      </div>
+
+      <div class="glass rounded-2xl p-5 mt-4">
+        <h3 class="text-sm font-semibold text-gray-400 mb-3">保存済みニュース</h3>
+        <div id="dates-list" class="space-y-1 max-h-64 overflow-y-auto"></div>
+      </div>
+    </div>
+
+    <!-- News Preview -->
+    <div class="lg:col-span-2">
+      <div id="preview-empty" class="glass rounded-2xl p-8 text-center">
+        <div class="text-4xl mb-3">&#128240;</div>
+        <p class="text-gray-400">日付を選択するとニュースが表示されます</p>
+        <p class="text-gray-600 text-xs mt-2">丸い点がある日付にデータがあります</p>
+      </div>
+
+      <div id="preview-content" class="hidden fade-in space-y-4">
+        <div class="glass rounded-2xl p-5">
+          <div class="flex items-center justify-between">
+            <h2 id="preview-date" class="text-xl font-bold text-white"></h2>
+            <div class="flex gap-2">
+              <span id="preview-stats" class="text-xs text-gray-400"></span>
+              <a id="full-link" href="/?date=" class="text-xs text-blue-400 hover:text-blue-300">ダッシュボードで見る &rarr;</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stats cards -->
+        <div class="grid grid-cols-3 gap-3">
+          <div class="glass rounded-xl p-4 text-center">
+            <div id="stat-t1" class="text-2xl font-bold text-amber-400">-</div>
+            <div class="text-xs text-gray-500 mt-1">Tier 1</div>
+          </div>
+          <div class="glass rounded-xl p-4 text-center">
+            <div id="stat-t2" class="text-2xl font-bold text-blue-400">-</div>
+            <div class="text-xs text-gray-500 mt-1">Tier 2</div>
+          </div>
+          <div class="glass rounded-xl p-4 text-center">
+            <div id="stat-t3" class="text-2xl font-bold text-gray-400">-</div>
+            <div class="text-xs text-gray-500 mt-1">Tier 3</div>
+          </div>
+        </div>
+
+        <!-- Top articles -->
+        <div class="glass rounded-2xl p-5">
+          <h3 class="text-sm font-bold text-amber-400 mb-3">&#9733; Tier 1 ハイライト</h3>
+          <div id="preview-tier1" class="space-y-3"></div>
+        </div>
+
+        <!-- Category breakdown -->
+        <div class="glass rounded-2xl p-5">
+          <h3 class="text-sm font-bold text-gray-400 mb-3">&#128202; カテゴリ別</h3>
+          <div id="preview-categories" class="flex flex-wrap gap-2"></div>
+        </div>
+
+        <!-- Case Studies -->
+        <div id="preview-cases-section" class="glass rounded-2xl p-5 hidden">
+          <h3 class="text-sm font-bold text-purple-400 mb-3">&#128218; 事例カード</h3>
+          <div id="preview-cases" class="space-y-2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const CATEGORIES = {
+  ai_llm:'AI/LLM', it_consul:'ITコンサル', policy:'政策・規制', global_dx:'世界のDX',
+  ai_product:'AIプロダクト', dx_private:'DX(民間)', dx_gov:'DX(官公庁)', security:'セキュリティ',
+  funding:'資金調達', papers:'論文', education:'教育', hardware:'HW', legal:'法務', global_tech:'テックトレンド'
+};
+
+let currentYear, currentMonth;
+let availableDates = {};
+let selectedDate = null;
+
+function initDate() {
+  const now = new Date();
+  currentYear = now.getFullYear();
+  currentMonth = now.getMonth();
+}
+
+async function fetchIndex() {
+  try {
+    const res = await fetch('archives/index.json?t=' + Date.now());
+    if (res.ok) {
+      const arr = await res.json();
+      arr.forEach(e => { availableDates[e.date] = e; });
+    }
+  } catch (e) {}
+}
+
+async function loadNews(dateStr) {
+  try {
+    const res = await fetch('archives/' + dateStr + '.json?t=' + Date.now());
+    if (!res.ok) return null;
+    return await res.json();
+  } catch (e) { return null; }
+}
+
+function renderCalendar() {
+  const grid = document.getElementById('calendar-grid');
+  const title = document.getElementById('month-title');
+  const monthNames = ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
+  title.textContent = currentYear + '年 ' + monthNames[currentMonth];
+
+  const firstDay = new Date(currentYear, currentMonth, 1).getDay();
+  const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
+  const todayStr = new Date().toISOString().slice(0, 10);
+
+  let html = '';
+  for (let i = 0; i < firstDay; i++) html += '<div class="p-2"></div>';
+
+  for (let d = 1; d <= daysInMonth; d++) {
+    const dateStr = currentYear + '-' + String(currentMonth+1).padStart(2,'0') + '-' + String(d).padStart(2,'0');
+    const hasData = !!availableDates[dateStr];
+    const isToday = dateStr === todayStr;
+    const isSelected = dateStr === selectedDate;
+
+    let cls = 'day-cell rounded-lg p-2 text-center text-sm border border-transparent';
+    if (hasData) cls += ' has-data';
+    if (isToday) cls += ' today';
+    if (isSelected) cls += ' selected';
+
+    const color = hasData ? 'text-white' : 'text-gray-600';
+    const info = availableDates[dateStr];
+    const dot = hasData ? '<div class="w-1.5 h-1.5 rounded-full bg-amber-400 mx-auto mt-0.5"></div>' : '<div class="h-2"></div>';
+    const count = info ? '<div class="text-[9px] text-gray-500">' + info.total_articles + '件</div>' : '';
+
+    html += '<div class="' + cls + '" onclick="selectDate(\'' + dateStr + '\')">'
+      + '<span class="' + color + '">' + d + '</span>' + dot + count + '</div>';
+  }
+  grid.innerHTML = html;
+}
+
+function renderDatesList() {
+  const el = document.getElementById('dates-list');
+  const dates = Object.keys(availableDates).sort().reverse();
+  if (dates.length === 0) {
+    el.innerHTML = '<p class="text-xs text-gray-600">まだニュースがありません</p>';
+    return;
+  }
+  const days = ['日','月','火','水','木','金','土'];
+  el.innerHTML = dates.map(function(d) {
+    const dt = new Date(d + 'T00:00:00+09:00');
+    const day = days[dt.getDay()];
+    const info = availableDates[d];
+    const isSel = d === selectedDate;
+    return '<button onclick="selectDate(\'' + d + '\')" class="w-full text-left px-3 py-2 rounded-lg text-sm transition-colors '
+      + (isSel ? 'bg-amber-500/20 text-amber-400' : 'text-gray-400 hover:bg-white/5 hover:text-white') + '">'
+      + d + '(' + day + ') <span class="text-gray-600">' + info.total_articles + '件</span></button>';
+  }).join('');
+}
+
+async function selectDate(dateStr) {
+  if (!availableDates[dateStr]) return;
+  selectedDate = dateStr;
+  renderCalendar();
+  renderDatesList();
+
+  const data = await loadNews(dateStr);
+  if (!data) return;
+
+  document.getElementById('preview-empty').classList.add('hidden');
+  const content = document.getElementById('preview-content');
+  content.classList.remove('hidden');
+  content.classList.remove('fade-in');
+  void content.offsetWidth;
+  content.classList.add('fade-in');
+
+  // Header
+  const days = ['日','月','火','水','木','金','土'];
+  const dt = new Date(dateStr + 'T00:00:00+09:00');
+  document.getElementById('preview-date').textContent = dateStr + '(' + data.day_of_week + ') - ' + data.stats.total_articles + '件';
+  document.getElementById('preview-stats').textContent = 'Tier ' + data.tiers_included.join(', ') + ' 配信';
+  document.getElementById('full-link').href = '/?date=' + dateStr;
+
+  // Stats
+  document.getElementById('stat-t1').textContent = data.stats.by_tier['1'] || 0;
+  document.getElementById('stat-t2').textContent = data.stats.by_tier['2'] || 0;
+  document.getElementById('stat-t3').textContent = data.stats.by_tier['3'] || 0;
+
+  // Tier 1 highlights
+  const tier1 = (data.articles || []).filter(function(a) { return a.tier === 1; }).sort(function(a, b) { return b.score.total - a.score.total; }).slice(0, 8);
+  document.getElementById('preview-tier1').innerHTML = tier1.map(function(a) {
+    return '<div class="tier-1 pl-3 py-2 bg-white/[0.02] rounded-r-lg">'
+      + '<div class="flex items-center justify-between">'
+      + '<span class="text-sm text-white font-medium">' + (a.url ? '<a href="' + a.url + '" target="_blank" class="hover:text-blue-400">' + a.title + ' &#8599;</a>' : a.title) + '</span>'
+      + '<span class="text-xs text-amber-400 font-bold ml-2">' + a.score.total + '</span>'
+      + '</div>'
+      + '<div class="text-xs text-gray-500 mt-0.5">' + a.source + ' | ' + (CATEGORIES[a.category] || a.category) + '</div>'
+      + '<div class="text-xs text-gray-400 mt-1">' + a.why_important + '</div>'
+      + '</div>';
+  }).join('');
+
+  // Categories
+  var catCounts = data.stats.by_category || {};
+  document.getElementById('preview-categories').innerHTML = Object.keys(catCounts).map(function(c) {
+    return '<span class="text-xs bg-white/5 text-gray-400 px-2 py-1 rounded-full">' + (CATEGORIES[c] || c) + ' ' + catCounts[c] + '</span>';
+  }).join('');
+
+  // Case studies
+  var cases = data.case_studies || [];
+  if (cases.length > 0) {
+    document.getElementById('preview-cases-section').classList.remove('hidden');
+    document.getElementById('preview-cases').innerHTML = cases.map(function(cs) {
+      return '<div class="pl-3 py-2 border-l-2 border-purple-500/30">'
+        + '<div class="text-sm text-white font-medium">' + cs.organization + ' <span class="text-[10px] text-purple-400">(' + cs.classification + ' / ' + cs.country + ')</span></div>'
+        + '<div class="text-xs text-gray-400 mt-0.5">' + cs.summary + '</div>'
+        + '</div>';
+    }).join('');
+  } else {
+    document.getElementById('preview-cases-section').classList.add('hidden');
+  }
+}
+
+// Navigation
+document.getElementById('prev-month').addEventListener('click', function() {
+  currentMonth--;
+  if (currentMonth < 0) { currentMonth = 11; currentYear--; }
+  renderCalendar();
+});
+document.getElementById('next-month').addEventListener('click', function() {
+  currentMonth++;
+  if (currentMonth > 11) { currentMonth = 0; currentYear++; }
+  renderCalendar();
+});
+
+// Init
+initDate();
+fetchIndex().then(function() {
+  renderCalendar();
+  renderDatesList();
+});
+</script>
+</body>
+</html>
