@@ -74,8 +74,8 @@ tailwind.config = {
         <!-- Period filter -->
         <div class="flex flex-wrap gap-2 items-center">
           <span class="text-xs text-gray-500 mr-2">期間:</span>
-          <button class="filter-btn text-xs px-3 py-1.5 rounded-full text-gray-400 hover:text-white border border-white/10" data-filter="period" data-value="today">今日</button>
-          <button class="filter-btn active text-xs px-3 py-1.5 rounded-full text-white bg-white/10 border border-white/20 font-medium" data-filter="period" data-value="week">1週間</button>
+          <button class="filter-btn active text-xs px-3 py-1.5 rounded-full text-white bg-white/10 border border-white/20 font-medium" data-filter="period" data-value="today">今日</button>
+          <button class="filter-btn text-xs px-3 py-1.5 rounded-full text-gray-400 hover:text-white border border-white/10" data-filter="period" data-value="week">1週間</button>
           <button class="filter-btn text-xs px-3 py-1.5 rounded-full text-gray-400 hover:text-white border border-white/10" data-filter="period" data-value="month">1ヶ月</button>
           <button class="filter-btn text-xs px-3 py-1.5 rounded-full text-gray-400 hover:text-white border border-white/10" data-filter="period" data-value="half">半年</button>
           <button class="filter-btn text-xs px-3 py-1.5 rounded-full text-gray-400 hover:text-white border border-white/10" data-filter="period" data-value="year">1年</button>
@@ -154,7 +154,7 @@ const CATEGORIES = {
 };
 
 let allArticles = [];
-let currentFilter = { tier: 'all', category: 'all', period: 'week' };
+let currentFilter = { tier: 'all', category: 'all', period: 'today' };
 
 function getPeriodCutoff(period) {
   const now = new Date();
@@ -278,10 +278,12 @@ function applyFilters() {
   let filtered = [...allArticles];
 
   // Period filter
-  if (currentFilter.period !== 'all') {
+  // "today" = show all articles in current news.json (today's curated batch)
+  // others filter by published_date relative to now
+  if (currentFilter.period !== 'all' && currentFilter.period !== 'today') {
     const cutoff = getPeriodCutoff(currentFilter.period);
     filtered = filtered.filter(a => {
-      if (!a.published_date) return currentFilter.period === 'all';
+      if (!a.published_date) return false;
       return new Date(a.published_date + 'T23:59:59') >= cutoff;
     });
   }
