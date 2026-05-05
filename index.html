@@ -74,7 +74,7 @@ tailwind.config = {
         <!-- Period filter -->
         <div class="flex flex-wrap gap-2 items-center">
           <span class="text-xs text-gray-500 mr-2">期間:</span>
-          <button class="filter-btn active text-xs px-3 py-1.5 rounded-full text-white bg-white/10 border border-white/20 font-medium" data-filter="period" data-value="today">今日</button>
+          <button class="filter-btn active text-xs px-3 py-1.5 rounded-full text-white bg-white/10 border border-white/20 font-medium" data-filter="period" data-value="today">最新（48h）</button>
           <button class="filter-btn text-xs px-3 py-1.5 rounded-full text-gray-400 hover:text-white border border-white/10" data-filter="period" data-value="week">1週間</button>
           <button class="filter-btn text-xs px-3 py-1.5 rounded-full text-gray-400 hover:text-white border border-white/10" data-filter="period" data-value="month">1ヶ月</button>
           <button class="filter-btn text-xs px-3 py-1.5 rounded-full text-gray-400 hover:text-white border border-white/10" data-filter="period" data-value="half">半年</button>
@@ -160,7 +160,7 @@ function getPeriodCutoff(period) {
   const now = new Date();
   now.setHours(23, 59, 59, 999);
   switch (period) {
-    case 'today': { const d = new Date(now); d.setHours(0,0,0,0); return d; }
+    case 'today': { const d = new Date(now); d.setDate(d.getDate() - 2); d.setHours(0,0,0,0); return d; }
     case 'week': { const d = new Date(now); d.setDate(d.getDate() - 7); return d; }
     case 'month': { const d = new Date(now); d.setMonth(d.getMonth() - 1); return d; }
     case 'half': { const d = new Date(now); d.setMonth(d.getMonth() - 6); return d; }
@@ -278,9 +278,9 @@ function applyFilters() {
   let filtered = [...allArticles];
 
   // Period filter
-  // "today" = show all articles in current news.json (today's curated batch)
-  // others filter by published_date relative to now
-  if (currentFilter.period !== 'all' && currentFilter.period !== 'today') {
+  // All periods (today=直近48h / week / month / half / year) filter by published_date.
+  // "all" shows everything in current news.json including null published_date.
+  if (currentFilter.period !== 'all') {
     const cutoff = getPeriodCutoff(currentFilter.period);
     filtered = filtered.filter(a => {
       if (!a.published_date) return false;
