@@ -1,0 +1,556 @@
+{
+  "generated_at": "2026-05-16T07:00:00+09:00",
+  "date": "2026-05-16",
+  "day_of_week": "金",
+  "tiers_included": [
+    1,
+    2
+  ],
+  "articles": [
+    {
+      "id": "itconsul_google_consultants_fund",
+      "title": "Google Unveils $750 Million Fund to Help Consultants Deploy AI Solutions",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-22/google-launches-750-million-fund-for-consultants-to-adopt-ai",
+      "category": "it_consul",
+      "category_label": "ITコンサル・SI業界動向",
+      "tier": 1,
+      "score": {
+        "total": 89,
+        "relevance": 38,
+        "impact": 26,
+        "actionability": 25
+      },
+      "summary": "Googleがコンサルタント・ISV向けに7.5億ドルの投資ファンドを設立。AccentureやDeloitteなど主要コンサル各社との提携を強化し、エンタープライズAI導入を加速する。MicrosoftのAI市場での優位に対抗する狙い。",
+      "why_important": "コンサル各社がGoogleのAIエコシステムに組み込まれることで、既存ITコンサル市場の構図が急変する。",
+      "adxi_insight": "ADiXiはGoogleパートナーとしてこのファンドの活用機会を積極的に検討すべき。AI実装支援サービスの差別化ポイントを早急に整理する必要がある。",
+      "published_date": "2026-04-22"
+    },
+    {
+      "id": "aiprod_anthropic_openai_enterprise_jv",
+      "title": "Anthropic and OpenAI are both launching joint ventures for enterprise AI services",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/",
+      "category": "ai_product",
+      "category_label": "AIプロダクト・SaaS",
+      "tier": 1,
+      "score": {
+        "total": 83,
+        "relevance": 35,
+        "impact": 26,
+        "actionability": 22
+      },
+      "summary": "AnthropicとOpenAIが独立してエンタープライズAIサービス向け合弁事業を相次いで発表。大企業向けのAIシステム開発・運用支援を本格化させる。競合他社はシステムインテグレーション市場への本格参入を意味する。",
+      "why_important": "2大AIプロバイダーが同時にエンタープライズSI市場へ直接参入し、既存コンサル・SIerのポジションを脅かす歴史的転換点。",
+      "adxi_insight": "ADiXiは「AI企業との対立」ではなく「最前線パートナー」としての立ち位置を明確にすることで差別化できる。エンタープライズ実装の複雑さ（変革管理・業務適合）での優位性をアピールすべき。",
+      "published_date": "2026-05-04"
+    },
+    {
+      "id": "aiprod_openai_enterprise_tipping_point",
+      "title": "OpenAI revenue chief Dresser says enterprise AI adoption is 'at a tipping point'",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/11/open-ai-dresser-enterprise-business.html",
+      "category": "ai_product",
+      "category_label": "AIプロダクト・SaaS",
+      "tier": 1,
+      "score": {
+        "total": 83,
+        "relevance": 35,
+        "impact": 26,
+        "actionability": 22
+      },
+      "summary": "OpenAIのCROが「エンタープライズAI導入は転換点にある」と発言。大企業のAI活用が試験的段階から本格実装段階へ移行しつつあることを示すデータを公開。2026年はエンタープライズ契約が急増するとの見通しを示した。",
+      "why_important": "OpenAI自身が「エンタープライズAIの本番移行期」を宣言したことで、ADiXiの提案タイムラインを前倒しにする根拠が強まった。",
+      "adxi_insight": "「転換点」の公式認定は顧客のAI導入予算獲得を後押しする強力な外部根拠として使える。提案資料に引用し、意思決定スピードを上げる材料にすべき。",
+      "published_date": "2026-05-11"
+    },
+    {
+      "id": "funding_anthropic_goldman_blackstone",
+      "title": "Anthropic teams with Goldman, Blackstone and others on $1.5 billion AI venture targeting PE-owned firms",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/04/anthropic-goldman-blackstone-ai-venture.html",
+      "category": "funding",
+      "category_label": "資金調達・M&A・IPO",
+      "tier": 1,
+      "score": {
+        "total": 82,
+        "relevance": 35,
+        "impact": 25,
+        "actionability": 22
+      },
+      "summary": "AnthropicがGoldman Sachs、Blackstoneなどと15億ドルのAI合弁会社を設立。PE保有ポートフォリオ企業のAIシステム導入・運用を支援するサービスを展開する。コンサルティング×AI実装の新ビジネスモデルとして注目。",
+      "why_important": "VC/PE×AIコンサルという新たなビジネスモデルが確立しつつあり、DX支援の資金調達スキームが変革期に入った。",
+      "adxi_insight": "PEファンドと連携したDX投資支援サービスはADiXiの新たな事業機会。国内PEファンドとのパートナーシップを通じたDX実装支援のパイプライン構築を検討したい。",
+      "published_date": "2026-05-04"
+    },
+    {
+      "id": "aillm_anthropic_financial_agents",
+      "title": "Anthropic、金融業界向けに10種のAIエージェントテンプレートを公開",
+      "source": "ITmedia",
+      "url": "https://www.itmedia.co.jp/news/articles/2605/06/news023.html",
+      "category": "ai_llm",
+      "category_label": "AI/LLMモデル・エージェント",
+      "tier": 1,
+      "score": {
+        "total": 80,
+        "relevance": 35,
+        "impact": 20,
+        "actionability": 25
+      },
+      "summary": "Anthropicが金融業界向けに10種類のAIエージェントテンプレートを公開した。リスク評価・顧客対応・コンプライアンスチェックなど実務ユースケースをカバー。Claude APIを活用した金融DX推進を加速させるための公式ガイドライン付き。",
+      "why_important": "金融特化のエージェントテンプレートが公式公開されたことで、金融DX案件でのAI実装のリードタイムが大幅に短縮される。",
+      "adxi_insight": "ADiXiの金融機関顧客への提案に即活用できる。標準テンプレートのカスタマイズ支援をサービスとして提供することで、付加価値を高めながら短期間での実装が可能になる。",
+      "published_date": "2026-05-06"
+    },
+    {
+      "id": "dxpvt_dx_medal_2026",
+      "title": "DX銘柄2026、グランプリはブリヂストン・ミスミグループ本社・三井住友FG",
+      "source": "日経クロステック",
+      "url": "https://xtech.nikkei.com/atcl/nxt/news/24/03174/",
+      "category": "dx_private",
+      "category_label": "DX成功/失敗事例（民間）",
+      "tier": 1,
+      "score": {
+        "total": 80,
+        "relevance": 36,
+        "impact": 22,
+        "actionability": 22
+      },
+      "summary": "経済産業省と東京証券取引所が「DX銘柄2026」の30社を発表。グランプリにブリヂストン、ミスミグループ本社、三井住友FGの3社が選出された。製造業・商社・金融の3セクターにわたるDX先進事例として業界全体の指標となる。",
+      "why_important": "DX銘柄入りはDX戦略の成熟度を示す公的なKPIであり、コンサル提案における目標設定のベンチマークとして最も説得力のある事例集。",
+      "adxi_insight": "ADiXiはDX銘柄選定基準をスコアカードに組み込み、顧客のDX成熟度診断ツールとして活用できる。グランプリ3社の戦略を深掘りしたケーススタディを提案資料に組み込むべき。",
+      "published_date": "2026-04-28"
+    },
+    {
+      "id": "security_ipa_ms_vuln_may2026",
+      "title": "Microsoft製品の脆弱性対策について（2026年5月）",
+      "source": "IPA",
+      "url": "https://www.ipa.go.jp/security/security-alert/2026/0513-ms.html",
+      "category": "security",
+      "category_label": "サイバーセキュリティ",
+      "tier": 2,
+      "score": {
+        "total": 79,
+        "relevance": 25,
+        "impact": 26,
+        "actionability": 28
+      },
+      "summary": "IPAが2026年5月のMicrosoft製品の脆弱性対策情報を公開。複数の高危険度CVEに対してパッチ適用を推奨。企業IT管理者は速やかなアップデート対応が求められる。",
+      "why_important": "定例の月次パッチだが高危険度脆弱性が含まれており、対応遅延が重大なインシデントにつながるリスクがある。",
+      "adxi_insight": "顧客のIT管理体制点検の機会。パッチ管理の自動化・CSPM導入を提案する際の導線として活用できる。",
+      "published_date": "2026-05-13"
+    },
+    {
+      "id": "aillm_ai_agent_5eyes_warning",
+      "title": "「AIエージェントは慎重に導入せよ」、米英豪などの情報機関が警告",
+      "source": "日経クロステック",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03079/050700036/",
+      "category": "ai_llm",
+      "category_label": "AI/LLMモデル・エージェント",
+      "tier": 2,
+      "score": {
+        "total": 76,
+        "relevance": 32,
+        "impact": 24,
+        "actionability": 20
+      },
+      "summary": "米国・英国・オーストラリアなど英語圏5カ国の情報機関（Five Eyes）がAIエージェントの企業導入に関する共同警告文書を発表。セキュリティリスクや意思決定の透明性確保を強調。AIエージェントを慎重に段階的に導入するためのガイドラインを提示した。",
+      "why_important": "政府機関の正式警告は企業のAIガバナンス整備を加速させ、コンサル需要を直接生む。",
+      "adxi_insight": "ADiXiのAIエージェント導入支援サービスにこのガイドラインを組み込むことで「安全・確実な実装」という差別化が可能。セキュリティ評価フレームワークを提案の必須コンポーネントとすべき。",
+      "published_date": "2026-05-07"
+    },
+    {
+      "id": "ailm_gpt55_instant",
+      "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
+      "category": "ai_llm",
+      "category_label": "AI/LLMモデル・エージェント",
+      "tier": 2,
+      "score": {
+        "total": 74,
+        "relevance": 30,
+        "impact": 24,
+        "actionability": 20
+      },
+      "summary": "OpenAIがChatGPTの新デフォルトモデル「GPT-5.5 Instant」をリリース。前モデルより高速かつコスト効率が向上しており、APIでも利用可能となった。企業向けにはGPT-5シリーズの段階的な展開が続く。",
+      "why_important": "APIコスト低下とレスポンス速度向上によりエンタープライズ実装の費用対効果が改善され、導入障壁がさらに下がる。",
+      "adxi_insight": "既存の企業AIシステムのGPT-5.5 Instantへの移行評価・最適化支援をサービスとして提供できるタイミング。モデル更新に合わせた定期メンテナンス契約の提案機会。",
+      "published_date": "2026-05-05"
+    },
+    {
+      "id": "security_moneyforward_breach",
+      "title": "マネーフォワード、GitHubへの不正アクセスにより個人情報流出の可能性。銀行口座連携機能を一時停止",
+      "source": "Impress Watch",
+      "url": "https://internet.watch.impress.co.jp/docs/news/2106602.html",
+      "category": "security",
+      "category_label": "サイバーセキュリティ",
+      "tier": 2,
+      "score": {
+        "total": 72,
+        "relevance": 30,
+        "impact": 18,
+        "actionability": 24
+      },
+      "summary": "家計簿・会計サービスのマネーフォワードがGitHubリポジトリへの不正アクセスにより個人情報流出の可能性があると発表。銀行口座連携機能を一時停止し、調査を開始した。FinTech企業のソースコード管理リスクが改めて浮き彫りになった。",
+      "why_important": "FinTech×GitHubという組み合わせのセキュリティリスクが現実化した事例として、類似サービスを持つ顧客への警鐘となる。",
+      "adxi_insight": "DXプロジェクトにおけるGitHubアクセス制御・シークレット管理の監査サービスをADiXiの提案メニューに追加すべきタイミング。顧客向けセキュリティアセスメントの実施を提案できる。",
+      "published_date": "2026-05-01"
+    },
+    {
+      "id": "security_anthropic_mythos_cyber",
+      "title": "Anthropic's Mythos set off a cybersecurity 'hysteria.' Experts say the threat was already here",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/08/anthropic-mythos-ai-cybersecurity-banks.html",
+      "category": "security",
+      "category_label": "サイバーセキュリティ",
+      "tier": 2,
+      "score": {
+        "total": 72,
+        "relevance": 32,
+        "impact": 22,
+        "actionability": 18
+      },
+      "summary": "AnthropicのAIシステム「Mythos」に関する報告が銀行業界でサイバーセキュリティ懸念を引き起こした。専門家はAIを悪用した高度な詐欺・ハッキング手法の台頭は既に現実の脅威であると警告。AIセキュリティ対策への投資が急務となっている。",
+      "why_important": "AI活用の高度化が攻撃側にも同様に及んでおり、特に金融機関は対AIサイバー攻撃への備えが急務となっている。",
+      "adxi_insight": "金融・保険顧客向けにAI時代のサイバーセキュリティ対策フレームワーク（AI-augmented threat modeling）の提案を加速すべき。",
+      "published_date": "2026-05-08"
+    },
+    {
+      "id": "aiprod_ai_legal_services",
+      "title": "The AI legal services industry is heating up — Anthropic is getting in on the action",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/12/the-ai-legal-services-industry-is-heating-up-anthropic-is-getting-in-on-the-action/",
+      "category": "ai_product",
+      "category_label": "AIプロダクト・SaaS",
+      "tier": 2,
+      "score": {
+        "total": 68,
+        "relevance": 30,
+        "impact": 20,
+        "actionability": 18
+      },
+      "summary": "Anthropicが法務サービスへのAI活用市場への参入を表明。契約審査・コンプライアンス管理・訴訟分析などで既存LegalTechスタートアップとの競争が激化している。企業法務のコスト削減と弁護士の生産性向上に大きな影響が予測される。",
+      "why_important": "大手AI企業の法務特化サービス参入により、LegalTech市場の再編が加速し、企業の法務コスト構造が変わる可能性がある。",
+      "adxi_insight": "ADiXiは顧客の法務部門向けAI導入支援（契約書レビュー自動化、コンプライアンスチェック）を新たなサービスラインとして追加できるタイミング。",
+      "published_date": "2026-05-12"
+    },
+    {
+      "id": "funding_sierra_950m",
+      "title": "Sierra raises $950M as the race to own enterprise AI gets serious",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
+      "category": "funding",
+      "category_label": "資金調達・M&A・IPO",
+      "tier": 2,
+      "score": {
+        "total": 67,
+        "relevance": 32,
+        "impact": 20,
+        "actionability": 15
+      },
+      "summary": "エンタープライズAIエージェント開発スタートアップのSierraが9.5億ドルの資金調達を完了。顧客サービス自動化に特化したAIエージェントプラットフォームを大企業向けに提供。エンタープライズAI市場の覇権争いが資金力を伴って激化している。",
+      "why_important": "9.5億ドルという大型調達がエンタープライズAIエージェント市場への強い期待を示しており、競合環境が急速に変化する。",
+      "adxi_insight": "Sierraのような垂直特化型AIエージェントとの協業・統合が、ADiXiのコンサルサービスを高付加価値化する手段になり得る。競合他社の投資動向として注視必要。",
+      "published_date": "2026-05-04"
+    },
+    {
+      "id": "funding_jp_startup_may_digest",
+      "title": "5月10〜15日 スタートアップ資金調達まとめ読み",
+      "source": "日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOUC14BB40U6A510C2000000/",
+      "category": "funding",
+      "category_label": "資金調達・M&A・IPO",
+      "tier": 2,
+      "score": {
+        "total": 63,
+        "relevance": 28,
+        "impact": 20,
+        "actionability": 15
+      },
+      "summary": "日経新聞が5月10〜15日のスタートアップ資金調達ニュースをまとめて掲載。AI・ディープテック関連への投資が国内外で引き続き活況。市場全体のトレンドと主要プレイヤーへの資金流入状況を一覧で確認できる。",
+      "why_important": "国内スタートアップへの投資動向は、ADiXiの潜在クライアントや協業先となる新興企業の発掘に直結する情報。",
+      "adxi_insight": "週次の資金調達動向からDX需要の高いセクターを把握し、新規顧客開拓のターゲティングに活用できる。",
+      "published_date": "2026-05-15"
+    },
+    {
+      "id": "security_ai_hacking_crypto",
+      "title": "AI-Hacking Threat Pushes $130 Billion Crypto Sector to the Brink",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-15/ai-hacking-threat-pushes-130-billion-crypto-sector-to-the-brink",
+      "category": "security",
+      "category_label": "サイバーセキュリティ",
+      "tier": 3,
+      "score": {
+        "total": 52,
+        "relevance": 20,
+        "impact": 20,
+        "actionability": 12
+      },
+      "summary": "AIを活用した高度なハッキング攻撃が1,300億ドル規模の暗号資産業界に深刻な脅威をもたらしている。従来の防御策を無力化する新種の攻撃手法が急増。暗号資産業界全体でのセキュリティ対策再構築が急務となっている。",
+      "why_important": "AIによるサイバー攻撃の高度化はクリプト業界にとどまらず、金融DX全体に波及するリスクがある。",
+      "adxi_insight": "金融系DX顧客へのAI対応型サイバーセキュリティ対策提案の参考情報として活用。",
+      "published_date": "2026-05-15"
+    },
+    {
+      "id": "ailm_google_gemini_android",
+      "title": "Google races to put Gemini at the center of Android before Apple's AI reboot",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/12/google-races-put-gemini-at-center-of-android-before-apples-ai-reboot.html",
+      "category": "ai_llm",
+      "category_label": "AI/LLMモデル・エージェント",
+      "tier": 3,
+      "score": {
+        "total": 52,
+        "relevance": 20,
+        "impact": 22,
+        "actionability": 10
+      },
+      "summary": "GoogleがAppleのAI統合強化に先行してAndroid全体にGeminiを深く組み込む計画を加速。音声アシスタント・検索・カメラなど主要機能へのAI統合を推進。モバイルOSプラットフォームのAI覇権争いが激化している。",
+      "why_important": "モバイルOSへのAI深統合は、消費者向けと業務向け双方のアプリ開発のアーキテクチャに影響を与える。",
+      "adxi_insight": "モバイルファーストのDXソリューション設計においてGemini API連携を前提とした設計を検討する機会。",
+      "published_date": "2026-05-12"
+    },
+    {
+      "id": "globaldx_govt_moonshots_mazzucato",
+      "title": "Mariana Mazzucato on Government Moonshots",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-08/mariana-mazzucato-on-government-moonshots",
+      "category": "global_dx",
+      "category_label": "世界のデジタル先進事例",
+      "tier": 3,
+      "score": {
+        "total": 50,
+        "relevance": 22,
+        "impact": 18,
+        "actionability": 10
+      },
+      "summary": "経済学者マリアナ・マッツカートがBloombergのインタビューで「政府によるムーンショット型投資」の重要性を主張。民間AI投資が急増する中、政府が長期的・戦略的視点での公共投資を維持する重要性を強調。デジタル分野での政府主導の役割を再定義。",
+      "why_important": "政府のデジタル投資哲学は、官公庁DX案件の予算規模と方向性に直結する。",
+      "adxi_insight": "官公庁・自治体向け提案においてムーンショット思想を活用した大型DX投資の正当性を訴える論拠として参考にできる。",
+      "published_date": "2026-05-08"
+    },
+    {
+      "id": "funding_spacex_ipo",
+      "title": "米スペースX、来週にもIPO正式申請へ CNBC報道",
+      "source": "日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOFL1503XTV10C26A5000000/",
+      "category": "funding",
+      "category_label": "資金調達・M&A・IPO",
+      "tier": 3,
+      "score": {
+        "total": 49,
+        "relevance": 15,
+        "impact": 26,
+        "actionability": 8
+      },
+      "summary": "米CNBCの報道によれば、スペースXが来週にもIPO正式申請を行う見込み。企業評価額は数千億ドル規模に達すると見られ、史上最大級のIPOになる可能性がある。宇宙ビジネス・通信インフラへの関心が再び高まることが予測される。",
+      "why_important": "史上最大規模のIPOはグローバルのリスクマネーの流れを変え、テック投資環境全体に影響する。",
+      "adxi_insight": "ADiXiの事業への直接影響は限定的だが、資本市場動向として顧客経営陣との対話に活用できる。",
+      "published_date": "2026-05-15"
+    },
+    {
+      "id": "aiprod_itline_aws_genai",
+      "title": "ITLINE、法人向けAWS生成AIシステム開発・運用サービスを5月14日提供開始",
+      "source": "PR TIMES",
+      "url": "https://prtimes.jp/main/html/rd/p/000000002.000180870.html",
+      "category": "ai_product",
+      "category_label": "AIプロダクト・SaaS",
+      "tier": 3,
+      "score": {
+        "total": 45,
+        "relevance": 25,
+        "impact": 8,
+        "actionability": 12
+      },
+      "summary": "ITLINE株式会社が法人向けAWS活用の生成AIシステム開発・運用サービスを2026年5月14日から提供開始した。RAG構築やAIエージェント開発を中小企業向けに支援するサービス。競合SIer・コンサルとしての動向として注視が必要。",
+      "why_important": "中小規模SIerのAWSベースのAI実装サービス参入は、エンタープライズ市場での価格競争激化を示す。",
+      "adxi_insight": "ADiXiは「実装だけでなく変革戦略まで」の上位コンサルポジションを維持することで中小SIerとの差別化を継続すべき。",
+      "published_date": "2026-05-14"
+    },
+    {
+      "id": "funding_wispr_2b",
+      "title": "AI Dictation Startup Wispr in Funding Talks at $2 Billion Value",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/ai-dictation-startup-wispr-in-funding-talks-at-2-billion-value",
+      "category": "funding",
+      "category_label": "資金調達・M&A・IPO",
+      "tier": 3,
+      "score": {
+        "total": 45,
+        "relevance": 20,
+        "impact": 15,
+        "actionability": 10
+      },
+      "summary": "AI音声入力スタートアップのWisprが20億ドルの企業評価額で資金調達交渉中と報道。会議議事録の自動生成・メール起草などの機能で急速に利用者が拡大。ナレッジワーカーの生産性向上ツール市場が高い投資家関心を集めている。",
+      "why_important": "音声入力AIの企業評価が急上昇しており、オフィスワーカー向け生産性AIツール市場の成長が鮮明になっている。",
+      "adxi_insight": "Wisprのようなナレッジワーカー向けAIツールを顧客の業務改革提案に組み込むことで、ROI訴求力を高められる。",
+      "published_date": "2026-05-12"
+    },
+    {
+      "id": "ailm_digital_agency_llm_selection",
+      "title": "デジタル庁、ガバメントAI用国産LLMを選定 tsuzumi 2やPLaMo 2.0など",
+      "source": "Impress Watch",
+      "url": "https://www.watch.impress.co.jp/docs/news/2091358.html",
+      "category": "ai_llm",
+      "category_label": "AI/LLMモデル・エージェント",
+      "tier": 3,
+      "score": {
+        "total": 79,
+        "relevance": 36,
+        "impact": 25,
+        "actionability": 18
+      },
+      "summary": "デジタル庁がガバメント向けAI基盤として活用する国産LLMの選定を発表。NTTのtsuzumi 2、Preferred NetworksのPLaMo 2.0などが採用候補に挙げられている。官公庁AIシステムにおける国産技術の優先調達方針が明確化される。",
+      "why_important": "官公庁のAI調達において国産LLM優先の方針が固まれば、行政DX案件のアーキテクチャ選定が大きく変わる。",
+      "adxi_insight": "ADiXiの官公庁・自治体向けDX提案において国産LLM対応を先行整備することで、調達要件変更に迅速対応できる優位性を確保できる。",
+      "published_date": null
+    },
+    {
+      "id": "dxgov_fujitsu_jichitai_withdrawal",
+      "title": "自治体システム標準化に激震、富士通が約300自治体に期限内の移行断念を通知",
+      "source": "日経クロステック",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/09791/",
+      "category": "dx_gov",
+      "category_label": "DX成功/失敗事例（官公庁）",
+      "tier": 3,
+      "score": {
+        "total": 75,
+        "relevance": 35,
+        "impact": 22,
+        "actionability": 18
+      },
+      "summary": "富士通が自治体システム標準化プロジェクトにおいて約300自治体に対して期限内の移行が困難と通知したと報道。日本最大級のIT企業による大規模な移行断念は自治体DXに深刻な遅延をもたらす。代替手段・移行先の選定が急務となっている。",
+      "why_important": "日本の自治体DXを牽引してきた富士通の移行断念は、自治体IT市場全体の信頼性に影響し、新たなベンダー参入機会を生む。",
+      "adxi_insight": "ADiXiにとって富士通からのリプレースを検討する自治体への支援が急増する可能性がある。代替ソリューション評価・移行計画策定支援のサービス提供を急ぐべき。",
+      "published_date": null
+    },
+    {
+      "id": "itconsul_sier_ai_productivity",
+      "title": "生成AIで「開発生産性50％向上」と大手SIer、そして事業モデルは瓦解する",
+      "source": "日経クロステック",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00849/00178/",
+      "category": "it_consul",
+      "category_label": "ITコンサル・SI業界動向",
+      "tier": 3,
+      "score": {
+        "total": 72,
+        "relevance": 33,
+        "impact": 22,
+        "actionability": 17
+      },
+      "summary": "大手SIerが生成AI活用で開発生産性50%向上を実現した一方、従量課金型のSI収益モデルが崩壊するリスクを指摘する記事。AIがコード生成を代替することで、人月ベースの請負契約が成立しなくなる構造変化が進んでいる。",
+      "why_important": "SIerのビジネスモデル崩壊は業界全体の再編につながり、価値基準が「人月」から「成果・価値」へ転換する加速を意味する。",
+      "adxi_insight": "ADiXiは成果報酬型・価値創出型のコンサルモデルへの早期転換により、従来型SIerとの差別化を図る絶好のタイミング。",
+      "published_date": null
+    },
+    {
+      "id": "dxgov_jichitai_standardization_deadline",
+      "title": "自治体システム標準化「2025年度末」期限を一部緩和、それでも残る2つの課題",
+      "source": "日経クロステック",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/08378/",
+      "category": "dx_gov",
+      "category_label": "DX成功/失敗事例（官公庁）",
+      "tier": 3,
+      "score": {
+        "total": 70,
+        "relevance": 33,
+        "impact": 20,
+        "actionability": 17
+      },
+      "summary": "政府が自治体システム標準化の「2025年度末」期限を一部緩和する方針を示した。しかし移行ベンダーのキャパシティ不足とデータ移行の複雑さという2つの課題が依然として残る。富士通の移行断念通知と合わせて、プロジェクト全体の遅延リスクが高まっている。",
+      "why_important": "期限緩和は自治体IT整備計画の全体スケジュールを変更し、移行支援サービスの需要が中長期的に続くことを示す。",
+      "adxi_insight": "ADiXiは標準化対応の遅延に苦慮する自治体向けに、移行計画策定・ベンダー評価支援をサービスとして提供できる機会がある。",
+      "published_date": null
+    },
+    {
+      "id": "itconsul_it_vendor_outlook_2026",
+      "title": "ITベンダー＆コンサル企業6社に聞く、2026年の展望 企業のIT変革を支えて見えた市場変化",
+      "source": "EnterpriseZine",
+      "url": "https://enterprisezine.jp/article/detail/23157",
+      "category": "it_consul",
+      "category_label": "ITコンサル・SI業界動向",
+      "tier": 3,
+      "score": {
+        "total": 65,
+        "relevance": 30,
+        "impact": 18,
+        "actionability": 17
+      },
+      "summary": "EnterpriseZineがITベンダー・コンサル企業6社にインタビューし、2026年の市場展望をまとめた特集記事。AI活用による事業モデル変革とシステムインテグレーション市場の変化を各社が語っている。競合他社の戦略動向を把握できる貴重な資料。",
+      "why_important": "主要競合の2026年戦略を一覧で把握できる情報源として、ADiXiの事業戦略立案に活用できる。",
+      "adxi_insight": "競合他社の注力領域を分析し、ADiXiが差別化すべき「空白地帯」を特定するための情報として活用すべき。",
+      "published_date": null
+    },
+    {
+      "id": "policy_japan_ai_basic_plan",
+      "title": "AI開発強化へ国主導、政府が初の基本計画を決定 海外展開巻き返し",
+      "source": "日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOUA225CF0S5A221C2000000/",
+      "category": "policy",
+      "category_label": "政策・規制・デジタル庁",
+      "tier": 3,
+      "score": {
+        "total": 65,
+        "relevance": 28,
+        "impact": 22,
+        "actionability": 15
+      },
+      "summary": "日本政府がAI開発強化を目的とした初の「AI基本計画」を決定。国主導でAI開発投資を大幅に拡大し、米中に出遅れた日本のAI産業の競争力回復を目指す方針を明示した。大型のAIインフラ・研究開発投資が予定されている。",
+      "why_important": "政府主導のAI基本計画は、国内のAI投資環境と官公庁発注の大型DX案件に直接影響する政策方針の確定を意味する。",
+      "adxi_insight": "AI基本計画に基づく政府調達・補助金スキームをADiXiの顧客DX戦略に組み込む提案が有効になる。補助金・助成金の活用支援サービスとして展開できる機会。",
+      "published_date": null
+    }
+  ],
+  "case_studies": [
+    {
+      "classification": "民間",
+      "country": "日本",
+      "organization": "ブリヂストン・ミスミグループ本社・三井住友フィナンシャルグループ",
+      "summary": "経産省・東証が「DX銘柄2026」のグランプリとして3社を選出。製造業（ブリヂストン）、商社（ミスミ）、金融（三井住友FG）の各セクターでデジタル変革を牽引する企業として高く評価された。",
+      "scale_tech_results": "全国上場企業から30社選定。グランプリ3社はデジタル技術活用による事業変革・競争力強化を定量的成果とともに実証。製造・流通・金融の異なるDXアプローチを示す。",
+      "adxi_insight": "DX銘柄の選定基準をスコアカードに組み込み、顧客のDX成熟度診断ツールとして活用できる。グランプリ3社のベストプラクティスを業種別コンサル提案テンプレートに組み込むべき。",
+      "similar_japan": "DX認定制度取得企業、IT導入補助金採択企業のDX取り組み",
+      "url": "https://xtech.nikkei.com/atcl/nxt/news/24/03174/"
+    },
+    {
+      "classification": "民間",
+      "country": "日本",
+      "organization": "マネーフォワード",
+      "summary": "FinTechサービスのマネーフォワードがGitHubリポジトリへの不正アクセスにより個人情報流出リスクが発生。銀行口座連携機能を一時停止し、調査・セキュリティ強化に当たっている。ソースコード管理のセキュリティリスクが顕在化した事例。",
+      "scale_tech_results": "GitHubリポジトリへの不正アクセス確認。銀行口座連携機能の一時停止（利用者数十万人以上に影響の可能性）。不正アクセスの範囲と流出情報の全容は調査中。",
+      "adxi_insight": "DXプロジェクト推進企業へのGitHubアクセス制御・シークレット管理の監査を提案サービスとして追加すべき。特にFinTech・金融機関顧客へのセキュリティアセスメント実施を即時提案できる。",
+      "similar_japan": "近年の国内FinTech・SaaS企業のセキュリティインシデント事例",
+      "url": "https://internet.watch.impress.co.jp/docs/news/2106602.html"
+    },
+    {
+      "classification": "民間",
+      "country": "米国",
+      "organization": "Anthropic + Goldman Sachs + Blackstone",
+      "summary": "AnthropicがGoldman Sachs、Blackstoneなどと15億ドルの合弁会社を設立。PE保有ポートフォリオ企業向けのAIシステム導入・運用を一気通貫で支援するビジネスモデルを構築。コンサルティングとAI実装の垂直統合を実現した先駆的事例。",
+      "scale_tech_results": "合弁投資額15億ドル。ターゲットはBlackstone・Goldman傘下のPE保有企業数千社。AI実装により平均20-30%の業務効率化を目標として設定。",
+      "adxi_insight": "PE/VCファンドと連携したDX投資支援サービスはADiXiの新規事業機会として有望。国内PEファンドと共同でポートフォリオ企業のDX支援パッケージを組成することを検討したい。",
+      "similar_japan": "日本政策投資銀行・地方銀行のDX投資ファンドと連携したIT支援事例",
+      "url": "https://www.cnbc.com/2026/05/04/anthropic-goldman-blackstone-ai-venture.html"
+    }
+  ],
+  "stats": {
+    "total_articles": 26,
+    "by_tier": {
+      "1": 6,
+      "2": 8,
+      "3": 12
+    },
+    "by_category": {
+      "it_consul": 3,
+      "ai_product": 4,
+      "funding": 5,
+      "ai_llm": 5,
+      "dx_private": 1,
+      "security": 4,
+      "global_dx": 1,
+      "dx_gov": 2,
+      "policy": 1
+    }
+  }
+}
