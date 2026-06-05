@@ -1,285 +1,35 @@
 {
-  "generated_at": "2026-06-05T07:15:00+09:00",
+  "generated_at": "2026-06-05T06:30:00+09:00",
   "date": "2026-06-05",
   "day_of_week": "金",
-  "tiers_included": [
-    1,
-    2
-  ],
+  "tiers_included": [1, 2],
   "articles": [
     {
-      "id": "b25f3d62",
-      "title": "デジタル庁が「ガバメントAI」を整備へ、政府・地方が横断で使える生成AI",
-      "source": "日経クロステック",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/10854/",
-      "category": "policy",
-      "category_label": "政策・規制・デジタル庁",
-      "tier": 1,
-      "score": {
-        "total": 93,
-        "relevance": 38,
-        "impact": 28,
-        "actionability": 27
-      },
-      "summary": "デジタル庁が全省庁・地方自治体で横断的に利用できる生成AI基盤「ガバメントAI」の整備を推進。tsuzumi 2やPLaMo 2.0などの国産LLMを含む複数モデルを政府認定し、全府省庁18万人への展開を目指す。自治体への水平展開も視野に入れており、日本のデジタル行政の中枢インフラとなる見通し。",
-      "why_important": "政府全体でのAI活用加速は、自治体DX案件に取り組むADiXiにとって直接的な事業機会拡大を意味する重要な政策転換。",
-      "adxi_insight": "ガバメントAIの実装・展開支援や地方自治体への普及コンサルティングで早期参入の価値がある。政府認定モデルの動向を把握し、自治体向け提案スキームを整備しておくことが競合差別化につながる。",
-      "published_date": "2026-05-28"
-    },
-    {
-      "id": "d96cbe36",
-      "title": "McKinsey、PwC、EYがAI加速に伴いエグゼクティブアシスタントを削減",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/features/2026-05-21/mckinsey-pwc-and-ey-lay-off-executive-assistants-as-ai-accelerates",
-      "category": "it_consul",
-      "category_label": "ITコンサル・SI業界動向",
-      "tier": 1,
-      "score": {
-        "total": 92,
-        "relevance": 38,
-        "impact": 27,
-        "actionability": 27
-      },
-      "summary": "McKinsey、PwC、EYの大手コンサル3社がAI技術の進化を受け、エグゼクティブアシスタント職を大規模削減。AI秘書ツールが文書作成・スケジュール管理・リサーチを代替し、ホワイトカラー業務の構造転換が業界トップから進行している。コンサル業界全体の人材構成が数年単位で大きく変わる見通し。",
-      "why_important": "ADiXiが属するITコンサル業界でAIによる人員構造の再編が最上流から始まっており、自社ビジネスモデルの見直しが急務。",
-      "adxi_insight": "ADiXi自身の業務にもAIを積極導入し生産性を高めながら付加価値業務に集中するモデルへ転換を急ぐべき。顧客企業の組織変革コンサルの新たな切り口としても提案価値がある。",
-      "published_date": "2026-05-21"
-    },
-    {
-      "id": "d6aefc21",
-      "title": "予算資料作成など府省庁500業務に自律型AI活用 政府が計画発表",
-      "source": "日本経済新聞",
-      "url": "https://www.nikkei.com/article/DGXZQOUA061NI0W6A500C2000000/",
-      "category": "dx_gov",
-      "category_label": "DX成功/失敗事例（官公庁）",
-      "tier": 1,
-      "score": {
-        "total": 92,
-        "relevance": 37,
-        "impact": 28,
-        "actionability": 27
-      },
-      "summary": "政府が府省庁横断で500の業務に自律型AIエージェントを導入する計画を発表。予算資料作成、文書整理、情報収集などの定型業務をAIが担い、公務員の時間を高付加価値業務に振り向ける。ガバメントAI基盤と連携し、行政の生産性革命を目指す。",
-      "why_important": "中央省庁のAI化推進は地方自治体のDX案件を加速する追い風となり、ADiXiの自治体向け事業の市場規模を大きく押し上げる政策。",
-      "adxi_insight": "政府のAI導入実績を参照し、自治体向けの同様のユースケース提案に活用できる。入札・補助金の機会も生まれる可能性が高く、早期に提案パターンを整備すべき。",
-      "published_date": "2026-05-06"
-    },
-    {
-      "id": "7060fa03",
-      "title": "DXブームがついに終了 生成AI活用に逃げ込む日本企業の末路",
-      "source": "日経ビジネス",
-      "url": "https://business.nikkei.com/atcl/gen/19/00322/060200186/",
-      "category": "dx_private",
-      "category_label": "DX成功/失敗事例（民間）",
-      "tier": 1,
-      "score": {
-        "total": 88,
-        "relevance": 36,
-        "impact": 27,
-        "actionability": 25
-      },
-      "summary": "「DX」バズワード時代が終焉を迎え、実質的な成果を伴わないDX投資が厳しく評価される局面に入った。日本企業が次のキーワードとして生成AI活用に注力し始めているが、戦略不在のまま「AI活用」に飛び付く危険性が指摘される。本質的な業務変革なきAI導入の限界が浮き彫りになっている。",
-      "why_important": "DXコンサルを主軸とするADiXiにとって、市場のパラダイムシフトを把握し顧客への提案スタンスを刷新する必要がある重要なトレンド。",
-      "adxi_insight": "「成果の出るDX」への移行フェーズで、ADiXiは実績ある成果創出メソドロジーを前面に出す戦略が効果的。生成AI活用の導入支援と組み合わせた提案が競合差別化になる。",
-      "published_date": "2026-06-02"
-    },
-    {
-      "id": "7eb7f254",
-      "title": "MicrosoftとGoogleがAIコーディングモデルでAnthropicとOpenAIに挑む",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html",
+      "id": "ai_llm_001",
+      "title": "ChatGPTがシェア4割を切る 急伸するClaude、安定のGemini――生成AI三極化の兆し",
+      "source": "ITmedia",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2605/08/news033.html",
       "category": "ai_llm",
       "category_label": "AI/LLMモデル・エージェント",
       "tier": 1,
       "score": {
-        "total": 88,
+        "total": 85,
         "relevance": 35,
-        "impact": 28,
+        "impact": 25,
         "actionability": 25
       },
-      "summary": "MicrosoftとGoogleが独自のAIコーディングモデルを発表し、AnthropicのClaudeとOpenAIのCopilotが先行するAIコーディング市場の奪取を狙う。各社モデルの性能・コスト・プライバシーの差異が明確になり始め、企業は選択を迫られている。",
-      "why_important": "SIerやITコンサルの開発生産性に直結するAIコーディングツールの競合激化により、ADiXiのエンジニアリング戦略・ツール選定の見直しが必要。",
-      "adxi_insight": "複数のAIコーディングモデルを評価し、プロジェクト特性に応じた最適ツール選定のノウハウを蓄積することが顧客提案の差別化につながる。",
-      "published_date": "2026-06-01"
+      "summary": "ChatGPTの市場シェアが4割を下回り、Anthropic ClaudeとGoogle Geminiが急速にシェアを伸ばしている。生成AI市場が1強独占から三極分散へと移行する構造変化が鮮明になってきた。企業のAI選定基準や開発環境選択に根本的な見直しを迫る重要な市場シフトだ。",
+      "why_important": "ChatGPTの独占が崩れClaudeが急伸、AIベンダー選定の前提が根本から変わりつつある",
+      "adxi_insight": "クライアントへのAI導入提案時にClaude/Geminiの評価を必須化し、特定ベンダーへの過度な依存を避けるマルチベンダー戦略を提示することでADiXiの提案差別化につながる",
+      "published_date": "2026-05-08"
     },
     {
-      "id": "58edeac8",
-      "title": "Microsoft、初の自社推論モデル「MAI-Thinking-1」発表 蒸留なしでゼロから学習",
-      "source": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2606/03/2000000050/",
+      "id": "ai_llm_002",
+      "title": "Model routing is a fix for AI overspending. That's a problem for OpenAI and Anthropic",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/05/model-routing-on-ai-is-a-problem-for-openai-and-anthropic.html",
       "category": "ai_llm",
       "category_label": "AI/LLMモデル・エージェント",
-      "tier": 1,
-      "score": {
-        "total": 87,
-        "relevance": 35,
-        "impact": 27,
-        "actionability": 25
-      },
-      "summary": "Microsoftが自社の推論特化型AIモデル「MAI-Thinking-1」を発表。他モデルからの蒸留ではなくゼロから学習した点が特徴で、OpenAIへの依存からの脱却を明確に示す。AzureエコシステムのAI自律性向上によりMicrosoftのAI競争力が一段と高まる。",
-      "why_important": "MicrosoftがOpenAI依存から脱却する動きはAzure活用企業のモデル選択肢を広げ、ITコンサルとして推奨ツールの見直しが必要になる転換点。",
-      "adxi_insight": "Azure中心のシステム構築を支援するADiXiにとって、MAI-Thinking-1の性能・コスト評価を早期に実施し、顧客提案に組み込む準備を進める価値がある。",
-      "published_date": "2026-06-03"
-    },
-    {
-      "id": "b3f4d75e",
-      "title": "AIエージェントが国内1,127社のDXを全件解析。「DX INSIGHTS AWARD 2026」開催",
-      "source": "PR TIMES (SIGNATE)",
-      "url": "https://prtimes.jp/main/html/html/rd/p/000000309.000038674.html",
-      "category": "dx_private",
-      "category_label": "DX成功/失敗事例（民間）",
-      "tier": 1,
-      "score": {
-        "total": 82,
-        "relevance": 35,
-        "impact": 22,
-        "actionability": 25
-      },
-      "summary": "SIGNATEがAIエージェントを活用して国内1,127社のDX取り組みを全件自動解析し、「DX INSIGHTS AWARD 2026」を開催。企業のDX成熟度を多次元的・自動的に評価することで、業界全体のDXベンチマークデータを提供する取り組み。",
-      "why_important": "ADiXiのDXコンサル業務において、AI自動診断による業界全体のDX成熟度データは提案資料・競合他社比較の根拠として直接活用できる。",
-      "adxi_insight": "DX評価の自動化・AIエージェント化のトレンドを把握し、自社のDX診断サービスへの応用可能性を検討。顧客への「AI診断型DX支援」提案の差別化軸になりうる。",
-      "published_date": "2026-06-03"
-    },
-    {
-      "id": "f4e9439b",
-      "title": "McKinseyがAIエージェントでコンサルプロジェクトのチーム編成を最適化",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-01/mckinsey-plans-to-use-ai-agents-to-help-choose-client-teams",
-      "category": "it_consul",
-      "category_label": "ITコンサル・SI業界動向",
-      "tier": 1,
-      "score": {
-        "total": 80,
-        "relevance": 36,
-        "impact": 22,
-        "actionability": 22
-      },
-      "summary": "McKinseyがAIエージェントを活用してコンサルプロジェクトのチーム編成を自動最適化する計画を発表。スキルマッチング・稼働状況・過去実績のデータをAIが分析し、最適な人材配置を提案する。コンサル業務の内部プロセスへのAI組み込みが本格化。",
-      "why_important": "大手コンサルの内部業務へのAI組み込みは、ADiXiの組織オペレーション効率化に直接応用できる参考事例。",
-      "adxi_insight": "プロジェクトチーム編成へのAI活用はADiXiでも近い将来実装可能な施策。人材マネジメントや提案プロセスの効率化に応用し、コンサル品質向上と原価低減を同時に実現できる。",
-      "published_date": "2026-05-01"
-    },
-    {
-      "id": "3a59fff6",
-      "title": "DX銘柄2026選定企業を発表 経済産業省・東証・IPA共同",
-      "source": "経済産業省",
-      "url": "https://www.meti.go.jp/policy/it_policy/investment/keiei_meigara/dx_meigara.html",
-      "category": "policy",
-      "category_label": "政策・規制・デジタル庁",
-      "tier": 1,
-      "score": {
-        "total": 80,
-        "relevance": 35,
-        "impact": 25,
-        "actionability": 20
-      },
-      "summary": "経済産業省・東京証券取引所・IPAが共同でDX推進に優れた上場企業を「DX銘柄2026」として選定・発表。DX経営の好事例として、投資家・市場関係者・競合他社が広く参照するベンチマーク。選定基準は経営戦略とデジタル化の両輪の一体化。",
-      "why_important": "DX銘柄の選定基準・採用企業の取り組みはADiXiが顧客企業に提案するDX戦略のフレームワーク根拠として直接活用できる。",
-      "adxi_insight": "選定企業のDX取り組み内容を分析し、提案事例・成功パターンのライブラリとして整備。「DX銘柄選定支援」という新サービス展開の検討価値もある。",
-      "published_date": "2026-06-05"
-    },
-    {
-      "id": "1954f60b",
-      "title": "AnthropicがOpenAIを抜き最高評価AIスタートアップに、1兆ドル評価に迫る",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html",
-      "category": "ai_llm",
-      "category_label": "AI/LLMモデル・エージェント",
-      "tier": 2,
-      "score": {
-        "total": 65,
-        "relevance": 28,
-        "impact": 22,
-        "actionability": 15
-      },
-      "summary": "AnthropicがOpenAIを抜いて最高評価のAIスタートアップとなり、1兆ドル規模の企業評価に迫っている。IPO申請の動きとも連動し、AI基盤モデル市場の資金調達競争が一段と激化。",
-      "why_important": "AI業界のパワーバランスの変化は、採用するAIサービスの中長期的な安定性・価格動向に影響する。",
-      "adxi_insight": "AIベンダー選定において財務健全性と企業継続性を重視したデューデリジェンスを行う必要がある。Anthropic Claude採用企業はコスト計画の見直しを検討。",
-      "published_date": "2026-05-28"
-    },
-    {
-      "id": "2e169f8e",
-      "title": "AnthropicがEUに最上位モデル「Mythos」を提供 規制準拠のグローバル展開加速",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/01/anthropic-eu-ai-mythos-access-advanced-model.html",
-      "category": "ai_product",
-      "category_label": "AIプロダクト・SaaS",
-      "tier": 2,
-      "score": {
-        "total": 79,
-        "relevance": 32,
-        "impact": 25,
-        "actionability": 22
-      },
-      "summary": "AnthropicがEU向けに最上位モデル「Mythos」を提供すると発表。EU AI Act（AI法）への対応として規制準拠の形でグローバル展開を加速させる戦略で、EUの厳格なAI規制下でも先進モデルを活用できる枠組みを整備。",
-      "why_important": "EU市場向けAIの規制準拠モデルの動向は、日本市場のAI規制対応の参考となる先行事例。",
-      "adxi_insight": "ADiXi顧客向けにAI活用のコンプライアンス体制を構築する際、EUのグッドプラクティスを参照した提案が可能。国内AI規制の強化に先行して対応計画を準備する価値がある。",
-      "published_date": "2026-06-01"
-    },
-    {
-      "id": "7a8f5bd4",
-      "title": "Nvidiaが200兆円CPU市場を狙う AIエージェントPC戦略をMicrosoft・Dell・HPと推進",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
-      "category": "ai_product",
-      "category_label": "AIプロダクト・SaaS",
-      "tier": 2,
-      "score": {
-        "total": 75,
-        "relevance": 30,
-        "impact": 25,
-        "actionability": 20
-      },
-      "summary": "NvidiaがCPU市場参入を宣言し、MicrosoftやDell、HPとともにAIエージェント特化型PCの展開を推進。端末側でAI処理を完結させるエッジAIの普及が加速し、クラウド依存からのシフトが進む。",
-      "why_important": "エンタープライズ向けAIエージェントPC普及は企業IT調達戦略に影響し、ADiXiの顧客向けITインフラ提案を更新する必要がある。",
-      "adxi_insight": "クライアント端末でのAI処理能力向上は、クラウドコスト削減とデータセキュリティ強化の観点から顧客提案に組み込める。エッジAIとクラウドAIのハイブリッド戦略を提案の柱に。",
-      "published_date": "2026-06-01"
-    },
-    {
-      "id": "8f583a1c",
-      "title": "Trump大統領、AI大統領令に署名 政府への最新モデル早期アクセス提供を企業に要求",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/02/trump-executive-order-ai.html",
-      "category": "global_dx",
-      "category_label": "世界のデジタル先進事例",
-      "tier": 2,
-      "score": {
-        "total": 70,
-        "relevance": 28,
-        "impact": 27,
-        "actionability": 15
-      },
-      "summary": "トランプ大統領がAI企業に最新モデルの早期アクセス権を米国政府に提供するよう求める大統領令に署名。国家安全保障と技術競争力の観点からAI規制・活用の枠組みを再定義し、政府とAI企業の連携強化を義務付ける。",
-      "why_important": "米国のAI政策は日本のAI規制・普及に影響する先行指標であり、ガバメントAIの参考事例として日本の政策立案者も注視している。",
-      "adxi_insight": "政府とAI企業の協調モデルは日本の行政DXにも応用可能。ADiXiが官公庁向け提案を組み立てる際のグローバル文脈として活用し、提案の説得力を高められる。",
-      "published_date": "2026-06-02"
-    },
-    {
-      "id": "519087b6",
-      "title": "Japan's an AI Laggard. That Could Be Its Edge（日本のAI遅れは優位になりうる）",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/opinion/articles/2026-05-24/japan-s-an-ai-laggard-that-could-be-its-edge",
-      "category": "dx_private",
-      "category_label": "DX成功/失敗事例（民間）",
-      "tier": 2,
-      "score": {
-        "total": 74,
-        "relevance": 32,
-        "impact": 22,
-        "actionability": 20
-      },
-      "summary": "Bloombergが日本のAI導入の遅れを逆手に取った可能性を分析。他国の先行事例・失敗から学ぶ「遅れ者の優位」として、慎重で着実なAI導入が日本の強みになり得るとの論考。過剰な期待を持たずに本質的な価値創出に集中できる好機とも言える。",
-      "why_important": "日本市場を主戦場とするADiXiにとって、日本のAI競争力の文脈を理解することは顧客への説得力ある提案に不可欠。",
-      "adxi_insight": "「慎重かつ着実なAI活用」を推進するADiXiのアプローチを日本市場特性に合った強みとして対外メッセージに組み込み、焦りでなく本質的成果を重視する顧客層を獲得できる。",
-      "published_date": "2026-05-24"
-    },
-    {
-      "id": "3cde204e",
-      "title": "2026年前半の最悪のハック・データ漏洩まとめ（TechCrunch）",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/03/the-worst-hacks-and-breaches-of-2026-so-far/",
-      "category": "security",
-      "category_label": "サイバーセキュリティ",
       "tier": 2,
       "score": {
         "total": 77,
@@ -287,113 +37,37 @@
         "impact": 25,
         "actionability": 22
       },
-      "summary": "TechCrunchが2026年前半の重大なサイバー攻撃・データ漏洩をまとめた速報記事。ランサムウェア、サプライチェーン攻撃、AI悪用事例など多様な脅威が続発しており、企業のセキュリティ対策の優先度が一段と高まっている。",
-      "why_important": "顧客企業のセキュリティリスク管理支援を提供するADiXiにとって、直近の脅威動向把握は提案の根拠として不可欠。",
-      "adxi_insight": "2026年上半期の脅威事例を顧客へのセキュリティ啓発資料に活用。特にAI悪用事例はAIリスク管理フレームワーク提案に組み込める新素材。",
-      "published_date": "2026-06-03"
+      "summary": "モデルルーティング技術がAI過剰支出の解決策として注目され、企業がOpenAIやAnthropicの高コストモデルを必要な場面だけに限定する流れが加速している。コスト削減幅は最大30〜70%とされ、ベンダーの収益モデルを直撃する可能性がある。AI予算の最適化がエンタープライズ導入の主要議題になりつつある。",
+      "why_important": "モデルルーティングによりAIコスト30〜70%削減が可能となり、企業のAI予算最適化が急務の課題に",
+      "adxi_insight": "大手AIベンダー依存脱却のコンサルサービスとしてモデルルーティング導入支援が新たな収益機会。AI予算最適化をフックにした案件創出がADiXiの当面の営業テーマになりうる",
+      "published_date": "2026-06-05"
     },
     {
-      "id": "fe212dea",
-      "title": "Microsoftがセキュリティ研究者を刑事告発で脅したとして批判を受ける",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/29/microsoft-under-fire-for-threatening-security-researcher-with-criminal-investigation/",
-      "category": "security",
-      "category_label": "サイバーセキュリティ",
+      "id": "ai_llm_003",
+      "title": "Microsoft unveils new AI models to lessen reliance on OpenAI and lower costs for developers",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html",
+      "category": "ai_llm",
+      "category_label": "AI/LLMモデル・エージェント",
       "tier": 2,
       "score": {
-        "total": 60,
-        "relevance": 25,
-        "impact": 20,
-        "actionability": 15
-      },
-      "summary": "Microsoftがセキュリティ脆弱性を公表した研究者を刑事告発で脅したとして批判を受けている。企業のバグバウンティポリシーと責任ある脆弱性開示の倫理的問題が業界全体で議論されている。",
-      "why_important": "Microsoftサービスを採用する顧客企業のセキュリティポリシー評価に関わる問題。",
-      "adxi_insight": "Microsoft製品・サービスを推奨する際、セキュリティポリシーの透明性を顧客に説明できる知識として把握。ベンダー選定のリスク評価項目に加えるべき観点。",
-      "published_date": "2026-05-29"
-    },
-    {
-      "id": "d4f86efc",
-      "title": "米AIアンソロピック、IPO申請と発表 160兆円規模で上場へ",
-      "source": "日本経済新聞",
-      "url": "https://www.nikkei.com/article/DGXZQOGN01BFE0R00C26A6000000/",
-      "category": "funding",
-      "category_label": "資金調達・M&A・IPO",
-      "tier": 2,
-      "score": {
-        "total": 75,
-        "relevance": 30,
+        "total": 77,
+        "relevance": 32,
         "impact": 25,
         "actionability": 20
       },
-      "summary": "AnthropicがIPOを申請し、約160兆円規模の上場を目指すと発表。AI基盤モデル企業の史上最大規模IPOとなる見込みで、AI業界への資金流入が一段と加速する見通し。",
-      "why_important": "AnthropicのIPOはAI業界の資金調達構造を変え、AI基盤モデルの競争と価格体系に中長期的な影響を与える。",
-      "adxi_insight": "AIモデル選定において長期的な供給安定性・価格動向を考慮した戦略が必要。Anthropic Claudeを活用する顧客は契約・コスト計画の見直しを推奨。",
-      "published_date": "2026-06-01"
+      "summary": "MicrosoftがOpenAIへの依存を低減する自社AIモデル群を新たに発表し、Azure上でのAI開発コストを引き下げた。開発者向けの選択肢が拡大し、Microsoft Azureプラットフォームの競争力が一段と高まる。エンタープライズAI導入の費用対効果が改善される見通しだ。",
+      "why_important": "MicrosoftがOpenAI依存を低減する自社AIモデルを投入、Azureベースのシステム開発コストが大きく改善",
+      "adxi_insight": "ADiXiがMicrosoftエコシステムで提案するAI案件においてコスト競争力が向上する追い風。Azure AIを軸にした案件でROIシミュレーションの数字が改善でき、顧客説得力が上がる",
+      "published_date": "2026-06-02"
     },
     {
-      "id": "5ed006f7",
-      "title": "Nvidia出資のロボティクスAIスタートアップ「Generalist AI」が20億ドル評価",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-04/nvidia-backed-robotics-startup-generalist-ai-valued-at-2-billion",
-      "category": "funding",
-      "category_label": "資金調達・M&A・IPO",
-      "tier": 2,
-      "score": {
-        "total": 63,
-        "relevance": 28,
-        "impact": 20,
-        "actionability": 15
-      },
-      "summary": "Nvidiaが出資するロボティクスAIスタートアップ「Generalist AI」が20億ドルの評価額で資金調達を完了。物理AIとロボティクスの融合が産業オートメーション市場の次の波として大規模投資を集めている。",
-      "why_important": "ロボティクス×AI領域への大規模投資は製造業DXの加速を示し、ADiXiの将来の事業領域として把握が必要。",
-      "adxi_insight": "産業オートメーションとAI融合の事例を中期的な提案領域として研究開始を検討。製造業顧客への長期DX提案の種になる可能性がある。",
-      "published_date": "2026-06-04"
-    },
-    {
-      "id": "1a940d05",
-      "title": "eID in the Age of AI Agents: Estonia's Next Leap（AIエージェント時代のeID：エストニアの次の跳躍）",
-      "source": "e-estonia.com",
-      "url": "https://e-estonia.com/eid-in-the-age-of-ai-agents-estonias-next-leap/",
-      "category": "global_dx",
-      "category_label": "世界のデジタル先進事例",
-      "tier": 3,
-      "score": {
-        "total": 76,
-        "relevance": 32,
-        "impact": 22,
-        "actionability": 22
-      },
-      "summary": "デジタル先進国エストニアが、AIエージェント時代に対応したeID（電子ID）システムの進化について解説。AIエージェントが市民の代理として行政手続きを自律的に実行できる認証基盤の構築を推進している。",
-      "why_important": "エストニアのeID×AIエージェント統合は、日本のマイナンバーを活用した行政DXの参考となる最先端の実装事例。",
-      "adxi_insight": "ADiXiの自治体向けDX提案において、エストニアモデルを参照した「AIエージェント対応型行政基盤」の将来像を提示することで提案の格を上げられる。",
-      "published_date": null
-    },
-    {
-      "id": "fcbda7d2",
-      "title": "マスク氏のスペースX、750億ドル規模のIPO計画を開示 史上最大へ",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/jp/news/articles/2026-06-03/TG2PFHT9NJLZ00",
-      "category": "funding",
-      "category_label": "資金調達・M&A・IPO",
-      "tier": 3,
-      "score": {
-        "total": 52,
-        "relevance": 20,
-        "impact": 22,
-        "actionability": 10
-      },
-      "summary": "SpaceXが750億ドル規模のIPOを計画していると報道。テック系スタートアップのIPO活況を示す象徴的なニュースだが、ADiXiの主業務との直接関連度は低い。",
-      "why_important": "テック市場全体のIPO活況が示すリスクオン環境は、AI関連スタートアップへの投資雰囲気を反映している。",
-      "adxi_insight": "スタートアップエコシステムの活況を顧客への市場動向説明に活用。ADiXiが連携するAIベンダーへの資金流入状況確認の文脈として参照。",
-      "published_date": "2026-06-03"
-    },
-    {
-      "id": "1c681e33",
-      "title": "ITサービス（SIer）の業界地図2026 DXは継続、AI活用の新需要を",
-      "source": "日経クロステック",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03426/121100006/",
-      "category": "it_consul",
-      "category_label": "ITコンサル・SI業界動向",
+      "id": "ai_llm_004",
+      "title": "新モデル「Gemini 3.5 Flash」や常時駆動のAIエージェント、スマートグラスも登場――「Google I/O 2026」の発表まとめ",
+      "source": "Impress Watch（ケータイWatch）",
+      "url": "https://k-tai.watch.impress.co.jp/docs/news/2110111.html",
+      "category": "ai_llm",
+      "category_label": "AI/LLMモデル・エージェント",
       "tier": 3,
       "score": {
         "total": 70,
@@ -401,75 +75,555 @@
         "impact": 22,
         "actionability": 18
       },
-      "summary": "日経クロステックがITサービス・SIer業界の2026年版業界地図を公開。DX需要は継続しつつも、AI活用の新需要が既存SIer事業の変革を迫っている構図を分析。主要SIerの戦略方向性と市場変化を俯瞰。",
-      "why_important": "ADiXiが競合するSIer業界全体のトレンドを把握し、差別化ポジションを再確認するために有用な業界俯瞰資料。",
-      "adxi_insight": "SIer業界地図を参照し、ADiXiが戦うべき細分化された市場セグメントと競合他社のポジションを明確化することで、営業・提案戦略を精緻化できる。",
+      "summary": "Google I/O 2026でGemini 3.5 Flashの新モデル、常時駆動AIエージェント、AIスマートグラスが発表された。常時起動型エージェントは業務自動化における重要な技術トレンドであり、Google製品のエコシステム拡大が加速している。Geminiの高速軽量モデルは企業のAIコスト削減にも直結する可能性がある。",
+      "why_important": "Google I/O 2026でエージェント常時起動やGemini 3.5 Flashが発表、AI活用の幅が大きく広がった",
+      "adxi_insight": "GoogleのエージェントAI進化によりGoogle Workspaceベースの業務自動化案件提案に新たな技術オプションが加わる",
       "published_date": null
+    },
+    {
+      "id": "it_consul_001",
+      "title": "Google Unveils $750 Million Fund to Help Consultants Deploy AI Solutions",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-22/google-launches-750-million-fund-for-consultants-to-adopt-ai",
+      "category": "it_consul",
+      "category_label": "ITコンサル・SI業界動向",
+      "tier": 1,
+      "score": {
+        "total": 85,
+        "relevance": 38,
+        "impact": 22,
+        "actionability": 25
+      },
+      "summary": "GoogleがコンサルタントのAI導入支援を目的とした7億5千万ドル（約1,100億円）のファンドを設立。SI・コンサル企業がAIソリューションを展開する際の技術支援や資金支援を提供する。ITコンサル業界のAI事業加速を後押しする大型投資だ。",
+      "why_important": "GoogleがコンサルへのAI展開支援に$750M投資、SI/コンサル企業のAI事業が大きく後押しされる",
+      "adxi_insight": "ADiXiがGoogleクラウドのAIパートナーとして認定を受けることで、この支援ファンドの対象になりうる。Google Cloudパートナーシップの強化を優先的に検討すべき",
+      "published_date": "2026-04-22"
+    },
+    {
+      "id": "it_consul_002",
+      "title": "生成AIで「開発生産性50％向上」と大手SIer、そして事業モデルは瓦解する",
+      "source": "日経クロステック",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00849/00178/",
+      "category": "it_consul",
+      "category_label": "ITコンサル・SI業界動向",
+      "tier": 3,
+      "score": {
+        "total": 90,
+        "relevance": 40,
+        "impact": 25,
+        "actionability": 25
+      },
+      "summary": "大手SIerが生成AIの活用により開発生産性を50%向上させた一方、従来型の人月課金モデルが根本から崩壊しつつある実態が報告されている。AIで生産性が上がれば上がるほど工数ベースの売上が減少するジレンマに直面している。SIer各社はAI活用の成果報酬型への移行や新たな付加価値サービスの開発を迫られている。",
+      "why_important": "SIerが生成AIで50%生産性向上を実現する一方で人月ビジネスが崩壊、ADiXiの事業モデルに直結する構造変化",
+      "adxi_insight": "ADiXiは付加価値型コンサルへの移行を急ぐ必要があり、AIによる生産性向上をコスト削減ではなくアウトカム提供の原資として再定義する戦略が急務",
+      "published_date": null
+    },
+    {
+      "id": "it_consul_003",
+      "title": "大規模システム障害やサイバー被害を受け「守りのIT」への投資増加か──IT投資動向調査2026解説",
+      "source": "EnterpriseZine",
+      "url": "https://enterprisezine.jp/news/detail/23234",
+      "category": "it_consul",
+      "category_label": "ITコンサル・SI業界動向",
+      "tier": 3,
+      "score": {
+        "total": 77,
+        "relevance": 35,
+        "impact": 20,
+        "actionability": 22
+      },
+      "summary": "2026年のIT投資動向調査で、大規模システム障害やサイバー攻撃被害を受けて「守りのIT」への投資が増加傾向にあることが明らかになった。攻め（DX推進）と守り（セキュリティ・安定性強化）のバランスが企業のIT予算配分において重要テーマとなっている。コンサルへの需要が「変革」から「安定化・防御」にシフトしつつある兆候がある。",
+      "why_important": "2026年IT投資動向でセキュリティ・安定化への予算シフトが顕在化、コンサル需要の内容が変わりつつある",
+      "adxi_insight": "ADiXiの提案にセキュリティ強化・システム安定化のメニューを強化することで、守りのIT予算からの受注機会を取り込める",
+      "published_date": null
+    },
+    {
+      "id": "policy_001",
+      "title": "DX銘柄2026選定企業発表会／DXグランプリ2026・DX注目企業2026・DXプラチナ企業2026-2028選定",
+      "source": "経済産業省（METI）",
+      "url": "https://www.meti.go.jp/policy/it_policy/investment/keiei_meigara/dx_meigara.html",
+      "category": "policy",
+      "category_label": "政策・規制・デジタル庁",
+      "tier": 1,
+      "score": {
+        "total": 85,
+        "relevance": 35,
+        "impact": 25,
+        "actionability": 25
+      },
+      "summary": "経産省と東証が「DX銘柄2026」を発表。DXグランプリ3社、DX注目企業、DXプラチナ企業2026〜2028が選定された。デジタル変革で経営改革を実現した上場企業の先進事例が公式に認定される国内最高権威のDX評価制度だ。",
+      "why_important": "DX銘柄2026が本日発表、グランプリ企業の手法が業界のベンチマークとなり市場の注目が集まる",
+      "adxi_insight": "DX銘柄選定企業は事例参照先として、未選定の競合上場企業はADiXiの営業ターゲットとして活用できる。選定基準を用いたDX成熟度診断サービスの提案機会が生まれる",
+      "published_date": "2026-06-05"
+    },
+    {
+      "id": "policy_002",
+      "title": "第5回 DX推進関係府省庁タスクフォース会合（2026年6月3日）",
+      "source": "デジタル庁（digital.go.jp）",
+      "url": "https://www.digital.go.jp/en/councils/social-promotion-executive/ae866c14-3ed0-4b12-bdf8-db16c4fdc858",
+      "category": "policy",
+      "category_label": "政策・規制・デジタル庁",
+      "tier": 2,
+      "score": {
+        "total": 68,
+        "relevance": 28,
+        "impact": 22,
+        "actionability": 18
+      },
+      "summary": "デジタル庁主導の「DX推進関係府省庁タスクフォース」第5回会合が6月3日に開催された。各府省庁のDX実行状況の確認と今後の推進施策が議論されており、政府全体のデジタル化加速に向けた政策調整が続いている。官公庁向けDX案件に直接影響する政策意思決定の場だ。",
+      "why_important": "政府DX推進タスクフォース第5回会合が開催、官公庁DX施策の方向性が具体化されつつある",
+      "adxi_insight": "タスクフォースの議事録・資料は官公庁向けDX提案の方針立案に直接活用できる。次回会合や施策発表のタイミングを商機として捉えた営業活動が有効",
+      "published_date": "2026-06-03"
+    },
+    {
+      "id": "policy_003",
+      "title": "デジタル大臣記者会見（2026年6月5日）",
+      "source": "デジタル庁（digital.go.jp）",
+      "url": "https://www.digital.go.jp/en/speech/minister-260605-01",
+      "category": "policy",
+      "category_label": "政策・規制・デジタル庁",
+      "tier": 2,
+      "score": {
+        "total": 60,
+        "relevance": 25,
+        "impact": 20,
+        "actionability": 15
+      },
+      "summary": "本日開催されたデジタル大臣の定例記者会見でデジタル政策の最新状況が示された。マイナアプリやガバメントAI、自治体DX支援など直近の取り組みについて説明がなされた。政府のデジタル政策の方向性を公式に確認できる一次ソースとして価値が高い。",
+      "why_important": "デジタル大臣本日会見でのDX・AI政策発言が今後の官公庁向け施策方針を示す公式シグナル",
+      "adxi_insight": "会見内容から官公庁DX案件の優先施策テーマを把握し、ADiXiの提案書の方向性調整に活用すること",
+      "published_date": "2026-06-05"
+    },
+    {
+      "id": "policy_004",
+      "title": "マイナアプリのアプリアイコンを公開しました（2026年夏頃より提供予定）",
+      "source": "デジタル庁（services.digital.go.jp）",
+      "url": "https://services.digital.go.jp/mynaapp/news/20260605-01/",
+      "category": "policy",
+      "category_label": "政策・規制・デジタル庁",
+      "tier": 3,
+      "score": {
+        "total": 55,
+        "relevance": 22,
+        "impact": 18,
+        "actionability": 15
+      },
+      "summary": "デジタル庁がマイナアプリのアプリアイコンを公開し、2026年夏頃の提供開始に向けた準備が進んでいることを発表した。マイナンバーカードのデジタル化を加速するマイナアプリは、行政手続きのオンライン化の核心となるサービスだ。民間サービスとの連携機会拡大も期待される。",
+      "why_important": "マイナアプリが夏頃提供開始へ、デジタル身分証明の普及加速が行政DXの次フェーズを開く",
+      "adxi_insight": "マイナアプリ連携を前提とした行政デジタル化案件の商機が今夏以降に本格化する。早期の提案準備が重要",
+      "published_date": "2026-06-05"
+    },
+    {
+      "id": "global_dx_001",
+      "title": "Bipartisan 'Great American AI Act' draft proposes new federal AI governance framework",
+      "source": "FedScoop",
+      "url": "https://fedscoop.com/bipartisan-great-american-ai-act-draft-proposes-new-federal-ai-governance-framework/",
+      "category": "global_dx",
+      "category_label": "世界のデジタル先進事例",
+      "tier": 2,
+      "score": {
+        "total": 65,
+        "relevance": 25,
+        "impact": 22,
+        "actionability": 18
+      },
+      "summary": "米国で超党派の「Great American AI Act」草案が提示され、新たな連邦AIガバナンスの枠組みが提案された。AIの安全基準、透明性要件、政府調達ルールなどを包括的に規定する内容で、企業のAI導入方針に影響を与える可能性がある。EU AI法に続く主要国の規制整備が日本の政策立案にも示唆を与える。",
+      "why_important": "米国の超党派AI規制法案が具体化、EU・米国・日本の規制トライアングルが形成されつつある",
+      "adxi_insight": "AI governance frameworkの国際比較資料を整備し、クライアントへのリスク管理・コンプライアンス提案に活用できる",
+      "published_date": "2026-06-01"
+    },
+    {
+      "id": "global_dx_002",
+      "title": "Estonia is at the top of the UN e-government ranking",
+      "source": "e-Estonia",
+      "url": "https://e-estonia.com/estonia-is-at-the-top-of-the-un-e-government-ranking/",
+      "category": "global_dx",
+      "category_label": "世界のデジタル先進事例",
+      "tier": 3,
+      "score": {
+        "total": 61,
+        "relevance": 28,
+        "impact": 18,
+        "actionability": 15
+      },
+      "summary": "エストニアがUN（国連）の電子政府ランキングで首位となった。X-Roadデータ連携基盤やデジタルIDを軸にした行政デジタル化の先進モデルが国際的に再評価された形だ。日本の自治体DX推進における参照モデルとして継続的に注目される事例だ。",
+      "why_important": "エストニアが国連電子政府ランキング首位、日本の自治体DXが目指すべきベンチマークが更新された",
+      "adxi_insight": "自治体DX提案書においてエストニアの具体的KPI（行政手続きのオンライン化率99%等）を引用し、日本の現状とのギャップ分析を提示することで提案説得力が高まる",
+      "published_date": null
+    },
+    {
+      "id": "global_dx_003",
+      "title": "The US government is headed for disruptive digital transformation in 2026",
+      "source": "FedScoop",
+      "url": "https://fedscoop.com/federal-government-digital-transformation-2026/",
+      "category": "global_dx",
+      "category_label": "世界のデジタル先進事例",
+      "tier": 3,
+      "score": {
+        "total": 58,
+        "relevance": 25,
+        "impact": 18,
+        "actionability": 15
+      },
+      "summary": "米国政府が2026年に破壊的なデジタル変革を迎えるという予測が示された。DOGE（政府効率化省）主導の行政スリム化とAI活用が合わさり、連邦政府のデジタル化が急速に進んでいる。日本の行政DXにも参考となる大規模な政府改革の動向だ。",
+      "why_important": "米国政府のDX加速が日本の行政デジタル化政策に示唆する先進モデルとして注目",
+      "adxi_insight": "米国のDOGE型行政効率化アプローチを日本の地方自治体・省庁向け提案にアダプトする事例研究として活用できる",
+      "published_date": null
+    },
+    {
+      "id": "ai_product_001",
+      "title": "Anthropic and OpenAI are both launching joint ventures for enterprise AI services",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/",
+      "category": "ai_product",
+      "category_label": "AIプロダクト・SaaS",
+      "tier": 1,
+      "score": {
+        "total": 88,
+        "relevance": 38,
+        "impact": 28,
+        "actionability": 22
+      },
+      "summary": "AnthropicとOpenAIがそれぞれエンタープライズAIサービスの合弁会社を立ち上げることを発表した。AIベンダーが大企業向けの直接実装・統合サービスに乗り出すことで、従来のSI・コンサル企業の役割に大きな影響が生じる可能性がある。エンタープライズAI市場の競争構造が根本から変わる転換点だ。",
+      "why_important": "AnthropicとOpenAIが企業向けAIサービスの直販JVを設立、SIer・コンサルの競合が直接AIベンダーになる時代が到来",
+      "adxi_insight": "AIベンダーの直販強化に対抗するため、ADiXiは業界特化・組織変革・ガバナンスなどAIベンダーが手を出せない高付加価値領域への集中が急務",
+      "published_date": "2026-05-04"
+    },
+    {
+      "id": "ai_product_002",
+      "title": "ServiceNowとAccenture、エージェント型AIを全社展開する「FDE（Full Digital Enterprise）」を開始",
+      "source": "ITmedia",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2606/04/news024.html",
+      "category": "ai_product",
+      "category_label": "AIプロダクト・SaaS",
+      "tier": 1,
+      "score": {
+        "total": 87,
+        "relevance": 40,
+        "impact": 22,
+        "actionability": 25
+      },
+      "summary": "ServiceNowとAccentureが共同でエージェント型AIを企業全体に展開する「Full Digital Enterprise（FDE）」フレームワークを開始した。単一ツールの導入を超え、プラットフォーム全体でAIエージェントが協調動作する次世代DXモデルを実証。コンサル×プラットフォームの融合による新しいサービス形態が確立されつつある。",
+      "why_important": "AccentureとServiceNowが全社AIエージェント展開モデルを確立、コンサル×プラットフォームの融合サービスが本格化",
+      "adxi_insight": "ADiXiも特定プラットフォーム（ServiceNow/Microsoft/SAP）を軸にエージェントAI展開パッケージを構築し、FDE型の包括提案を開発することで大企業案件の受注機会が広がる",
+      "published_date": "2026-06-04"
+    },
+    {
+      "id": "ai_product_003",
+      "title": "Glean's top line crosses $300M as AI budget cutting becomes its major selling point",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/",
+      "category": "ai_product",
+      "category_label": "AIプロダクト・SaaS",
+      "tier": 2,
+      "score": {
+        "total": 68,
+        "relevance": 30,
+        "impact": 20,
+        "actionability": 18
+      },
+      "summary": "エンタープライズAI検索のGleanが年間収益3億ドルを突破し、AI予算の削減ツールとして急成長している。AIを使いながらもAIコストを削減するという逆説的なポジショニングが企業に刺さっている。AI ROI改善ツールへの需要が高まっているトレンドを象徴する事例だ。",
+      "why_important": "AI予算削減ツールGleanが$300M突破、企業のAI ROI改善への需要が市場トレンドとして確立",
+      "adxi_insight": "ADiXiのクライアントへのAI投資最適化コンサルの切り口として、Glean等のAI ROI改善ツールの選定・導入支援メニューを整備する価値がある",
+      "published_date": "2026-05-28"
+    },
+    {
+      "id": "ai_product_004",
+      "title": "SaaSの死、セールスフォースはどう見る 「AIは我々を代替できない」",
+      "source": "日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOUC307N10Q6A330C2000000/",
+      "category": "ai_product",
+      "category_label": "AIプロダクト・SaaS",
+      "tier": 3,
+      "score": {
+        "total": 72,
+        "relevance": 32,
+        "impact": 22,
+        "actionability": 18
+      },
+      "summary": "SaaS市場がAIエージェントによって代替される「SaaSの死」論が浮上する中、Salesforceが独自の見解を示した。AIはSaaSを補完するものであり代替しないとの立場を表明しつつも、AgentforceなどAI機能の統合を急いでいる。既存SaaS市場の再編がAIによって加速している。",
+      "why_important": "SaaS市場のAIによる再編が本格化、Salesforceのポジション変化はCRM・ERP分野の将来に示唆",
+      "adxi_insight": "クライアントの既存SaaS投資の価値と今後のAIエージェント移行タイミングについて、具体的なロードマップ提案ができるコンサルの需要が高まっている",
+      "published_date": null
+    },
+    {
+      "id": "dx_private_001",
+      "title": "グランプリ3社を含む「DX銘柄2026」30社を発表、プラチナ企業2社も選定",
+      "source": "ITmedia（MONOist）",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2604/28/news018.html",
+      "category": "dx_private",
+      "category_label": "DX成功/失敗事例（民間）",
+      "tier": 1,
+      "score": {
+        "total": 85,
+        "relevance": 35,
+        "impact": 25,
+        "actionability": 25
+      },
+      "summary": "経産省・東証が「DX銘柄2026」30社を発表し、グランプリ3社とDXプラチナ企業2社を選定した。製造業・金融・流通など幅広い業種からDXで経営変革を実現した企業が認定された。各社の具体的なDX戦略・技術・成果が公開されており、日本企業のDX成功事例の集大成となっている。",
+      "why_important": "DX銘柄2026の30社が確定、業種別DX先進企業の手法とKPIが明らかになった",
+      "adxi_insight": "DX銘柄企業の事例分析から実証済みDX手法を抽出し、同業種の非選定企業へのADiXi提案に落とし込むことで具体性と説得力を高められる",
+      "published_date": "2026-04-28"
+    },
+    {
+      "id": "dx_private_002",
+      "title": "「日本DX大賞2026」ファイナリスト24社発表、6月に公開プレゼン審査 自治体から大手企業まで集う",
+      "source": "EnterpriseZine",
+      "url": "https://enterprisezine.jp/news/detail/24338",
+      "category": "dx_private",
+      "category_label": "DX成功/失敗事例（民間）",
+      "tier": 2,
+      "score": {
+        "total": 74,
+        "relevance": 32,
+        "impact": 20,
+        "actionability": 22
+      },
+      "summary": "「日本DX大賞2026」のファイナリスト24社が発表された。自治体から大手企業まで多様な組織のDX成功事例が揃い、6月の公開プレゼン審査で最終受賞者が決まる。日本のDX先進事例を網羅的に把握できる貴重な機会だ。",
+      "why_important": "日本DX大賞ファイナリスト24社が6月に公開プレゼン、日本最新のDX優良事例が集結する",
+      "adxi_insight": "公開プレゼン参加で最新DX事例を収集し、ADiXiのサービス開発と営業活動の素材として活用できる。ファイナリスト企業との接点構築も商機になりうる",
+      "published_date": "2026-05-20"
+    },
+    {
+      "id": "dx_gov_001",
+      "title": "予算資料作成など府省庁500業務に自律型AI活用 政府、26年度から",
+      "source": "日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOUA061NI0W6A500C2000000/",
+      "category": "dx_gov",
+      "category_label": "DX成功/失敗事例（官公庁）",
+      "tier": 1,
+      "score": {
+        "total": 88,
+        "relevance": 35,
+        "impact": 28,
+        "actionability": 25
+      },
+      "summary": "日本政府が2026年度から府省庁の500業務に自律型AIを導入することを決定した。予算資料作成や審査業務など定型・半定型業務へのAI適用が本格化し、行政の生産性革命が始まる。政府のAI導入実績は地方自治体へのDX波及効果が大きく、市場全体を牽引する転換点となる。",
+      "why_important": "政府が2026年度から府省庁500業務に自律型AIを本格導入、官公庁DXの規模と速度が一段と拡大",
+      "adxi_insight": "官公庁向けAI業務自動化案件の需要が一気に拡大する。ADiXiは省庁でのAI適用業務設計・実装支援で参入余地が大きく、実績構築を急ぐべき",
+      "published_date": "2026-05-06"
+    },
+    {
+      "id": "dx_gov_002",
+      "title": "中小企業診断士登録・管理におけるオンライン手続きの開始（2026年6月）について",
+      "source": "経済産業省（中小企業庁）",
+      "url": "https://www.chusho.meti.go.jp/shindanshi/shindanshi_online.html",
+      "category": "dx_gov",
+      "category_label": "DX成功/失敗事例（官公庁）",
+      "tier": 3,
+      "score": {
+        "total": 50,
+        "relevance": 20,
+        "impact": 15,
+        "actionability": 15
+      },
+      "summary": "中小企業庁が2026年6月より中小企業診断士の登録・管理手続きをオンライン化した。行政手続きデジタル化の一環として、専門資格の管理業務でも電子化が進んでいる。マイナポータルや行政オンライン化の着実な進展を示す事例だ。",
+      "why_important": "中小企業診断士の行政手続きがオンライン化、専門資格管理での行政DX拡大が続く",
+      "adxi_insight": "業種・資格別の行政手続きデジタル化ニーズは全国的に残っており、自治体向けDX支援の具体的な業務領域として提案に組み込める",
+      "published_date": "2026-06-01"
+    },
+    {
+      "id": "dx_gov_003",
+      "title": "2026年にもマイナカード刷新、デジタル庁のガバナンスとトラブル対応力に課題",
+      "source": "日経クロステック",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/08096/",
+      "category": "dx_gov",
+      "category_label": "DX成功/失敗事例（官公庁）",
+      "tier": 3,
+      "score": {
+        "total": 68,
+        "relevance": 28,
+        "impact": 22,
+        "actionability": 18
+      },
+      "summary": "2026年にマイナンバーカードの大幅刷新が予定される中、デジタル庁のガバナンス体制とトラブル発生時の対応力に課題があるとの分析が示された。大規模な国民向けデジタルインフラの運用・移行リスク管理が問われている。官公庁DXにおける品質・安定性確保の重要性が改めて認識されている。",
+      "why_important": "マイナカード刷新プロジェクトでデジタル庁のガバナンス課題が露呈、官公庁DXの品質管理強化が急務",
+      "adxi_insight": "ADiXiは官公庁DX案件においてリスク管理・品質保証・PMO支援を強みとして打ち出すことで、DX推進力を持ちながらガバナンスに不安を持つ官公庁クライアントを獲得できる",
+      "published_date": null
+    },
+    {
+      "id": "security_001",
+      "title": "Ransomware hackers claim breach at Foxconn, a major electronics manufacturer for Apple, Google, and Nvidia",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/13/ransomware-hackers-claim-breach-at-foxconn-a-major-electronics-manufacturer-for-apple-google-and-nvidia/",
+      "category": "security",
+      "category_label": "サイバーセキュリティ",
+      "tier": 2,
+      "score": {
+        "total": 75,
+        "relevance": 25,
+        "impact": 28,
+        "actionability": 22
+      },
+      "summary": "ランサムウェア攻撃グループがApple・Google・Nvidiaの主要製造委託先であるFoxconnへの侵害を主張した。大手電子機器製造業のサプライチェーン全体にサイバーリスクが広がっていることが改めて示された。製造業のOT（運用技術）セキュリティとサプライチェーンリスク管理の重要性が高まっている。",
+      "why_important": "Foxconnへのランサムウェア侵害でグローバル製造業サプライチェーンのサイバーリスクが改めて顕在化",
+      "adxi_insight": "製造業クライアントへのサプライチェーンセキュリティ評価と対策提案のフックとして活用できる。OTセキュリティの専門知識を持つパートナーとの連携も検討価値あり",
+      "published_date": "2026-05-13"
+    },
+    {
+      "id": "security_002",
+      "title": "コタ[4923]：サイバー攻撃によるシステム障害発生のお知らせ（第４報）",
+      "source": "日本経済新聞（適時開示）",
+      "url": "https://www.nikkei.com/nkd/disclosure/tdnr/20260604563541/",
+      "category": "security",
+      "category_label": "サイバーセキュリティ",
+      "tier": 2,
+      "score": {
+        "total": 65,
+        "relevance": 25,
+        "impact": 18,
+        "actionability": 22
+      },
+      "summary": "上場企業コタ（4923）がサイバー攻撃によるシステム障害の第4報を開示した。継続的なインシデント対応と情報開示が求められており、中堅上場企業のセキュリティ対応力の限界が露わになっている。東証上場企業へのサイバー攻撃が継続している現状を示す直近事例だ。",
+      "why_important": "中堅上場企業コタへのサイバー攻撃が継続中、中堅企業のセキュリティ対応力不足が改めて問題化",
+      "adxi_insight": "中堅上場企業へのサイバーセキュリティ強化コンサル需要を喚起する事例。IR・開示対応を含むインシデント対応支援メニューが有効な提案になる",
+      "published_date": "2026-06-05"
+    },
+    {
+      "id": "security_003",
+      "title": "Hackers steal students' data during breach at education tech giant Instructure",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/05/hackers-steal-students-data-during-breach-at-education-tech-giant-instructure/",
+      "category": "security",
+      "category_label": "サイバーセキュリティ",
+      "tier": 2,
+      "score": {
+        "total": 60,
+        "relevance": 20,
+        "impact": 22,
+        "actionability": 18
+      },
+      "summary": "教育テクノロジー大手InstructureがハッカーにStudent（学生）データを窃取された。教育機関や公共サービス分野でのデータ保護ニーズが改めて注目される事例だ。クラウドSaaSへの個人情報集約リスクとサプライヤーセキュリティ評価の重要性を示している。",
+      "why_important": "教育テックInstructureで学生データ大量漏洩、SaaS経由の個人情報侵害リスクが拡大",
+      "adxi_insight": "教育機関・自治体向けのクラウドサービス利用時のセキュリティ評価フレームワーク提案に活用できる国際事例",
+      "published_date": "2026-05-05"
+    },
+    {
+      "id": "funding_001",
+      "title": "米AIアンソロピック、IPO申請と発表 160兆円規模で上場へ",
+      "source": "日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOGN01BFE0R00C26A6000000/",
+      "category": "funding",
+      "category_label": "資金調達・M&A・IPO",
+      "tier": 1,
+      "score": {
+        "total": 80,
+        "relevance": 30,
+        "impact": 30,
+        "actionability": 20
+      },
+      "summary": "AI企業Anthropicが株式上場（IPO）申請を発表し、約160兆円規模での上場を目指すことが明らかになった。OpenAIに先行したAnthropicのIPOはAI産業の成熟と機関投資家資金の本格流入を示す歴史的な出来事だ。Claude APIの価格・可用性に今後影響が出る可能性がある。",
+      "why_important": "AnthropicがIPO申請、160兆円規模の上場はAI主要プロバイダーの商業的成熟を示す歴史的節目",
+      "adxi_insight": "AI主要プロバイダーの上場によりサービスの安定性と価格動向が変わる可能性がある。ADiXiのAI活用提案でのベンダーリスク評価を見直すタイミング",
+      "published_date": "2026-06-01"
+    },
+    {
+      "id": "funding_002",
+      "title": "DeepSeek、1兆円超の資金調達で最終段階――中国AIスタートアップで最大級",
+      "source": "Bloomberg（日本語版）",
+      "url": "https://www.bloomberg.com/jp/news/articles/2026-06-03/TG1WC0KJH6V800",
+      "category": "funding",
+      "category_label": "資金調達・M&A・IPO",
+      "tier": 2,
+      "score": {
+        "total": 71,
+        "relevance": 28,
+        "impact": 28,
+        "actionability": 15
+      },
+      "summary": "中国AIスタートアップDeepSeekが1兆円超の資金調達の最終段階にあることが報道された。中国最大規模のAIスタートアップ資金調達はAI開発における中国の存在感を示しており、欧米・中国のAI二極化が加速している。地政学的リスクとAI調達戦略への影響が日本企業にも及ぶ可能性がある。",
+      "why_important": "DeepSeekが1兆円超調達でAIの中国・欧米二極化が加速、日本企業のAI調達戦略に地政学リスクが高まる",
+      "adxi_insight": "クライアントへのAIベンダー選定提案において中国系AIリスク評価（データ主権・セキュリティ・規制）を組み込む必要性が高まっている",
+      "published_date": "2026-06-03"
+    },
+    {
+      "id": "funding_003",
+      "title": "Vibe-coding phenomenon lifts AI startup Supabase to $10.5 billion valuation",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/04/database-startup-supabase-raises-500-million-10point5-billion-valuation.html",
+      "category": "funding",
+      "category_label": "資金調達・M&A・IPO",
+      "tier": 3,
+      "score": {
+        "total": 57,
+        "relevance": 22,
+        "impact": 20,
+        "actionability": 15
+      },
+      "summary": "vibe-codingブームに乗ってデータベーススタートアップSupabaseが5億ドルを調達し、企業評価額が105億ドルに到達した。AIコーディングツールの普及がオープンソースインフラ企業の急成長を後押ししている。システム開発の民主化とコスト構造の変化を示す象徴的な事例だ。",
+      "why_important": "vibe-codingブームでSupabaseが$10.5B評価額に急成長、AIコーディング普及が開発インフラ市場を再編",
+      "adxi_insight": "AIコーディングによるシステム開発の民主化が進むことでSI案件の単価や難易度が変わる可能性がある。高付加価値案件へのシフト戦略を継続強化すべき",
+      "published_date": "2026-06-04"
+    },
+    {
+      "id": "funding_004",
+      "title": "6月1〜5日 スタートアップ資金調達まとめ読み",
+      "source": "日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOUC051F40V00C26A6000000/",
+      "category": "funding",
+      "category_label": "資金調達・M&A・IPO",
+      "tier": 3,
+      "score": {
+        "total": 55,
+        "relevance": 22,
+        "impact": 18,
+        "actionability": 15
+      },
+      "summary": "2026年6月1日〜5日の国内スタートアップ資金調達動向がまとめられた。AIスタートアップへの投資が引き続き活発で、DX関連サービスや業界特化型AIへの投資が目立っている。国内AIエコシステムの資金環境の現状を把握できる週次まとめだ。",
+      "why_important": "今週の国内スタートアップ調達まとめ、AIおよびDX関連への投資が継続的に活発",
+      "adxi_insight": "資金調達を果たしたAIスタートアップはADiXiの潜在的な協業先・競合となりうる。定期的なエコシステムモニタリングの一環として確認を継続すること",
+      "published_date": "2026-06-05"
     }
   ],
   "case_studies": [
     {
-      "article_id": "d96cbe36",
       "classification": "民間",
-      "country": "グローバル（米国・欧州）",
-      "organization": "McKinsey & Company / PwC / EY",
-      "summary": "大手コンサル3社がAI技術の進化に伴いエグゼクティブアシスタント職を大規模削減。AI秘書ツールが文書作成・スケジュール管理・リサーチを代替し、コンサル業界のホワイトカラー業務が構造転換している。",
-      "scale_tech_results": "McKinsey・PwC・EY合計で数百名規模のEA削減。AI活用により管理業務コストを30-50%削減見込み。AIツール：Microsoft Copilot、各社独自LLM統合ツール。",
-      "adxi_insight": "ADiXi自身の業務にもAI秘書・AI業務自動化を先行導入し、生産性向上の実績を顧客提案の説得材料とする。コンサル内部オペレーションのAI化支援という新たな提案軸を展開できる。",
-      "similar_japan": "富士通・NTTデータが社内AI活用で一般職の業務削減を推進（2025-2026年）",
-      "url": "https://www.bloomberg.com/news/features/2026-05-21/mckinsey-pwc-and-ey-lay-off-executive-assistants-as-ai-accelerates"
+      "country": "グローバル",
+      "organization": "Accenture × ServiceNow",
+      "summary": "AccentureとServiceNowが「FDE（Full Digital Enterprise）」フレームワークを共同発表。エージェント型AIを活用してServiceNowプラットフォーム上のすべての業務を自律的に処理する次世代DXモデルを構築した。単一ツール導入を超えた全社的AIエージェント協調動作の実証に成功している。",
+      "scale_tech_results": "規模: グローバル大企業向け全社展開モデル / 技術: ServiceNowプラットフォーム＋マルチエージェントAI協調処理 / 成果: 業務自動化率の大幅向上（導入企業での具体数値は順次公開予定）",
+      "adxi_insight": "ADiXiも特定プラットフォーム（ServiceNow/Microsoft/SAP）を軸にエージェントAI展開パッケージを開発し、FDE型の包括提案として大企業DX案件の新しい切り口にできる",
+      "similar_japan": "NTTデータのAI業務自動化プロジェクト、富士通Uvance、NECの企業向けAIエージェント基盤",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2606/04/news024.html"
     },
     {
-      "article_id": "d6aefc21",
       "classification": "官公庁",
       "country": "日本",
-      "organization": "日本政府（内閣府・デジタル庁）",
-      "summary": "政府が府省庁横断で500の業務に自律型AIエージェントを導入する計画を発表。予算資料作成・文書整理・情報収集などの定型業務をAIが担い、公務員の時間を政策立案などの高付加価値業務に集中させる。",
-      "scale_tech_results": "対象：中央省庁全体・500業務。ガバメントAI基盤（国産LLM含む）を活用。2026年度内に段階的展開開始。業務時間削減目標は非公表だが、数十万時間規模の効率化を想定。",
-      "adxi_insight": "政府の導入事例を参照した自治体向けユースケース提案が即座に展開できる。特に「500業務の類似メニュー」を地方自治体版に翻訳し、具体的な業務改善提案として展開する価値がある。",
-      "similar_japan": "東京都・大阪府などの大規模自治体でのAI実証実験（2025-2026年）",
+      "organization": "日本政府（内閣官房・関係府省庁）",
+      "summary": "2026年度から府省庁の予算資料作成・審査業務など500業務に自律型AIを本格導入。行政の定型・半定型業務を自律AIが処理することで職員を政策立案等の高付加価値業務にシフトさせる。政府全体DX推進計画の核心施策として官公庁AI活用が新フェーズへ。",
+      "scale_tech_results": "規模: 全府省庁500業務対象 / 技術: 自律型AI（RPA＋LLM組み合わせ想定） / 成果: 行政業務処理時間の大幅短縮および人員の政策業務への再配置",
+      "adxi_insight": "中央省庁の実績は地方自治体への波及効果が極めて大きい。ADiXiは省庁実績をベースにした自治体向け同等サービスのパッケージ化を急ぐべきタイミング",
+      "similar_japan": "デジタル庁のガバメントAI、神戸市AI業務補助実証、横浜市AI活用プロジェクト",
       "url": "https://www.nikkei.com/article/DGXZQOUA061NI0W6A500C2000000/"
     },
     {
-      "article_id": "b25f3d62",
-      "classification": "官公庁",
-      "country": "日本",
-      "organization": "デジタル庁",
-      "summary": "デジタル庁が全省庁・地方自治体で横断的に利用できる生成AI基盤「ガバメントAI」を整備。国産LLMを含む複数の政府認定モデルを用意し、行政サービスのAI化を一気通貫で推進する国家プロジェクト。",
-      "scale_tech_results": "対象：全府省庁18万人＋地方自治体。採用LLM：tsuzumi 2（NEC）、PLaMo 2.0（Preferred Networks）など国産モデル。予算：数百億円規模。2026年度本格展開。",
-      "adxi_insight": "ガバメントAIを基盤とした自治体向けシステム構築・導入支援の市場が急速に拡大する。ADiXiが得意とする自治体DX支援と組み合わせ、ガバメントAI活用型の提案ラインナップを早急に整備する必要がある。",
-      "similar_japan": "シンガポールGovTech「AI4Gov」プログラム（政府横断AIプラットフォーム）",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/10854/"
-    },
-    {
-      "article_id": "b3f4d75e",
       "classification": "民間",
       "country": "日本",
-      "organization": "SIGNATE株式会社",
-      "summary": "SIGNATEがAIエージェントを活用して国内1,127社のDX取り組みを全件自動解析し、「DX INSIGHTS AWARD 2026」を開催。企業のDX成熟度を多次元的に自動評価し、業界全体のDXベンチマークデータを生成・提供する取り組み。",
-      "scale_tech_results": "解析対象：国内上場企業1,127社のDX開示情報を全件処理。技術：生成AI＋NLP＋マルチエージェントで多次元評価。所要時間：従来の数ヶ月分の作業を数日に圧縮。",
-      "adxi_insight": "DX評価の自動化・AIエージェント化はADiXiの診断サービスに直接応用可能。「AI診断型DX支援サービス」として提供することで、提案の客観性・スピード・コスト競争力を同時に高められる。",
-      "similar_japan": "PwC Japan・デロイトトーマツのDX成熟度診断サービス（2025年）",
-      "url": "https://prtimes.jp/main/html/html/rd/p/000000309.000038674.html"
+      "organization": "DX銘柄2026選定企業（経産省・東証）",
+      "summary": "経産省と東証が2026年のDX銘柄30社・グランプリ3社・プラチナ企業2社を発表。デジタル変革によって経営指標を改善した上場企業の先進事例が権威ある評価制度で認定された。業種横断的なDX成功パターンとKPIが公開されることで、日本企業全体のDX推進が加速する。",
+      "scale_tech_results": "規模: 上場企業全体から選定された30社（業種多様） / 技術: 各社固有DXプラットフォーム・AI活用 / 成果: 株主価値向上・業務効率化・新事業創出の実証",
+      "adxi_insight": "DX銘柄選定基準（戦略・ガバナンス・IT基盤・データ活用）を活用したDX成熟度診断サービスをADiXiが提供することで、上場企業の中期経営計画策定支援の切り口になる",
+      "similar_japan": "DX認定制度（中小企業向け）、IT経営注目企業2026、グッドデザイン賞DX部門",
+      "url": "https://www.meti.go.jp/policy/it_policy/investment/keiei_meigara/dx_meigara.html"
     }
   ],
   "stats": {
-    "total_articles": 21,
+    "total_articles": 29,
     "by_tier": {
-      "1": 9,
-      "2": 9,
-      "3": 3
+      "1": 8,
+      "2": 12,
+      "3": 9
     },
     "by_category": {
-      "policy": 2,
+      "ai_llm": 4,
       "it_consul": 3,
-      "dx_gov": 1,
-      "dx_private": 3,
-      "ai_llm": 3,
-      "ai_product": 2,
-      "global_dx": 2,
-      "security": 2,
-      "funding": 3
+      "policy": 4,
+      "global_dx": 3,
+      "ai_product": 4,
+      "dx_private": 2,
+      "dx_gov": 3,
+      "security": 3,
+      "funding": 4
     }
   }
 }
