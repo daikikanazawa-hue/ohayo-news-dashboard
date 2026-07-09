@@ -1,42 +1,67 @@
 [
   {
-    "date": "2026-07-08",
-    "total_articles": 22,
-    "tiers_included": [1, 2]
+    "date": "2026-07-09",
+    "total_articles": 33,
+    "tiers_included": [
+      1,
+      2
+    ]
   },
   {
     "date": "2026-07-02",
     "total_articles": 29,
-    "tiers_included": [1, 2]
+    "tiers_included": [
+      1,
+      2
+    ]
   },
   {
     "date": "2026-05-22",
     "total_articles": 33,
-    "tiers_included": [1, 2, 3]
+    "tiers_included": [
+      1,
+      2,
+      3
+    ]
   },
   {
     "date": "2026-05-05",
     "total_articles": 34,
-    "tiers_included": [1, 2]
+    "tiers_included": [
+      1,
+      2
+    ]
   },
   {
     "date": "2026-04-28",
     "total_articles": 27,
-    "tiers_included": [1, 2]
+    "tiers_included": [
+      1,
+      2
+    ]
   },
   {
     "date": "2026-04-22",
     "total_articles": 36,
-    "tiers_included": [1, 2]
+    "tiers_included": [
+      1,
+      2
+    ]
   },
   {
     "date": "2026-04-17",
     "total_articles": 15,
-    "tiers_included": [1]
+    "tiers_included": [
+      1
+    ]
   },
   {
     "date": "2026-04-13",
     "total_articles": 35,
-    "tiers_included": [1, 2, 3]
+    "tiers_included": [
+      1,
+      2,
+      3
+    ]
   }
 ]
