@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-07-25",
+    "total_articles": 27,
+    "tiers_included": [1, 2]
+  },
+  {
     "date": "2026-07-24",
     "total_articles": 35,
     "tiers_included": [1, 2]
