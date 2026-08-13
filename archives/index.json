@@ -1,62 +1,117 @@
 [
   {
+    "date": "2026-08-13",
+    "total_articles": 27,
+    "tiers_included": [
+      1,
+      2
+    ]
+  },
+  {
+    "date": "2026-08-08",
+    "total_articles": 23,
+    "tiers_included": [
+      1,
+      2
+    ]
+  },
+  {
     "date": "2026-08-03",
     "total_articles": 28,
-    "tiers_included": [1, 2, 3]
+    "tiers_included": [
+      1,
+      2,
+      3
+    ]
   },
   {
     "date": "2026-07-30",
     "total_articles": 36,
-    "tiers_included": [1, 2]
+    "tiers_included": [
+      1,
+      2
+    ]
   },
   {
     "date": "2026-07-24",
     "total_articles": 35,
-    "tiers_included": [1, 2]
+    "tiers_included": [
+      1,
+      2
+    ]
   },
   {
     "date": "2026-07-16",
     "total_articles": 25,
-    "tiers_included": [1, 2]
+    "tiers_included": [
+      1,
+      2
+    ]
   },
   {
     "date": "2026-07-13",
     "total_articles": 38,
-    "tiers_included": [1, 2, 3]
+    "tiers_included": [
+      1,
+      2,
+      3
+    ]
   },
   {
     "date": "2026-07-02",
     "total_articles": 29,
-    "tiers_included": [1, 2]
+    "tiers_included": [
+      1,
+      2
+    ]
   },
   {
     "date": "2026-05-22",
     "total_articles": 33,
-    "tiers_included": [1, 2, 3]
+    "tiers_included": [
+      1,
+      2,
+      3
+    ]
   },
   {
     "date": "2026-05-05",
     "total_articles": 34,
-    "tiers_included": [1, 2]
+    "tiers_included": [
+      1,
+      2
+    ]
   },
   {
     "date": "2026-04-28",
     "total_articles": 27,
-    "tiers_included": [1, 2]
+    "tiers_included": [
+      1,
+      2
+    ]
   },
   {
     "date": "2026-04-22",
     "total_articles": 36,
-    "tiers_included": [1, 2]
+    "tiers_included": [
+      1,
+      2
+    ]
   },
   {
     "date": "2026-04-17",
     "total_articles": 15,
-    "tiers_included": [1]
+    "tiers_included": [
+      1
+    ]
   },
   {
     "date": "2026-04-13",
     "total_articles": 35,
-    "tiers_included": [1, 2, 3]
+    "tiers_included": [
+      1,
+      2,
+      3
+    ]
   }
 ]
