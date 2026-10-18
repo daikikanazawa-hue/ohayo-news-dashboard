@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T21:27:58+09:00",
+  "generated_at": "2026-10-18T22:04:23+09:00",
   "date": "2026-10-18",
   "day_of_week": "日",
   "tiers_included": [
@@ -30,6 +30,27 @@
       "id": "5329074f"
     },
     {
+      "title": "声のAI利用に新指針、日俳連が事業者に求める対応を提示",
+      "source": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/16/2000002320/",
+      "is_primary": false,
+      "media_url": "",
+      "category": "policy",
+      "category_label": "政策・規制",
+      "tier": 2,
+      "score": {
+        "total": 64,
+        "relevance": 28,
+        "impact": 18,
+        "actionability": 18
+      },
+      "summary": "日本俳優連合が音声AIの利用に関する新たな指針を示し、AI事業者に求める対応をまとめたと報じられた。声優・俳優の声の学習・生成利用における同意や権利処理が論点となっている（一覧取得不可のため見出しベースの要約）。",
+      "why_important": "国内で音声生成AIの業界ガイドラインが具体化する動き。求められる対応の詳細は原典で要確認。",
+      "adxi_insight": "音声合成・ボイスボットを含む案件で、声データの同意取得・権利確認をチェックリスト化して提案に組み込める。",
+      "published_date": "2026-10-16",
+      "id": "4252ce9f"
+    },
+    {
       "title": "Anthropic、社内の人員構成が「ジュニア層減少・会議時間増加」に変化したと公表",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
@@ -49,17 +70,39 @@
       "adxi_insight": "AX支援でAI導入後の人材ポートフォリオ・育成設計（ジュニア育成の代替経路）を論点として提示できる。",
       "published_date": "2026-10-17",
       "id": "c2a828c7"
+    },
+    {
+      "title": "Microsoftプレジデント、英国がAI規制を主導するのに最適な立場と発言",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+      "is_primary": false,
+      "media_url": "",
+      "category": "policy",
+      "category_label": "政策・規制",
+      "tier": 3,
+      "score": {
+        "total": 45,
+        "relevance": 15,
+        "impact": 15,
+        "actionability": 15
+      },
+      "summary": "MicrosoftのプレジデントがAI規制の議論において英国が主導的役割を果たすのに最適な位置にあるとの見解を示したと報じられた。EU・米国との規制アプローチの違いを背景にした発言とみられる（見出しベースの要約）。",
+      "why_important": "大手ベンダーの規制観は各国ルール形成に影響しうる。発言内容は原典で要確認。",
+      "adxi_insight": "海外展開する顧客には英・EU・米の規制差分を整理したガバナンス設計の論点として共有できる。",
+      "published_date": "2026-10-12",
+      "id": "e9c9ac8e"
     }
   ],
   "case_studies": [],
   "stats": {
-    "total_articles": 2,
+    "total_articles": 4,
     "by_tier": {
-      "2": 1,
-      "3": 1
+      "2": 2,
+      "3": 2
     },
     "by_category": {
       "vendor_updates": 1,
+      "policy": 2,
       "ai_llm": 1
     },
     "primary_source_ratio": 0.0,
