@@ -1,0 +1,480 @@
+{
+  "generated_at": "2026-10-13T06:30:00+09:00",
+  "date": "2026-10-13",
+  "day_of_week": "火",
+  "tiers_included": [1, 2],
+  "articles": [
+    {
+      "id": "dp_001",
+      "title": "【AI/DX調査レポート2026】AIの全社活用が+7.7pt急伸・活用企業は約6割に到達も、中小の6割は未着手と二極化",
+      "source": "prtimes.jp",
+      "url": "https://prtimes.jp/main/html/rd/p/000000181.000051016.html",
+      "category": "dx_private",
+      "category_label": "DX成功/失敗事例（民間）",
+      "tier": 1,
+      "score": {
+        "total": 88,
+        "relevance": 35,
+        "impact": 28,
+        "actionability": 25
+      },
+      "summary": "2026年版AI/DX調査レポートでAIを全社活用する企業が前年比+7.7pt急増し約6割に達した。一方、中小企業の6割はまだAI・DXに未着手のままで、大企業と中小企業の格差が鮮明に。ツール導入のみで業務変革に至らないケースも課題として指摘されている。",
+      "why_important": "AI全社活用が6割に達したというデータは「今動かないと取り残される」という説得材料になり、残り4割企業・未着手中小企業への働きかけが急務",
+      "adxi_insight": "中小企業の6割未着手はADiXiの最大の市場機会。「中小向けAI入門パッケージ」訴求を強化するデータとして即活用でき、顧客説得力が格段に上がる",
+      "published_date": "2026-10-08"
+    },
+    {
+      "id": "dg_003",
+      "title": "デジタル庁が「ガバメントAI」を整備へ、政府・地方が横断で使える生成AI",
+      "source": "xtech.nikkei.com",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/10854/",
+      "category": "dx_gov",
+      "category_label": "DX成功/失敗事例（官公庁）",
+      "tier": 1,
+      "score": {
+        "total": 88,
+        "relevance": 35,
+        "impact": 28,
+        "actionability": 25
+      },
+      "summary": "デジタル庁が政府・地方自治体が横断的に利用できる共通生成AI基盤「ガバメントAI」の整備方針を明らかにした。民間クラウドAIとは別に、機密情報も扱える政府専用の安全なAI環境を構築する計画で、全府省庁と約1700の自治体が対象となる見通し。",
+      "why_important": "ガバメントAI基盤の整備は政府・自治体向けAIソリューション市場の構造を根本から変える可能性があり、参入機会とリスクの両面で要注視",
+      "adxi_insight": "ガバメントAI整備に参入できる協力ベンダーの選定が進む可能性。ADiXiが自治体DX支援で政府共通AI活用を前提とした提案設計を急ぐ必要がある",
+      "published_date": null
+    },
+    {
+      "id": "it_003",
+      "title": "人月商売のIT業界は活況、それなのにNECなどがSEの雇用対策に動く怖い理由",
+      "source": "xtech.nikkei.com",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00148/091800456/",
+      "category": "it_consul",
+      "category_label": "ITコンサル・SI業界動向",
+      "tier": 1,
+      "score": {
+        "total": 85,
+        "relevance": 35,
+        "impact": 28,
+        "actionability": 22
+      },
+      "summary": "IT業界全体が受注活況の中でも、NECなど大手SIerがSEの余剰雇用対策に着手し始めている。AI・自動化による業務効率化でSEの必要数が変化し、人月モデルの崩壊が加速。収益が出るうちに先手を打って人員構造を変える判断が求められている。",
+      "why_important": "大手SIerの人材戦略の構造変化はADiXiの採用市場・競合環境に直接影響し、優秀なSE人材が市場に出てくる可能性が高まる",
+      "adxi_insight": "大手SIerからの人材流出が増加する可能性。ADiXiの採用戦略を前倒しし、AI×コンサルのハイブリッド人材獲得の機会を早急に活かす",
+      "published_date": "2026-10-05"
+    },
+    {
+      "id": "ai_003",
+      "title": "新サービス「Gemini agent」は企業向け、「Gemini Enterprise」加入者は追加料金なし 日本提供時期は未定",
+      "source": "itmedia.co.jp",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/13/2000002199/",
+      "category": "ai_llm",
+      "category_label": "AI/LLMモデル・エージェント",
+      "tier": 1,
+      "score": {
+        "total": 80,
+        "relevance": 30,
+        "impact": 25,
+        "actionability": 25
+      },
+      "summary": "GoogleがGemini Enterpriseの加入者向けに企業用AIエージェントサービス「Gemini agent」を追加料金なしで提供開始。複数の業務プロセスを横断して自律的にタスクをこなすエージェント機能が実用段階に入った。日本での提供時期は現時点で未定。",
+      "why_important": "企業向けAIエージェントが既存サブスクリプション内で提供される動きは、AIの業務組み込みを一気に加速させる市場転換点",
+      "adxi_insight": "Google Workspace/Gemini Enterprise契約企業に対してエージェント機能の業務適用提案を優先。日本提供開始前に活用シナリオを顧客と設計しておく",
+      "published_date": "2026-10-13"
+    },
+    {
+      "id": "sec_005",
+      "title": "国家サイバー統括室、不正アクセスによる漏えい事案受け注意喚起 「いつ攻撃受けてもおかしくない」",
+      "source": "itmedia.co.jp",
+      "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002161/",
+      "category": "security",
+      "category_label": "サイバーセキュリティ",
+      "tier": 2,
+      "score": {
+        "total": 78,
+        "relevance": 28,
+        "impact": 25,
+        "actionability": 25
+      },
+      "summary": "内閣官房の国家サイバー統括室が不正アクセスによる情報漏洩事案の多発を受け、「いつ攻撃を受けてもおかしくない状況」と強い危機感を示して企業向けに注意喚起を発出した。即時のセキュリティ対策実施と情報提供への協力を全企業に求めている。",
+      "why_important": "内閣官房レベルの注意喚起は企業の経営意思決定に直結し、セキュリティ対応予算の緊急承認を促進する強力なトリガー",
+      "adxi_insight": "この注意喚起を根拠にセキュリティ診断・対策実施の提案を経営層に直接アプローチする絶好機。提案書に公式注意喚起を引用して緊急性を演出できる",
+      "published_date": "2026-10-09"
+    },
+    {
+      "id": "ap_005",
+      "title": "SB Intuitions、国産生成AIを使用可能「Sarashinaサービス」無償β版を提供開始",
+      "source": "watch.impress.co.jp",
+      "url": "https://ai.watch.impress.co.jp/docs/news/2147604.html",
+      "category": "ai_product",
+      "category_label": "AIプロダクト・SaaS",
+      "tier": 2,
+      "score": {
+        "total": 75,
+        "relevance": 30,
+        "impact": 20,
+        "actionability": 25
+      },
+      "summary": "ソフトバンク子会社のSB Intuitionsが国産生成AI「Sarashina」の無償ベータ版サービスを提供開始した。日本語データで学習した国産モデルで、海外AIに依存しない選択肢として企業向けの試用機会を提供。法人向けAPIも提供予定。",
+      "why_important": "海外LLMへの依存から国産AIへの選択肢が広がり、データ主権・セキュリティを重視する日本企業のAI活用ハードルが下がる",
+      "adxi_insight": "セキュリティ・データ主権を重視する顧客（医療・金融・官公庁）への国産AI活用提案が具体化できる。β版活用でコスト面でも提案しやすい",
+      "published_date": "2026-10-13"
+    },
+    {
+      "id": "ap_006",
+      "title": "SaaSへの生成AI組み込みが続々 大量の学習データで精度向上",
+      "source": "xtech.nikkei.com",
+      "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020800017/103100983/",
+      "category": "ai_product",
+      "category_label": "AIプロダクト・SaaS",
+      "tier": 2,
+      "score": {
+        "total": 68,
+        "relevance": 28,
+        "impact": 22,
+        "actionability": 18
+      },
+      "summary": "主要SaaSベンダーが相次いで生成AI機能を自社製品に組み込んでいる。業界固有の大量データで学習した専用モデルを活用することで汎用AIより精度が高い機能を実現しており、SaaSの差別化競争が新局面に入った。",
+      "why_important": "SaaS製品そのものがAI化されることで「AI×既存SaaS」の組み合わせ提案が主流になり、コンサルの提案ロジックも変化する",
+      "adxi_insight": "顧客の既存SaaS活用状況を棚卸しし、生成AI機能が追加されたツールへのアップグレード提案を優先すべきシステムを特定する好機",
+      "published_date": null
+    },
+    {
+      "id": "gdx_003",
+      "title": "From e-Residency to agent codes: Estonia's digital identity for AI agents",
+      "source": "e-estonia.com",
+      "url": "https://e-estonia.com/ai-agent-identity-estonia/",
+      "category": "global_dx",
+      "category_label": "世界のデジタル先進事例",
+      "tier": 2,
+      "score": {
+        "total": 67,
+        "relevance": 25,
+        "impact": 20,
+        "actionability": 22
+      },
+      "summary": "エストニアがAIエージェントに固有のデジタルIDを付与する「エージェントコード」システムを計画。e-Residencyで培ったPKI基盤を活用し、AIエージェントが行政手続きを法的に代理実行できるインフラを世界に先駆けて整備する。",
+      "why_important": "AIエージェントが法的主体として行政手続きを行う仕組みが世界初で整備されようとしており、日本の行政DX議論の5年後の姿を示す",
+      "adxi_insight": "日本の自治体向けDX提案に「AIエージェントによる行政手続き自動化」のビジョンを盛り込む際の最先端事例として活用価値が高い",
+      "published_date": "2026-09-23"
+    },
+    {
+      "id": "dg_004",
+      "title": "2040年を見据えた自治体DX推進をテーマに、「地方自治情報化推進フェア2026」へ出展",
+      "source": "prtimes.jp",
+      "url": "https://prtimes.jp/main/html/rd/p/000000528.000018852.html",
+      "category": "dx_gov",
+      "category_label": "DX成功/失敗事例（官公庁）",
+      "tier": 2,
+      "score": {
+        "total": 63,
+        "relevance": 25,
+        "impact": 18,
+        "actionability": 20
+      },
+      "summary": "「地方自治情報化推進フェア2026」が2040年を見据えた自治体DX推進をテーマに開催予定。行政DXソリューションが一堂に集まり、人口減少時代の自治体運営とデジタル活用の方向性が示される場として注目される。",
+      "why_important": "自治体DXの今後の重点課題と有望ソリューション動向が把握でき、2026年度以降の公共案件獲得の布石になる",
+      "adxi_insight": "フェア出展・視察を通じて自治体顧客との接点強化と最新動向調査を同時に実施できる。2040年ビジョンは長期提案の起点として活用",
+      "published_date": null
+    },
+    {
+      "id": "sec_006",
+      "title": "キャッシュレスサービス「IDARE」、約13万人の個人情報漏えい 残高や取引履歴なども",
+      "source": "itmedia.co.jp",
+      "url": "https://www.itmedia.co.jp/news/article/2610/13/2000002233/",
+      "category": "security",
+      "category_label": "サイバーセキュリティ",
+      "tier": 2,
+      "score": {
+        "total": 62,
+        "relevance": 25,
+        "impact": 15,
+        "actionability": 22
+      },
+      "summary": "キャッシュレスサービス「IDARE」が不正アクセスにより約13万人の個人情報が漏洩したと発表した。氏名・メールアドレスに加え、残高・取引履歴などの機微な金融情報も含まれており、今年の一連のサイバー被害の中でも深刻なインシデントとなっている。",
+      "why_important": "今月だけで複数のキャッシュレス・フィンテック企業が被害を受けており、消費者データを扱う全企業が緊急対応を迫られている",
+      "adxi_insight": "キャッシュレス・フィンテック顧客への緊急セキュリティ診断提案が有効。残高・取引履歴漏洩という具体事例は経営層の危機感を喚起する説明材料になる",
+      "published_date": "2026-10-13"
+    },
+    {
+      "id": "ap_007",
+      "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
+      "source": "techcrunch.com",
+      "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+      "category": "ai_product",
+      "category_label": "AIプロダクト・SaaS",
+      "tier": 3,
+      "score": {
+        "total": 59,
+        "relevance": 22,
+        "impact": 22,
+        "actionability": 15
+      },
+      "summary": "GoogleがGemini 4 Argonを発表し、同社史上最も強力なモデルと称した。マルチモーダル性能と推論能力が大幅に向上しており、企業向けアプリケーションでの実用的な活用範囲が拡大する見通し。",
+      "why_important": "GoogleのAI基盤が継続的に強化されることで、GWS/Gemini活用ソリューションの質が向上し顧客への提案内容が豊かになる",
+      "adxi_insight": "Gemini 4 Argon対応ソリューションの早期検証・デモ準備が競合との差別化になる。API活用の実証実験を優先的に進める",
+      "published_date": "2026-09-30"
+    },
+    {
+      "id": "it_004",
+      "title": "AI活用の課題を5分で可視化、「AI・DX診断」を実施～ Japan DX & AX Week 秋に出展、AIエージェント「つなぎAI」の実機デモで、業務活用を体験",
+      "source": "prtimes.jp",
+      "url": "https://prtimes.jp/main/html/rd/p/000002180.000005089.html",
+      "category": "it_consul",
+      "category_label": "ITコンサル・SI業界動向",
+      "tier": 3,
+      "score": {
+        "total": 58,
+        "relevance": 28,
+        "impact": 12,
+        "actionability": 18
+      },
+      "summary": "AI活用の課題を5分で可視化する「AI・DX診断」ツールがJapan DX & AX Week秋に出展予定。AIエージェント「つなぎAI」の実機デモで業務自動化を体験できる機会として注目される。DX診断の短時間化・即結果表示が訴求ポイント。",
+      "why_important": "「5分で課題可視化」という訴求が競合他社の差別化軸になっており、診断サービスの迅速化がニーズとして顕在化している",
+      "adxi_insight": "ADiXiの診断・コンサルアプローチと比較し、スピードと即時性の強化を検討する参考情報として活用できる",
+      "published_date": "2026-10-08"
+    },
+    {
+      "id": "ai_004",
+      "title": "OpenAI and Anthropic Face Rising Price Pressure From Big AI Users",
+      "source": "bloomberg.com",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-10-06/openai-and-anthropic-face-rising-price-pressure-from-big-ai-users",
+      "category": "ai_llm",
+      "category_label": "AI/LLMモデル・エージェント",
+      "tier": 3,
+      "score": {
+        "total": 57,
+        "relevance": 20,
+        "impact": 22,
+        "actionability": 15
+      },
+      "summary": "大企業ユーザーがOpenAIやAnthropicに対して価格引き下げ圧力を強めている。AI API市場が成熟するにつれて価格交渉力が企業側に移りつつあり、AIベンダーはビジネスモデルの再考を迫られている。",
+      "why_important": "AI APIコスト交渉の余地が生まれており、顧客企業のAI活用コストを最適化できるコンサルタントの価値が高まる",
+      "adxi_insight": "AI APIコスト削減交渉や代替モデル提案もADiXiの付加価値になりうる。コスト最適化を切り口にしたAI支援提案の強化を検討",
+      "published_date": "2026-10-06"
+    },
+    {
+      "id": "gdx_004",
+      "title": "The US government is headed for disruptive digital transformation in 2026",
+      "source": "fedscoop.com",
+      "url": "https://fedscoop.com/federal-government-digital-transformation-2026/",
+      "category": "global_dx",
+      "category_label": "世界のデジタル先進事例",
+      "tier": 3,
+      "score": {
+        "total": 55,
+        "relevance": 20,
+        "impact": 22,
+        "actionability": 13
+      },
+      "summary": "米国連邦政府が2026年にかけて大規模なデジタル変革に突入する見通しとFedScoopが分析。AI・クラウドを活用した行政サービスの抜本的改革が進行中で、各省庁のデジタル予算が急増している。",
+      "why_important": "米国政府のAI活用DXは規模・速度ともに先行しており、日本の行政DX議論の参照点として重要",
+      "adxi_insight": "米国政府の具体的なAI活用事例を日本の官公庁向け提案の比較事例として活用できる。英語情報として海外動向把握にも有効",
+      "published_date": null
+    },
+    {
+      "id": "fund_002",
+      "title": "大M&A時代に突入、変わるスタートアップの出口戦略。「上場ゴール」はもはや許されない",
+      "source": "toyokeizai.net",
+      "url": "https://toyokeizai.net/articles/-/885602?display=b",
+      "category": "funding",
+      "category_label": "資金調達・M&A・IPO",
+      "tier": 3,
+      "score": {
+        "total": 55,
+        "relevance": 20,
+        "impact": 20,
+        "actionability": 15
+      },
+      "summary": "スタートアップの出口戦略が「上場ゴール」から「M&A」へ移行しつつある。デロイトなどのコンサル・投資銀行がIPOとM&Aの両面から支援体制を整え、大企業による技術・人材獲得型M&Aが増加している。",
+      "why_important": "M&Aが増えることでIT人材・技術資産の流動化が進み、ADiXiのパートナー候補スタートアップの動向が急変する可能性",
+      "adxi_insight": "M&A活性化による技術・人材取り込みの機会も視野に。成長スタートアップとの協業・投資の検討を早期化するタイミング",
+      "published_date": null
+    },
+    {
+      "id": "it_005",
+      "title": "SIer・IT開発会社のプロジェクトに、新規事業の専門性を―事業企画・顧客検証から開発まで共同支援する協業プログラムを開始",
+      "source": "prtimes.jp",
+      "url": "https://prtimes.jp/main/html/rd/p/000000052.000163568.html",
+      "category": "it_consul",
+      "category_label": "ITコンサル・SI業界動向",
+      "tier": 3,
+      "score": {
+        "total": 52,
+        "relevance": 22,
+        "impact": 15,
+        "actionability": 15
+      },
+      "summary": "SIer・IT開発会社のプロジェクトに新規事業の専門性を提供する協業プログラムが開始された。事業企画・顧客検証から開発まで一気通貫で共同支援する仕組みで、SIer単体では対応しにくい新規事業開発領域をカバーする。",
+      "why_important": "SIerが新規事業開発の外部専門家と組む協業モデルが広がっており、コンサル・スタートアップの参入機会が増えている",
+      "adxi_insight": "ADiXiがSIerの新規事業開発支援パートナーとして入り込む典型的な協業モデル。既存SIer顧客へのDX伴走型提案に参考として活用できる",
+      "published_date": "2026-10-01"
+    },
+    {
+      "id": "pol_002",
+      "title": "赤澤経済産業大臣の閣議後記者会見の概要（令和8年10月2日）",
+      "source": "meti.go.jp",
+      "url": "https://www.meti.go.jp/speeches/kaiken/2026/20261002001.html",
+      "category": "policy",
+      "category_label": "政策・規制・デジタル庁",
+      "tier": 3,
+      "score": {
+        "total": 50,
+        "relevance": 20,
+        "impact": 20,
+        "actionability": 10
+      },
+      "summary": "赤澤経済産業大臣の10月2日閣議後記者会見で、AI・デジタル産業政策の推進方針について説明。産業競争力強化とAI安全保障の両立を重点テーマとして言及し、今後の政策の方向性が示された。",
+      "why_important": "経産省の政策方向性はDX支援事業者の事業環境を左右し、補助金・支援策の動向把握が重要",
+      "adxi_insight": "経産省のAI・DX政策動向を把握し、補助金活用提案や政策に沿ったDX支援サービスの方向性を確認する定期ウォッチとして活用",
+      "published_date": "2026-10-02"
+    },
+    {
+      "id": "dp_002",
+      "title": "NTT-AT、「Japan DX & AX Week 秋 2026」で「AI×RPA」による新たな業務変革モデルを紹介",
+      "source": "prtimes.jp",
+      "url": "https://prtimes.jp/main/html/rd/p/000000393.000023654.html",
+      "category": "dx_private",
+      "category_label": "DX成功/失敗事例（民間）",
+      "tier": 3,
+      "score": {
+        "total": 49,
+        "relevance": 22,
+        "impact": 12,
+        "actionability": 15
+      },
+      "summary": "NTT Advanced TechnologyがJapan DX & AX Week秋2026に出展し、AI×RPAによる業務変革モデルを紹介する。AIとRPAを組み合わせた高度な業務自動化の事例を発表し、DX推進のロードマップを提示する予定。",
+      "why_important": "NTTグループという大手が推進するAI×RPA統合は業務自動化市場の方向性を示す指標であり、競合動向として把握が必要",
+      "adxi_insight": "AI×RPAの統合提案はADiXiの業務自動化コンサルの核心領域。NTT-ATの具体的手法を参考に自社提案の差別化ポイントを整理する",
+      "published_date": null
+    },
+    {
+      "id": "ai_005",
+      "title": "Microsoft、第3世代AIチップ「Maia 300」を2027年に投入 GPU比で電力効率4割向上、自社サービスの主力推論基盤に",
+      "source": "itmedia.co.jp",
+      "url": "https://www.itmedia.co.jp/news/article/2610/13/2000002200",
+      "category": "ai_llm",
+      "category_label": "AI/LLMモデル・エージェント",
+      "tier": 3,
+      "score": {
+        "total": 49,
+        "relevance": 15,
+        "impact": 22,
+        "actionability": 12
+      },
+      "summary": "MicrosoftがNVIDIA GPUに対抗する第3世代自社AIチップ「Maia 300」を2027年に投入予定と発表。電力効率をGPU比4割改善し、Azureのクラウド推論基盤に採用することでクラウドAIコストの削減を目指す。",
+      "why_important": "クラウドAI推論コストが本格的に下がる可能性を示し、企業のAI活用コスト見積もりと中長期計画に影響する",
+      "adxi_insight": "2027年以降のAzure活用プロジェクトではコスト試算の前提が変わりうる。顧客との長期AI投資計画の策定時に織り込む情報",
+      "published_date": "2026-10-13"
+    },
+    {
+      "id": "fund_003",
+      "title": "9月28日〜10月2日 スタートアップ資金調達まとめ読み",
+      "source": "nikkei.com",
+      "url": "https://www.nikkei.com/article/DGXZQOUC025LT0S6A001C2000000/",
+      "category": "funding",
+      "category_label": "資金調達・M&A・IPO",
+      "tier": 3,
+      "score": {
+        "total": 53,
+        "relevance": 18,
+        "impact": 20,
+        "actionability": 15
+      },
+      "summary": "9月28日〜10月2日の週のスタートアップ資金調達まとめ。AI・DX関連のスタートアップが複数の調達を完了し、日本のスタートアップエコシステムの活況が続いている。各社の調達額と事業概要を一覧で把握できる。",
+      "why_important": "調達完了スタートアップはシステム開発・AI活用の投資余力があり、ADiXiの潜在顧客として有望",
+      "adxi_insight": "調達完了直後のスタートアップはDX・AI導入支援の需要が高い。一覧から顧客候補をスクリーニングして即アプローチが効果的",
+      "published_date": "2026-10-02"
+    },
+    {
+      "id": "ai_006",
+      "title": "メタが新型AIモデル「ミューズ・ワンダー」 性能「先端集団に並んだ」",
+      "source": "nikkei.com",
+      "url": "https://nikkei.com/article/DGXZQOGN122D90S6A011C2000000",
+      "category": "ai_llm",
+      "category_label": "AI/LLMモデル・エージェント",
+      "tier": 3,
+      "score": {
+        "total": 48,
+        "relevance": 18,
+        "impact": 22,
+        "actionability": 8
+      },
+      "summary": "MetaがAIモデル「ミューズ・ワンダー」を発表し、OpenAI・Anthropic・Googleなど先端モデル集団に技術的に並んだと主張。オープンソース戦略を継続する方針で、誰でも無償で利用できるモデルとして公開する予定。",
+      "why_important": "MetaのオープンソースAI戦略の強化はローカル・プライベート環境でのAI活用の選択肢を拡大し、クラウドAPI依存コストを減らせる可能性",
+      "adxi_insight": "オンプレやプライベートクラウドでのAI活用を検討する顧客向けに、MetaモデルのOSS活用も提案の選択肢として追加できる",
+      "published_date": null
+    },
+    {
+      "id": "fund_004",
+      "title": "GenerativeX、シリーズAで総額6.5億円の資金調達を実施",
+      "source": "prtimes.jp",
+      "url": "https://prtimes.jp/main/html/rd/p/000000040.000124664.html",
+      "category": "funding",
+      "category_label": "資金調達・M&A・IPO",
+      "tier": 3,
+      "score": {
+        "total": 40,
+        "relevance": 18,
+        "impact": 10,
+        "actionability": 12
+      },
+      "summary": "生成AI企業「GenerativeX」がシリーズAラウンドで総額6.5億円の資金調達を実施した。企業向け生成AI活用支援サービスを拡大し、AI導入コンサル市場での存在感を高める計画で、ADiXiと同一領域での競合となる可能性がある。",
+      "why_important": "生成AIコンサル・AI活用支援市場への新規参入・成長企業が増加しており、ADiXiの競合環境が変化している",
+      "adxi_insight": "GenerativeXのサービス内容・差別化ポイントを詳しく調査し、ADiXiとの差異と優位性を明確化する参考情報として活用",
+      "published_date": null
+    }
+  ],
+  "case_studies": [
+    {
+      "id": "cs_001",
+      "classification": "官公庁",
+      "country": "エストニア",
+      "organization": "エストニア共和国",
+      "summary": "エストニアがAIエージェントに固有のデジタルID「エージェントコード」を付与するシステムを計画。e-Residencyで培ったPKI基盤を活用し、AIエージェントが行政手続きを法的に代理実行できるインフラを世界に先駆けて整備しようとしている。",
+      "scale_tech_results": "全行政手続きの99%をデジタル化済みのエストニアが次段階へ。e-ResidencyはすでにPKI基盤を使い10万人超の外国人デジタル居住者を管理。AIエージェントIDシステムは既存eIDインフラの拡張として実装予定。",
+      "adxi_insight": "AIエージェントが行政手続きを自律実行する仕組みは日本の自治体DXの未来像。自治体顧客への長期ビジョン提案に具体性と国際比較の根拠を加えられる",
+      "similar_japan": "デジタル庁のマイナンバーAPIと電子申請の自動化、ガバメントAI整備の方向性",
+      "url": "https://e-estonia.com/ai-agent-identity-estonia/"
+    },
+    {
+      "id": "cs_002",
+      "classification": "官公庁",
+      "country": "日本",
+      "organization": "デジタル庁",
+      "summary": "デジタル庁が政府・地方自治体が横断利用できる共通生成AI基盤「ガバメントAI」の整備を計画。民間クラウドとは分離した政府専用の安全なAI環境を構築し、全府省庁と約1700自治体が利用できる共通プラットフォームとする。",
+      "scale_tech_results": "対象：全府省庁＋全国1741自治体。セキュリティ要件を満たすガバメントクラウド上に生成AIを展開予定。特定秘密・個人情報を含む業務での安全な利用が可能になる見込み。",
+      "adxi_insight": "ガバメントAI整備パートナーへの参入機会を探る必要あり。自治体DX支援においてガバメントAIを前提とした提案設計に早急に転換すべき",
+      "similar_japan": "ガバメントクラウド移行（AWS・Azure・Google等の認定クラウド活用）の延長線上の施策",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/10854/"
+    },
+    {
+      "id": "cs_003",
+      "classification": "民間",
+      "country": "日本",
+      "organization": "日本企業全体（2026年AI/DX調査）",
+      "summary": "2026年版AI/DX調査によると、AIを全社活用する企業が6割に達した一方、中小企業の6割はまだ未着手。大企業のAI活用が進む中で中小企業とのデジタルデバイドが深刻化しており、支援ニーズが急拡大している。",
+      "scale_tech_results": "AI全社活用企業：前年比+7.7pt増で59%に到達。中小企業のAI未着手率：約60%。AI導入済みでも業務変革に至っていないケースが多数存在。市場規模は兆円規模のDX支援需要が存在。",
+      "adxi_insight": "中小企業6割未着手という数字はADiXiの事業機会の規模を示す。「0から始めるAI・DXパッケージ」を中小企業向けに商品化し、エントリー市場を先行獲得する戦略が有効",
+      "similar_japan": "経産省の「DXレポート2.2」が指摘する企業間格差の問題と連動",
+      "url": "https://prtimes.jp/main/html/rd/p/000000181.000051016.html"
+    }
+  ],
+  "stats": {
+    "total_articles": 22,
+    "by_tier": {
+      "1": 4,
+      "2": 6,
+      "3": 12
+    },
+    "by_category": {
+      "ai_llm": 4,
+      "it_consul": 3,
+      "policy": 1,
+      "global_dx": 2,
+      "ai_product": 3,
+      "dx_private": 2,
+      "dx_gov": 2,
+      "security": 2,
+      "funding": 3
+    }
+  }
+}

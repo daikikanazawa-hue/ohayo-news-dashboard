@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-10-05T07:45:00+09:00",
+  "date": "2026-10-05",
+  "day_of_week": "月",
+  "tiers_included": [
+    1,
+    2,
+    3
+  ],
+  "articles": [
+    {
+      "id": "sec001",
+      "title": "政府が「攻撃元サーバ」に踏み込む 10月始動「能動的サイバー防御」で何が変わる？",
+      "source": "ITmedia",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/03/news001.html",
+      "category": "security",
+      "category_label": "サイバーセキュリティ",
+      "tier": 1,
+      "score": {"total": 85, "relevance": 35, "impact": 25, "actionability": 25},
+      "summary": "日本政府が「能動的サイバー防御」を2026年10月から始動。",
+      "why_important": "能動的サイバー防御の開始により企業のセキュリティ義務が大幅強化、経営責任として対応が不可避",
+      "adxi_insight": "ADiXiはクライアント企業のサイバー防御体制評価・強化コンサルで緊急性の高い提案機会。",
+      "published_date": "2026-10-03"
+    },
+    {
+      "id": "dxg001",
+      "title": "Priority Plan for the Advancement of the Digital Society (2026年8月版)",
+      "source": "デジタル庁",
+      "url": "https://www.digital.go.jp/assets/contents/en/node/basic_page/field_ref_resources/5ecac8cc-50f1-4168-b989-2bcaabffe870/7a7ae67c/20260831_policies_priority_outline_en_02.pdf",
+      "category": "dx_gov",
+      "category_label": "DX成功/失敗事例（官公庁）",
+      "tier": 1,
+      "score": {"total": 83, "relevance": 38, "impact": 25, "actionability": 20},
+      "summary": "デジタル庁が2026年8月版「デジタル社会の実現に向けた重点計画」を公開。",
+      "why_important": "政府DXの最新ロードマップが公開され、官公庁向けDXサービスの方向性が明確化",
+      "adxi_insight": "官公庁DXプロジェクトの提案根拠として活用。",
+      "published_date": "2026-08-31"
+    },
+    {
+      "id": "dxp001",
+      "title": "鹿島建設のDXを阻む「10年前のAWS」 安全性と自由度を両立したモダナイズ",
+      "source": "ITmedia",
+      "url": "https://techtarget.itmedia.co.jp/tt/article/2610/06/2000001999/",
+      "category": "dx_private",
+      "category_label": "DX成功/失敗事例（民間）",
+      "tier": 1,
+      "score": {"total": 81, "relevance": 38, "impact": 18, "actionability": 25},
+      "summary": "鹿島建設がレガシー化した古いAWSクラウド環境のモダナイズに成功。",
+      "why_important": "大手建設企業のクラウドモダナイズ成功事例",
+      "adxi_insight": "ADiXiの強みであるクラウドモダナイズ支援の訴求材料。",
+      "published_date": "2026-10-06"
+    }
+  ],
+  "case_studies": [],
+  "stats": {
+    "total_articles": 33,
+    "by_tier": {"1": 3, "2": 11, "3": 19},
+    "by_category": {
+      "security": 4, "dx_gov": 2, "dx_private": 3, "ai_llm": 4,
+      "policy": 3, "hardware": 2, "ai_product": 2, "education": 1,
+      "legal": 2, "it_consul": 2, "global_dx": 2, "global_tech": 3,
+      "funding": 2, "papers": 1
+    }
+  }
+}

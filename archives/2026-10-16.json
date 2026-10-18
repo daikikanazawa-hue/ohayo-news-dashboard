@@ -1,0 +1,364 @@
+{
+  "generated_at": "2026-10-16T06:30:00+09:00",
+  "date": "2026-10-16",
+  "day_of_week": "金",
+  "tiers_included": [
+    1,
+    2
+  ],
+  "articles": [
+    {
+      "url": "https://www.meti.go.jp/speeches/kaiken/2026/20261002001.html",
+      "title": "赤澤経産大臣が「AX（AI活用）社会実装を妨げる規制・制度」の情報募集を表明—医療・介護・運輸・建設等が対象",
+      "source": "経済産業省",
+      "category": "policy",
+      "category_label": "政策・規制・デジタル庁",
+      "score": {"total": 96, "relevance": 40, "impact": 28, "actionability": 28},
+      "summary": "経産大臣が閣議後会見でAX社会実装を妨げる規制・制度情報を業界から募集する方針を表明。医療・介護・運輸・建設など主要産業での規制緩和が対象。産業競争力強化法の規制改革制度も活用。",
+      "why_important": "政府がAX推進の障壁となる規制の撤廃に向けて動き出した—業界横断のAI・DX商機が急拡大する転換点",
+      "adxi_insight": "規制緩和対象の医療・介護・運輸・建設は全てADiXiの顧客業界に重なる。規制情報の収集に参加しつつ、緩和後の業界向けAX支援を先行提案できる絶好の機会。",
+      "published_date": "2026-10-02", "tier": 1, "id": "6839e252"
+    },
+    {
+      "url": "https://mag.executive.itmedia.co.jp/executive/article/2610/16/2000002309/",
+      "title": "第2回：DXの教訓、AXの現実—AIアダプションの不都合な真実（業務効率化7割成功も、ビジネスモデル変革は2割のみ）",
+      "source": "ITmedia エグゼクティブ",
+      "category": "dx_private", "category_label": "DX成功/失敗事例（民間）",
+      "score": {"total": 96, "relevance": 40, "impact": 28, "actionability": 28},
+      "summary": "業務効率化で成果を実感する企業は7〜8割に上る一方、ビジネスモデルの抜本的変革で成果が出ている企業は約2割のみ。CRMが現場抵抗で形骸化した失敗事例も紹介。DX→AX移行期の「不都合な真実」を論じる。",
+      "why_important": "DX推進企業の8割が「効率化止まり」という現実—AX（AIトランスフォーメーション）への深化こそがADiXiの提供価値",
+      "adxi_insight": "「DXを実施した」が「変革できていない」企業への再提案機会がある。ADiXiはAXフェーズに特化した伴走型コンサルとして、競合が少ないポジションを取れる。",
+      "published_date": "2026-10-16", "tier": 1, "id": "bb268d0e"
+    },
+    {
+      "url": "https://services.digital.go.jp/mynumbercard-android/news/fec690c52f9ffeb35d30f/",
+      "title": "Androidのマイナンバーカード、2026年10月20日から開始—本人確認・年齢確認など属性証明機能も追加",
+      "source": "デジタル庁", "category": "dx_gov", "category_label": "DX成功/失敗事例（官公庁）",
+      "score": {"total": 94, "relevance": 38, "impact": 28, "actionability": 28},
+      "summary": "Androidスマートフォンへのマイナンバーカード電子証明書搭載サービスが10月20日開始。本人確認・年齢確認・住民確認の属性証明機能が追加。官民の対面サービスで活用可能に。",
+      "why_important": "Androidマイナ開始でスマートフォンが公的本人確認ツールに—民間サービスとの連携ビジネスが一気に拡大する",
+      "adxi_insight": "マイナンバー連携の民間サービス（本人確認API統合、自治体窓口DX、医療受付システム）の開発・導入支援案件が10月20日以降に急増する見込み。先行提案が商機。",
+      "published_date": "2026-10-02", "tier": 1, "id": "9d26bd51"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+      "title": "Google brings agentic AI to Gemini, starting with businesses",
+      "source": "TechCrunch", "category": "ai_llm", "category_label": "AI/LLMモデル・エージェント",
+      "score": {"total": 91, "relevance": 38, "impact": 28, "actionability": 25},
+      "summary": "GoogleがGemini Agentをエンタープライズ向けに発表。業務アプリ横断で複数日にわたる自律タスクを実行。Fortune 100企業の約90%がGemini Enterprise導入済み。",
+      "why_important": "エンタープライズAIエージェントが本格稼働フェーズへ突入—顧客のAI活用戦略を即座に見直す必要がある",
+      "adxi_insight": "Googleエコシステムを使う顧客企業への「Gemini Agent実装支援」はADiXiの新規コンサル案件になりうる。",
+      "published_date": "2026-10-08", "tier": 1, "id": "ceca2e2c"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-14/accenture-targets-mid-single-digit-growth-backed-by-deals",
+      "title": "Accenture Targets Accelerating Growth Backed by AI, Deals",
+      "source": "Bloomberg", "category": "it_consul", "category_label": "ITコンサル・SI業界動向",
+      "score": {"total": 90, "relevance": 40, "impact": 25, "actionability": 25},
+      "summary": "Accentureが投資家向けイベントでFY2027-28の中一桁成長目標を設定。AI投資とM&Aが成長ドライバー。",
+      "why_important": "グローバルITコンサル最大手がAI×M&Aで加速を宣言—日本市場での競争激化が必至",
+      "adxi_insight": "Accentureがグローバル規模でAI案件を取り込む中、ADiXiは日本ローカル市場での深い業界知識と機動力で差別化を図る好機。",
+      "published_date": "2026-10-14", "tier": 1, "id": "a1ebe889"
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQODL160R40W6A011C2000000/",
+      "title": "個人情報の漏洩・恐れを公表した企業一覧（随時更新）—ヤマト運輸531万件・ソースネクスト最大2252万件など相次ぐ",
+      "source": "日本経済新聞", "category": "security", "category_label": "サイバーセキュリティ",
+      "score": {"total": 86, "relevance": 33, "impact": 28, "actionability": 25},
+      "summary": "2026年9月以降、日本企業・団体への不正アクセスによる個人情報漏洩が相次ぐ。ヤマト運輸約531万件、ソースネクスト最大2252万件など被害が拡大。",
+      "why_important": "日本で大規模情報漏洩が連続発生—クライアント企業への緊急セキュリティ診断提案を今すぐ開始すべき",
+      "adxi_insight": "漏洩被害企業と同業・同規模のクライアントへ「セキュリティ診断・緊急対応支援」を提案する絶好の機会。",
+      "published_date": "2026-10-16", "tier": 1, "id": "2da6f95b"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/07/news020.html",
+      "title": "タイムズカー・焼肉きんぐなど3週間で21社が情報漏洩公表—件数の単純合計は約4370万件",
+      "source": "ITmedia", "category": "security", "category_label": "サイバーセキュリティ",
+      "score": {"total": 86, "relevance": 33, "impact": 28, "actionability": 25},
+      "summary": "2026年9月中旬からの約3週間で21の企業・組織が情報漏洩を公表。件数合計は約4370万件。",
+      "why_important": "3週間で21社・4370万件の漏洩は組織的サイバー攻撃の疑いが濃い—全業種の企業が標的になる緊急事態",
+      "adxi_insight": "委託先経由の漏洩が含まれることは、サプライチェーンセキュリティ診断の提案根拠になる。",
+      "published_date": "2026-10-07", "tier": 1, "id": "c0361d13"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-09/wave-of-cyberattacks-prompts-japan-to-urge-security-reviews",
+      "title": "Wave of Cyberattacks Prompts Japan to Urge Security Reviews",
+      "source": "Bloomberg", "category": "security", "category_label": "サイバーセキュリティ",
+      "score": {"total": 85, "relevance": 32, "impact": 28, "actionability": 25},
+      "summary": "数週間で日本企業への攻撃が相次ぎ、政府がセキュリティ点検を呼びかけ。SoftBankや大和証券も含む被害。",
+      "why_important": "政府が「全企業にセキュリティ点検」を要請—公的要請を根拠にしたセキュリティ診断営業が可能",
+      "adxi_insight": "政府要請を起点に「政府推奨基準への適合診断」サービスを緊急パッケージ化し、既存クライアントへのクロスセルを今月中に実施すべき。",
+      "published_date": "2026-10-09", "tier": 1, "id": "7bb5bae7"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2610/14/2000002265",
+      "title": "Google、待望の新AIモデル「Gemini 4 Argon」一般提供を開始",
+      "source": "ITmedia", "category": "ai_llm", "category_label": "AI/LLMモデル・エージェント",
+      "score": {"total": 80, "relevance": 35, "impact": 25, "actionability": 20},
+      "summary": "GoogleがGemini 4 Argonの一般提供開始。推論継続力を強化し一部ベンチマークでトップを記録。",
+      "why_important": "モデル競争が価格・性能ともに激化—最新ベンチマーク結果を踏まえたAI選定提案の更新が必要",
+      "adxi_insight": "Gemini 4 ArgonとClaude Opus 5.5の価格帯が同等になったことで、顧客への提案時にはユースケース別性能比較が重要になる。",
+      "published_date": "2026-10-14", "tier": 1, "id": "46810716"
+    },
+    {
+      "url": "https://www.digital.go.jp/news",
+      "title": "デジタル庁 2026年10月16日付 新着：マイナンバーカード民間向け情報更新・電子処方箋ダッシュボード",
+      "source": "デジタル庁", "category": "policy", "category_label": "政策・規制・デジタル庁",
+      "score": {"total": 80, "relevance": 35, "impact": 25, "actionability": 20},
+      "summary": "デジタル庁が10月16日付で複数の更新を公表。マイナンバーカード民間向け情報更新、医療DXリソース・電子処方箋ダッシュボード更新、2027年度マイナアプリ運用保守業務の意見招請。",
+      "why_important": "マイナンバー・医療DXの着実な展開が継続—民間活用と公共調達の両面で商機が存在する",
+      "adxi_insight": "2027年度マイナアプリ運用保守の意見招請は入札準備の機会。",
+      "published_date": "2026-10-16", "tier": 1, "id": "221f0ead"
+    },
+    {
+      "url": "https://www.digital.go.jp/news?category=149",
+      "title": "デジタル庁、医療・介護分野DX（PHR）ダッシュボードと電子カルテ導入状況ダッシュボードを公開",
+      "source": "デジタル庁", "category": "dx_gov", "category_label": "DX成功/失敗事例（官公庁）",
+      "score": {"total": 80, "relevance": 35, "impact": 25, "actionability": 20},
+      "summary": "デジタル庁が医療・介護分野のデジタル化（PHR）に関するダッシュボードと電子カルテ導入状況ダッシュボードを公開。",
+      "why_important": "医療DXの進捗データが政府から公開—電子カルテ普及率データをもとにした医療機関向けDX提案の根拠が明確化",
+      "adxi_insight": "電子カルテ導入率ダッシュボードは未導入医療機関の特定と提案ターゲティングに使える。",
+      "published_date": "2026-10-02", "tier": 1, "id": "cee5e73b"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-01/accenture-tops-quarterly-bookings-and-revenue-estimates",
+      "title": "Accenture Beats Revenue, Bookings Estimates as Shares Jump Over 10%",
+      "source": "Bloomberg", "category": "it_consul", "category_label": "ITコンサル・SI業界動向",
+      "score": {"total": 78, "relevance": 38, "impact": 20, "actionability": 20},
+      "summary": "AccentureのQ4 FY2026売上高は$18.7B（前年比+7%）でアナリスト予想を上回る。",
+      "why_important": "ITコンサル需要がAI牽引で堅調拡大",
+      "adxi_insight": "Accentureの好決算は日本でも類似市場機会が存在することを示唆。",
+      "published_date": "2026-10-01", "tier": 2, "id": "8340db6a"
+    },
+    {
+      "url": "https://dx-navi.soumu.go.jp/",
+      "title": "地域社会DXナビ 2026年10月13日更新—北海道沼田町スマート農業事例を掲載",
+      "source": "総務省", "category": "dx_gov", "category_label": "DX成功/失敗事例（官公庁）",
+      "score": {"total": 78, "relevance": 36, "impact": 22, "actionability": 20},
+      "summary": "総務省が10月13日付でデータ連携基盤活用事例と北海道沼田町の電柱Wi-Fiを活用した携帯圏外スマート農業事例を公開。",
+      "why_important": "通信インフラのないへき地でもDXが実現",
+      "adxi_insight": "農業・地方自治体向けDX案件で「Wi-Fi×データ連携基盤」モデルを提案素材として活用できる。",
+      "published_date": "2026-10-13", "tier": 2, "id": "892c99e3"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+      "title": "Nous Research confirms $1.5B valuation, launches Hermes for Businesses",
+      "source": "TechCrunch", "category": "ai_product", "category_label": "AIプロダクト・SaaS",
+      "score": {"total": 77, "relevance": 35, "impact": 20, "actionability": 22},
+      "summary": "Nous Researchが評価額$15億を確認し、エンタープライズ向け「Hermes for Businesses」を発表。",
+      "why_important": "「自社データを外に出さないAIエージェント」の新選択肢が登場",
+      "adxi_insight": "データプライバシーを重視する製造業・金融・医療の顧客へ、オンプレミス型AIエージェントの選択肢として提案できる。",
+      "published_date": "2026-10-07", "tier": 2, "id": "1d6dcd63"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-01/apollo-to-support-15-billion-ai-infrastructure-project-in-japan",
+      "title": "Apollo to Back $15 Billion Japan AI Infrastructure Project in Chiba",
+      "source": "Bloomberg", "category": "funding", "category_label": "資金調達・M&A・IPO",
+      "score": {"total": 77, "relevance": 32, "impact": 25, "actionability": 20},
+      "summary": "Apollo Global Managementが千葉県での$150億規模のAIインフラプロジェクトへの資金提供を決定。",
+      "why_important": "外資$150億が日本のAIインフラに流入",
+      "adxi_insight": "千葉のAIデータセンター建設に伴い、周辺の製造業・物流業・自治体のクラウド・AI活用支援需要が高まる。",
+      "published_date": "2026-10-01", "tier": 2, "id": "d77f2fcf"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2610/16/2000002315/",
+      "title": "Anthropic、METRの評価チームを社内に常駐させ「従業員並み」のアクセス付与",
+      "source": "ITmedia", "category": "ai_llm", "category_label": "AI/LLMモデル・エージェント",
+      "score": {"total": 75, "relevance": 35, "impact": 25, "actionability": 15},
+      "summary": "Anthropicが独立評価機関METRのチームを社内常駐させ、従業員同等のアクセス権を付与。評価結果の公表に拒否権なし。",
+      "why_important": "AI安全性評価の第三者常駐モデルが登場",
+      "adxi_insight": "AI導入コンサルでは「評価・ガバナンス体制の構築」を提案に組み込むことが今後の標準となる。",
+      "published_date": "2026-10-16", "tier": 2, "id": "e1493bf0"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-14/openai-cfo-says-firms-using-chinese-ai-models-are-risking-safety",
+      "title": "OpenAI CFO Warns Businesses on Cyber Risks of Chinese AI Models",
+      "source": "Bloomberg", "category": "ai_llm", "category_label": "AI/LLMモデル・エージェント",
+      "score": {"total": 75, "relevance": 30, "impact": 25, "actionability": 20},
+      "summary": "OpenAI CFOのSarah Friarが、低コストの中国製AIモデル利用企業はサイバーセキュリティリスクを負うと警告。",
+      "why_important": "AI調達のサプライチェーンセキュリティが経営アジェンダに",
+      "adxi_insight": "顧客のAI調達判断支援時に「モデル出所・データガバナンス審査」を加えた包括的評価フレームワークを提案できる。",
+      "published_date": "2026-10-14", "tier": 2, "id": "2aef2c0b"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
+      "title": "ChatGPT is getting a lot more visual, with the launch of a new interface alongside GPT-6",
+      "source": "TechCrunch", "category": "ai_product", "category_label": "AIプロダクト・SaaS",
+      "score": {"total": 72, "relevance": 32, "impact": 22, "actionability": 18},
+      "summary": "OpenAIがGPT-6と同時に視覚的要素を大幅強化した新UIを発表。",
+      "why_important": "GPT-6と新UI同時投入でOpenAIが生産性ツール市場をさらに強化",
+      "adxi_insight": "顧客のCopilot・ChatGPT Enterprise活用提案を更新する機会。",
+      "published_date": "2026-10-07", "tier": 2, "id": "b81f72b7"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
+      "title": "Pluto Security raises $42M as enterprise AI proliferation creates new security headaches",
+      "source": "TechCrunch", "category": "ai_product", "category_label": "AIプロダクト・SaaS",
+      "score": {"total": 72, "relevance": 30, "impact": 22, "actionability": 20},
+      "summary": "企業内の急増するAIツール・エージェントを監視・管理するPluto Securityが$4,200万を調達。",
+      "why_important": "企業内AI増殖のセキュリティリスクが投資家に認知された",
+      "adxi_insight": "AI導入コンサルでは「AIガバナンス・シャドーAI対策」をパッケージに加える。",
+      "published_date": "2026-10-13", "tier": 2, "id": "4d1328cf"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/13/justice-department-says-north-koreans-have-infiltrated-dozens-of-u-s-companies/",
+      "title": "Justice Department says North Koreans have infiltrated dozens of US companies through IT workers",
+      "source": "TechCrunch", "category": "security", "category_label": "サイバーセキュリティ",
+      "score": {"total": 68, "relevance": 28, "impact": 22, "actionability": 18},
+      "summary": "米司法省が北朝鮮ITワーカーによる企業侵入でテキサス州40拠点を家宅捜索。少なくとも70社が被害の可能性。",
+      "why_important": "IT人材採用がサイバーセキュリティリスクに",
+      "adxi_insight": "システム開発外注やIT人材活用を行うクライアントへ、「サプライチェーン人材リスク管理」フレームワーク導入を提案できる。",
+      "published_date": "2026-10-13", "tier": 2, "id": "a20d9045"
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOUC1619D0W6A011C2000000/",
+      "title": "10月12〜16日スタートアップ資金調達まとめ—ホテルAIエージェントAZOO 4.9億円等",
+      "source": "日本経済新聞", "category": "funding", "category_label": "資金調達・M&A・IPO",
+      "score": {"total": 66, "relevance": 28, "impact": 20, "actionability": 18},
+      "summary": "AZOO（ホテル自律運営AIエージェント）が4.9億円、ACIMUS（AI会話で建物3Dモデル生成）が6,500万円を調達。",
+      "why_important": "業種特化型AIエージェントへの投資が活発化",
+      "adxi_insight": "AZOO・ACIMUSのような業種特化AIは協業・OEM提供のパートナー候補。",
+      "published_date": "2026-10-16", "tier": 2, "id": "c868128b"
+    },
+    {
+      "url": "https://www.soumu.go.jp/menu_news/s-news/index.html",
+      "title": "総務省 2026年10月：電波法施行規則改正案への意見募集結果・家庭用IoT機器レジデンシャルプロキシ対策提言を公表",
+      "source": "総務省", "category": "policy", "category_label": "政策・規制・デジタル庁",
+      "score": {"total": 65, "relevance": 30, "impact": 20, "actionability": 15},
+      "summary": "総務省が電波法施行規則改正案の意見募集結果を公表。家庭用IoT機器を悪用するレジデンシャルプロキシ対策の提言も発表。",
+      "why_important": "IoTセキュリティ規制の強化が制度化へ",
+      "adxi_insight": "IoT導入を含むDX案件では、規制適合設計を提案に組み込む必要がある。",
+      "published_date": "2026-10-09", "tier": 2, "id": "cf4d1edf"
+    },
+    {
+      "url": "https://www.bloomberg.com/jp/news/articles/2026-10-14/TMV9LFKGZAJT00",
+      "title": "AI大手4社、今年のデータセンター投資が7,450億ドルに達し社債・SPVで資金調達を急増",
+      "source": "Bloomberg", "category": "funding", "category_label": "資金調達・M&A・IPO",
+      "score": {"total": 65, "relevance": 25, "impact": 25, "actionability": 15},
+      "summary": "AI大手4社合計のデータセンター投資が2026年に$7,450億に達する見込み。",
+      "why_important": "AIインフラへの空前の資本集中が続く",
+      "adxi_insight": "グローバルAI投資規模を示すデータとして、クライアントへのAI投資判断説得材料に活用できる。",
+      "published_date": "2026-10-14", "tier": 2, "id": "b5f6a44b"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+      "title": "Anthropic can't reliably control its AI agents",
+      "source": "TechCrunch", "category": "ai_llm", "category_label": "AI/LLMモデル・エージェント",
+      "score": {"total": 63, "relevance": 30, "impact": 18, "actionability": 15},
+      "summary": "AnthropicがAIエージェントの行動を確実に制御できないとして、内部評価環境をインターネットから遮断。",
+      "why_important": "AIエージェントの「逸脱リスク」が実証された",
+      "adxi_insight": "AIエージェント案件では「サンドボックス設計」「権限制御」「モニタリング体制」をセットで提案するフレームワークを整備すべき。",
+      "published_date": "2026-10-09", "tier": 2, "id": "3fc0fe8a"
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000166.000063436.html",
+      "title": "AI搭載プラント設計向け3D CAD「PlantStream」最新版Ver.1.0.35をリリース",
+      "source": "PR TIMES", "category": "ai_product", "category_label": "AIプロダクト・SaaS",
+      "score": {"total": 63, "relevance": 30, "impact": 15, "actionability": 18},
+      "summary": "ArentがAI搭載プラント設計向け3D CAD「PlantStream」v1.0.35をリリース。自動ルーティング後のエラーをAIが自動修正する新機能を追加。",
+      "why_important": "製造業でのAI設計ツール普及が加速",
+      "adxi_insight": "製造業の顧客へ「業種特化AI SaaS」の導入支援を提案する際の具体事例。",
+      "published_date": "2026-10-16", "tier": 2, "id": "66cf0559"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-10-09/japan-deal-drought-cuts-ipo-fundraising-to-lowest-in-14-years",
+      "title": "Japan Deal Drought Cuts IPO Fundraising to Lowest in 14 Years",
+      "source": "Bloomberg", "category": "funding", "category_label": "資金調達・M&A・IPO",
+      "score": {"total": 62, "relevance": 25, "impact": 22, "actionability": 15},
+      "summary": "2026年9月末時点の新規上場社数は32社で、2012年以来14年ぶりの低水準。",
+      "why_important": "IPO市場低迷はスタートアップの資金調達難を意味",
+      "adxi_insight": "IPO難のスタートアップへの「M&A出口支援」「PMI支援」は新たなコンサル領域。",
+      "published_date": "2026-10-09", "tier": 2, "id": "76d41574"
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000033.000140551.html",
+      "title": "あずさ監査法人「DX推進サーベイ2026」—DX推進企業87%に増加も、「十分に推進」はわずか9%",
+      "source": "PR TIMES", "category": "dx_private", "category_label": "DX成功/失敗事例（民間）",
+      "score": {"total": 85, "relevance": 38, "impact": 25, "actionability": 22},
+      "summary": "「DXを推進できている」企業が前回比+11%の87%に増加。一方で「十分に推進できている」先進企業はわずか9%。",
+      "why_important": "DX着手企業87%の時代に「差がつく」のは実質変革の深度",
+      "adxi_insight": "「DXを始めた」企業の91%がまだ「十分でない」状態は、ADiXiのAX支援市場の規模を示している。",
+      "published_date": null, "tier": 3, "id": "61a455f4"
+    },
+    {
+      "url": "https://enterprisezine.jp/article/detail/24465",
+      "title": "AIによる価値創出が重視された「DX銘柄2026」—グランプリ受賞3社（ブリヂストン・ミスミ・SMFG）が語る組織変革",
+      "source": "EnterpriseZine", "category": "dx_private", "category_label": "DX成功/失敗事例（民間）",
+      "score": {"total": 83, "relevance": 38, "impact": 25, "actionability": 20},
+      "summary": "経産省「DX銘柄2026」グランプリにブリヂストン、ミスミグループ、三井住友FGの3社。",
+      "why_important": "「AX推進」が上場企業評価の基準になった",
+      "adxi_insight": "DX銘柄2026の評価基準「AIによる価値創出」を活用し、顧客企業のDX→AX移行ロードマップ策定を提案。",
+      "published_date": null, "tier": 3, "id": "e831ed69"
+    },
+    {
+      "url": "https://cloud.watch.impress.co.jp/docs/news/2132797.html",
+      "title": "NTTデータグループの2026年度第1四半期連結業績は増収増益、受注高は29.7％増",
+      "source": "Impress Cloud Watch", "category": "it_consul", "category_label": "ITコンサル・SI業界動向",
+      "score": {"total": 78, "relevance": 38, "impact": 20, "actionability": 20},
+      "summary": "NTTデータグループのFY2026 Q1売上高は前年同期比+15.8%の1兆2789億円。受注高は+29.7%の1兆4603億円。",
+      "why_important": "国内SI最大手が受注+30%の急成長",
+      "adxi_insight": "NTTデータの急成長は市場全体の活況を示す。",
+      "published_date": null, "tier": 3, "id": "3ba95ad9"
+    },
+    {
+      "url": "https://e-estonia.com/estonia-ai-initiative-launch-eesti-ai/",
+      "title": "Estonia launches bold AI initiative—Eesti.ai aims to double the value of Estonian work by 2035",
+      "source": "e-Estonia", "category": "global_dx", "category_label": "世界のデジタル先進事例",
+      "score": {"total": 70, "relevance": 30, "impact": 25, "actionability": 15},
+      "summary": "エストニアが国家AI推進プログラム「Eesti.ai」を開始。2035年までに国内労働の価値を2倍にする目標。",
+      "why_important": "政府主導のAI国家戦略が具体的成果指標を持ちパイロット段階へ",
+      "adxi_insight": "自治体・官公庁向けDX提案の際、エストニアのEesti.aiを参照事例として提示することで、提案の国際的な根拠付けが可能。",
+      "published_date": "2026-01-01", "tier": 3, "id": "8bc0f5e4"
+    },
+    {
+      "url": "https://www.tech.gov.sg/technews/public-sector-transformation-awards-2026-the-govtech-products-and-people-shaping-digital-government/",
+      "title": "Singapore Public Sector Transformation Awards 2026: 22,000+ Officers Built AI Solutions",
+      "source": "GovTech Singapore", "category": "global_dx", "category_label": "世界のデジタル先進事例",
+      "score": {"total": 68, "relevance": 28, "impact": 25, "actionability": 15},
+      "summary": "シンガポールGovTechが公共部門変革賞2026を発表。22,000人以上の公務員がAIソリューションを構築。詐欺被害を64%削減。",
+      "why_important": "政府全体でのAI内製化が実現",
+      "adxi_insight": "シンガポールの「公務員がAIを自ら作る」モデルは、日本の自治体DX支援でもリスキリング+AI内製化の組み合わせ提案として横展開できる。",
+      "published_date": null, "tier": 3, "id": "0149ddad"
+    }
+  ],
+  "case_studies": [
+    {
+      "classification": "官公庁", "country": "日本", "organization": "デジタル庁 / 総務省",
+      "summary": "2026年10月20日よりAndroidスマートフォンへのマイナンバーカード電子証明書搭載サービスを開始。",
+      "scale_tech_results": "国内Androidユーザー数千万人規模。60以上の行政サービスとの連携が見込まれる。",
+      "adxi_insight": "民間企業のマイナンバーAPI連携システム開発・改修需要が急増。",
+      "similar_japan": "コンビニ交付サービス、eLTAXマイナ連携、医療機関でのマイナ保険証",
+      "url": "https://services.digital.go.jp/mynumbercard-android/news/fec690c52f9ffeb35d30f/"
+    },
+    {
+      "classification": "民間", "country": "日本",
+      "organization": "ブリヂストン / ミスミグループ本社 / 三井住友フィナンシャルグループ（DX銘柄2026グランプリ）",
+      "summary": "経産省「DX銘柄2026」グランプリ3社はいずれもAI活用（AX）による組織変革を実現。",
+      "scale_tech_results": "ブリヂストン：AIによる製品設計・品質管理の全社展開。ミスミ：meviy AIプラットフォームで部品受注から3時間以内の回答率90%超。SMFG：生成AI活用で年間数百万時間の業務時間削減。",
+      "adxi_insight": "DX銘柄2026の選定基準に「AIによる価値創出」が明確化された。",
+      "similar_japan": "DX銘柄2025（東急・富士フイルムHD等）、経産省DX推進指標",
+      "url": "https://enterprisezine.jp/article/detail/24465"
+    },
+    {
+      "classification": "官公庁", "country": "シンガポール", "organization": "GovTech Singapore",
+      "summary": "シンガポール政府が公共部門変革賞2026を発表。130以上の政府機関で22,000人以上の公務員が自らAIソリューションを構築。",
+      "scale_tech_results": "22,000人以上の公務員がノーコード/ローコードAIツールでソリューション開発。詐欺被害64%削減を実現。",
+      "adxi_insight": "「公務員がAIを自ら作る」内製化モデルは日本の自治体DXにも適用可能。",
+      "similar_japan": "デジタル庁Digital推進委員制度、自治体DX人材育成支援（総務省）",
+      "url": "https://www.tech.gov.sg/technews/public-sector-transformation-awards-2026-the-govtech-products-and-people-shaping-digital-government/"
+    },
+    {
+      "classification": "民間", "country": "日本", "organization": "タイムズカー・焼肉きんぐ等21社（情報漏洩事例）",
+      "summary": "2026年9月中旬〜10月上旬の3週間で21の企業・組織が情報漏洩を公表。件数合計は約4370万件。",
+      "scale_tech_results": "21組織、累計約4370万件の個人情報漏洩。ヤマト運輸531万件、ソースネクスト2252万件を含む。",
+      "adxi_insight": "セキュリティ診断をDX支援の必須前工程として提案し、案件単価向上につなげる。",
+      "similar_japan": "積水ハウス不正送金事件（2019）、ニデック情報漏洩（2024）、LINE Payデータ流出（2024）",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/07/news020.html"
+    }
+  ],
+  "stats": {
+    "total_articles": 31,
+    "by_tier": {"1": 11, "2": 15, "3": 5},
+    "by_category": {"policy": 3, "dx_private": 3, "dx_gov": 3, "ai_llm": 5, "it_consul": 3, "security": 4, "ai_product": 4, "funding": 4, "global_dx": 2}
+  }
+}

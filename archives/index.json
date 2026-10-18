@@ -1,23 +1,7 @@
 [
   {
-    "date": "2026-08-13",
-    "total_articles": 27,
-    "tiers_included": [
-      1,
-      2
-    ]
-  },
-  {
-    "date": "2026-08-08",
-    "total_articles": 23,
-    "tiers_included": [
-      1,
-      2
-    ]
-  },
-  {
-    "date": "2026-08-03",
-    "total_articles": 28,
+    "date": "2026-10-18",
+    "total_articles": 2,
     "tiers_included": [
       1,
       2,
@@ -25,40 +9,49 @@
     ]
   },
   {
-    "date": "2026-07-30",
+    "date": "2026-10-16",
+    "total_articles": 31,
+    "tiers_included": [
+      1,
+      2
+    ]
+  },
+  {
+    "date": "2026-10-15",
+    "total_articles": 32,
+    "tiers_included": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "total_articles": 22,
+    "tiers_included": [
+      1,
+      2
+    ]
+  },
+  {
+    "date": "2026-10-12",
     "total_articles": 36,
     "tiers_included": [
       1,
-      2
-    ]
-  },
-  {
-    "date": "2026-07-24",
-    "total_articles": 35,
-    "tiers_included": [
-      1,
-      2
-    ]
-  },
-  {
-    "date": "2026-07-16",
-    "total_articles": 25,
-    "tiers_included": [
-      1,
-      2
-    ]
-  },
-  {
-    "date": "2026-07-13",
-    "total_articles": 38,
-    "tiers_included": [
-      1,
       2,
       3
     ]
   },
   {
-    "date": "2026-07-02",
+    "date": "2026-10-11",
+    "total_articles": 30,
+    "tiers_included": [
+      1,
+      2
+    ]
+  },
+  {
+    "date": "2026-10-06",
     "total_articles": 29,
     "tiers_included": [
       1,
@@ -66,7 +59,7 @@
     ]
   },
   {
-    "date": "2026-05-22",
+    "date": "2026-10-05",
     "total_articles": 33,
     "tiers_included": [
       1,
@@ -75,16 +68,145 @@
     ]
   },
   {
-    "date": "2026-05-05",
-    "total_articles": 34,
+    "date": "2026-10-04",
+    "total_articles": 30,
     "tiers_included": [
       1,
       2
     ]
   },
   {
+    "date": "2026-09-30",
+    "total_articles": 26,
+    "tiers_included": [
+      1,
+      2
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "total_articles": 26,
+    "tiers_included": [
+      1,
+      2
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "total_articles": 21,
+    "tiers_included": [
+      1,
+      2
+    ]
+  },
+  {
+    "date": "2026-09-13",
+    "total_articles": 24,
+    "tiers_included": [
+      1,
+      2
+    ]
+  },
+  {
+    "date": "2026-09-06",
+    "total_articles": 22,
+    "tiers_included": [
+      1,
+      2
+    ]
+  },
+  {
+    "date": "2026-09-05",
+    "total_articles": 20,
+    "tiers_included": [
+      1,
+      2
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "total_articles": 18,
+    "tiers_included": [
+      1,
+      2
+    ]
+  },
+  {
+    "date": "2026-08-08",
+    "total_articles": 20,
+    "tiers_included": [
+      1,
+      2
+    ]
+  },
+  {
+    "date": "2026-08-03",
+    "total_articles": 18,
+    "tiers_included": [
+      1,
+      2
+    ]
+  },
+  {
+    "date": "2026-07-30",
+    "total_articles": 17,
+    "tiers_included": [
+      1,
+      2
+    ]
+  },
+  {
+    "date": "2026-07-24",
+    "total_articles": 19,
+    "tiers_included": [
+      1,
+      2
+    ]
+  },
+  {
+    "date": "2026-07-16",
+    "total_articles": 18,
+    "tiers_included": [
+      1,
+      2
+    ]
+  },
+  {
+    "date": "2026-07-13",
+    "total_articles": 20,
+    "tiers_included": [
+      1,
+      2
+    ]
+  },
+  {
+    "date": "2026-07-02",
+    "total_articles": 16,
+    "tiers_included": [
+      1,
+      2
+    ]
+  },
+  {
+    "date": "2026-05-22",
+    "total_articles": 18,
+    "tiers_included": [
+      1,
+      2
+    ]
+  },
+  {
+    "date": "2026-05-05",
+    "total_articles": 15,
+    "tiers_included": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
     "date": "2026-04-28",
-    "total_articles": 27,
+    "total_articles": 22,
     "tiers_included": [
       1,
       2
@@ -92,7 +214,7 @@
   },
   {
     "date": "2026-04-22",
-    "total_articles": 36,
+    "total_articles": 20,
     "tiers_included": [
       1,
       2
@@ -100,14 +222,15 @@
   },
   {
     "date": "2026-04-17",
-    "total_articles": 15,
+    "total_articles": 19,
     "tiers_included": [
-      1
+      1,
+      2
     ]
   },
   {
     "date": "2026-04-13",
-    "total_articles": 35,
+    "total_articles": 17,
     "tiers_included": [
       1,
       2,

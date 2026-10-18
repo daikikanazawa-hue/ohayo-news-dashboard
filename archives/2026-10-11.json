@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-10-11T07:30:00+09:00",
+  "date": "2026-10-11",
+  "day_of_week": "日",
+  "tiers_included": [1, 2],
+  "articles": [
+    {"id": "dx_private_prtimes_ai_dx_survey_2026", "title": "【AI/DX調査レポート2026】AIの全社活用が+7.7pt急伸", "source": "PR TIMES", "url": "https://prtimes.jp/main/html/rd/p/000000181.000051016.html", "category": "dx_private", "category_label": "DX成功/失敗事例（民間）", "tier": 1, "score": {"total": 96, "relevance": 40, "impact": 28, "actionability": 28}, "published_date": "2026-10-08"},
+    {"id": "policy_meti_ax_press_conf_20261002", "title": "赤澤経済産業大臣の閣議後記者会見の概要（AX推進・AI社会実装・規制改革等）", "source": "経済産業省", "url": "https://www.meti.go.jp/speeches/kaiken/2026/20261002001.html", "category": "policy", "category_label": "政策・規制・デジタル庁", "tier": 1, "score": {"total": 91, "relevance": 38, "impact": 28, "actionability": 25}, "published_date": "2026-10-02"},
+    {"id": "ai_llm_bloomberg_google_workplace_agent_20261008", "title": "Google Launches Workplace AI Agent That Acts Like Colleague", "source": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-10-08/google-launches-universal-gemini-ai-agent-for-workplace", "category": "ai_llm", "category_label": "AI/LLMモデル・エージェント", "tier": 1, "score": {"total": 88, "relevance": 35, "impact": 28, "actionability": 25}, "published_date": "2026-10-08"},
+    {"id": "ai_product_cnbc_openai_devday_recap", "title": "OpenAI DevDay recap: AI lab rolls out Dots agents", "source": "CNBC", "url": "https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html", "category": "ai_product", "category_label": "AIプロダクト・SaaS", "tier": 1, "score": {"total": 85, "relevance": 35, "impact": 28, "actionability": 22}, "published_date": "2026-09-29"},
+    {"id": "security_itmedia_national_cyber_warning_20261009", "title": "国家サイバー統括室、不正アクセスによる漏えい事案受け注意喚起", "source": "ITmedia NEWS", "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002161/", "category": "security", "category_label": "サイバーセキュリティ", "tier": 1, "score": {"total": 85, "relevance": 32, "impact": 28, "actionability": 25}, "published_date": "2026-10-09"},
+    {"id": "security_bloomberg_japan_cyberattacks_20261009", "title": "Wave of Cyberattacks Prompts Japan to Urge Security Reviews", "source": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-10-09/wave-of-cyberattacks-prompts-japan-to-urge-security-reviews", "category": "security", "category_label": "サイバーセキュリティ", "tier": 1, "score": {"total": 80, "relevance": 30, "impact": 25, "actionability": 25}, "published_date": "2026-10-09"}
+  ],
+  "stats": {"total_articles": 30, "by_tier": {"1": 6, "2": 10, "3": 14}}
+}

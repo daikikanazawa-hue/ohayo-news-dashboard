@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-10-18T21:21:27+09:00",
+  "date": "2026-10-18",
+  "day_of_week": "日",
+  "tiers_included": [
+    1,
+    2,
+    3
+  ],
+  "articles": [
+    {
+      "title": "ReplitがデフォルトAIモデルをAnthropicからOpenAIへ切り替え、CEOが表明",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "is_primary": false,
+      "media_url": "",
+      "category": "vendor_updates",
+      "category_label": "ベンダー更新・API・クラウド",
+      "tier": 2,
+      "score": {
+        "total": 66,
+        "relevance": 28,
+        "impact": 20,
+        "actionability": 18
+      },
+      "summary": "AIコーディング基盤ReplitのCEOが、Anthropicとの協業を終え既定モデルをOpenAIに切り替えたと述べたと報じられた。一方で提携終了の実態には異論も出ていると他メディアが伝えている（本記事は一覧取得不可のため見出しベースの要約）。",
+      "why_important": "主要AI開発プラットフォームでも基盤モデルの乗り換えが起きうることを示す事例。契約・提供条件の詳細は原典で要確認。",
+      "adxi_insight": "顧客向け実装ではモデル切替を前提にしたマルチモデル設計（抽象化層・評価基盤）を標準提案に組み込む根拠になる。",
+      "published_date": "2026-10-17",
+      "id": "5329074f"
+    },
+    {
+      "title": "Anthropic、社内の人員構成が「ジュニア層減少・会議時間増加」に変化したと公表",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "is_primary": false,
+      "media_url": "",
+      "category": "ai_llm",
+      "category_label": "生成AI・LLM",
+      "tier": 3,
+      "score": {
+        "total": 52,
+        "relevance": 22,
+        "impact": 15,
+        "actionability": 15
+      },
+      "summary": "Anthropicが自社の働き方の変化として、ジュニア層の比率低下と会議時間の増加を報告したと報じられた。AI活用が進んだ組織での役割構成の変化を示すデータとして注目される（見出しベースの要約）。",
+      "why_important": "AI導入後の組織・人材構成の変化を先進企業自身が示した事例。数値は原典で要確認。",
+      "adxi_insight": "AX支援でAI導入後の人材ポートフォリオ・育成設計（ジュニア育成の代替経路）を論点として提示できる。",
+      "published_date": "2026-10-17",
+      "id": "c2a828c7"
+    }
+  ],
+  "case_studies": [],
+  "stats": {
+    "total_articles": 2,
+    "by_tier": {
+      "2": 1,
+      "3": 1
+    },
+    "by_category": {
+      "vendor_updates": 1,
+      "ai_llm": 1
+    },
+    "primary_source_ratio": 0.0,
+    "window": "2026-10-17..2026-10-18"
+  }
+}
